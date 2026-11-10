@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"TokAi"</string>
+    <string name="module_brand">"TokAi"</string>
+    <string name="module_version">"모듈 버전 %1$s"</string>
+    <string name="module_host_version">"TikTok 47.5.3"</string>
+    <string name="module_status">"모듈 상태"</string>
+    <string name="module_framework_connected">"LSPosed 연결됨"</string>
+    <string name="module_framework_disconnected">"LSPosed 연결 안 됨"</string>
+    <string name="module_framework_waiting">"TikTok 프로세스 진단을 읽기 위해 LSPosed 서비스 연결을 기다리는 중입니다."</string>
+    <string name="module_restart_required">"적용하려면 TikTok을 완전히 종료한 후 다시 여세요."</string>
+    <string name="module_settings_title">"기능 설정"</string>
+    <string name="module_settings_location">"기능 설정은 TikTok 앱에 별도로 저장됩니다. 이 페이지에는 모듈 앱 상태만 표시됩니다."</string>
+    <string name="module_open_host">"TikTok 열기"</string>
+    <string name="module_host_unavailable">"TikTok이 설치되어 있지 않거나 앱을 열 수 없습니다."</string>
+    <string name="voice_quick_catalog_status">"캐시: %1$d개 · 일치: %2$d개%3$s"</string>
+    <string name="voice_quick_catalog_empty">"\n일치하는 음성이 없습니다. 검색을 지우거나 전체 설정에서 모든 음성을 검색하세요."</string>
+    <string name="module_description">"로컬 TikTok 기능 확장 모듈"</string>
+    <string name="module_language_title">"인터페이스 언어"</string>
+    <string name="module_language_summary">"이 모듈 화면의 언어만 변경합니다. TikTok 및 지역 위장 설정과는 별개입니다."</string>
+    <string name="module_language_system">"시스템 설정 따르기"</string>
+    <string name="module_language_save_failed">"인터페이스 언어를 저장하지 못했습니다. 다시 시도하세요."</string>
+    <string name="module_language_reopen">"저장했습니다. 적용하려면 모듈 화면을 다시 여세요."</string>
+    <string name="module_action_cancel">"취소"</string>
+    <string name="module_language_help">"모듈 홈이나 모듈 앱의 인터페이스 언어에서 시스템 설정 따르기(기본값), 简体中文, 繁體中文, 한국어, 日本語, English 중 하나를 선택하세요. 두 진입 화면은 선택한 언어를 각각 저장합니다. 언어를 바꾸면 모듈 화면이 다시 열리며 모듈 자체의 설정, 대화상자, 도움말과 상태 문구만 바뀝니다. TikTok, 지역 위장, 자막 인식, AI와 TTS의 언어는 각각의 설정을 따릅니다."</string>
+    <string name="module_caption_restart_help">"자막이 생성되지 않으면 TikTok을 완전히 종료한 후 다시 열어 시도하세요. 모듈은 현재 카드가 완전히 초기화되었고 가려져 있지 않음을 확인할 수 있을 때만 인식을 시작하며, 상태가 불명확한 카드는 건너뜁니다. 현재 추천 피드의 자막 계층에 대응합니다. 검색, 라이브와 Tako의 별도 자막 계층은 지원 범위에 포함되지 않습니다."</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="metadata_ui_field_language" formatted="false">"언어"</string>
+    <string name="metadata_ui_field_gender" formatted="false">"성별"</string>
+    <string name="metadata_ui_field_age" formatted="false">"연령"</string>
+    <string name="metadata_ui_field_tone" formatted="false">"어조"</string>
+    <string name="metadata_ui_field_accent" formatted="false">"억양"</string>
+    <string name="metadata_ui_voice_label">"%1$s: %2$s"</string>
+    <string name="metadata_ui_lang_zh_cn" formatted="false">"중국어 (중국)"</string>
+    <string name="metadata_ui_lang_zh_tw" formatted="false">"중국어 (대만)"</string>
+    <string name="metadata_ui_lang_zh_hk" formatted="false">"중국어 (홍콩)"</string>
+    <string name="metadata_ui_lang_zh_hans" formatted="false">"중국어 간체"</string>
+    <string name="metadata_ui_lang_zh_hant" formatted="false">"중국어 번체"</string>
+    <string name="metadata_ui_language_tl" formatted="false">"타갈로그어"</string>
+    <string name="metadata_ui_accent_chinese" formatted="false">"중국식"</string>
+    <string name="metadata_ui_follow_host_unavailable" formatted="false">"TikTok에서 팔로잉 및 팔로워 목록을 확인하세요"</string>
+    <string name="metadata_ui_follow_signed_out" formatted="false">"TikTok에 로그인하지 않음"</string>
+    <string name="metadata_ui_follow_account">"계정 %1$s\n%2$s"</string>
+    <string name="metadata_ui_following" formatted="false">"팔로잉"</string>
+    <string name="metadata_ui_followers" formatted="false">"팔로워"</string>
+    <string name="metadata_ui_follow_known">"%1$s: %2$d명 · %3$s 업데이트"</string>
+    <string name="metadata_ui_follow_not_loaded">"%1$s: 아직 불러오지 않음"</string>
+    <string name="metadata_ui_follow_loading">"%1$s · 불러오는 중"</string>
+    <string name="metadata_ui_follow_failed">"%1$s · 불러오기 실패, 재시도하세요"</string>
+    <string name="metadata_ui_raw_detail">"%1$s · %2$s"</string>
+    <string name="metadata_ui_backup_no_dates" formatted="false">"조회 날짜 없음"</string>
+    <string name="metadata_ui_date_range">"%1$s — %2$s"</string>
+    <string name="metadata_ui_backup_summary">"%1$s; 조회 %2$d회, 기능 사용 %3$d회, 표시 구간 %4$d개, 기록 %5$d개; %6$s"</string>
+    <string name="metadata_ui_backup_has_context" formatted="false">"프로필 자기 설명/피드백 포함"</string>
+    <string name="metadata_ui_backup_no_context" formatted="false">"프로필 자기 설명/피드백 없음"</string>
+    <string name="metadata_ui_phase_waiting" formatted="false">"시작 대기"</string>
+    <string name="metadata_ui_phase_preparing" formatted="false">"다운로드 준비 중"</string>
+    <string name="metadata_ui_phase_downloading" formatted="false">"다운로드 중"</string>
+    <string name="metadata_ui_phase_saving" formatted="false">"저장 중"</string>
+    <string name="metadata_ui_phase_encoding_live" formatted="false">"모션 포토 인코딩 중"</string>
+    <string name="metadata_ui_phase_saving_live" formatted="false">"모션 포토 저장 중"</string>
+    <string name="metadata_ui_phase_parsing" formatted="false">"게시물 분석 중"</string>
+    <string name="metadata_ui_phase_completed" formatted="false">"완료됨"</string>
+    <string name="metadata_ui_phase_cancelled" formatted="false">"취소됨"</string>
+    <string name="metadata_ui_phase_timed_out" formatted="false">"30분을 초과하여 중지됨"</string>
+    <string name="metadata_ui_phase_failed" formatted="false">"다운로드 실패, 재시도하세요"</string>
+</resources>

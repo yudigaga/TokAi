@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"TokAi"</string>
+    <string name="module_brand">"TokAi"</string>
+    <string name="module_version">"モジュールバージョン %1$s"</string>
+    <string name="module_host_version">"TikTok 47.5.3"</string>
+    <string name="module_status">"モジュールの状態"</string>
+    <string name="module_framework_connected">"LSPosedに接続済み"</string>
+    <string name="module_framework_disconnected">"LSPosedに未接続"</string>
+    <string name="module_framework_waiting">"TikTokプロセスの診断を読み取るため、LSPosedサービスの接続を待っています。"</string>
+    <string name="module_restart_required">"適用するにはTikTokを完全に終了してから開き直してください。"</string>
+    <string name="module_settings_title">"機能設定"</string>
+    <string name="module_settings_location">"機能設定はTikTokアプリ内に個別に保存されます。このページにはモジュールアプリの状態を表示します。"</string>
+    <string name="module_open_host">"TikTokを開く"</string>
+    <string name="module_host_unavailable">"TikTokがインストールされていないか、アプリを開けません。"</string>
+    <string name="voice_quick_catalog_status">"キャッシュ：%1$d件 · 一致：%2$d件%3$s"</string>
+    <string name="voice_quick_catalog_empty">"\n一致する音声がありません。検索をクリアするか、詳細設定ですべての音声を検索してください。"</string>
+    <string name="module_description">"ローカルTikTok拡張モジュール"</string>
+    <string name="module_language_title">"表示言語"</string>
+    <string name="module_language_summary">"このモジュール画面の言語を変更します。TikTokや地域偽装の設定とは独立しています。"</string>
+    <string name="module_language_system">"システムに合わせる"</string>
+    <string name="module_language_save_failed">"表示言語を保存できませんでした。もう一度お試しください。"</string>
+    <string name="module_language_reopen">"保存しました。モジュール画面を開き直すと適用されます。"</string>
+    <string name="module_action_cancel">"キャンセル"</string>
+    <string name="module_language_help">"モジュールのホームまたはモジュールアプリの表示言語で、システムに合わせる（既定）、简体中文、繁體中文、한국어、日本語、Englishから選択できます。各入口は言語の選択を個別に保存します。変更するとモジュール画面が開き直され、モジュール自身の設定、ダイアログ、ヘルプ、状態の表示言語だけが変わります。TikTok、地域偽装、字幕認識、AI、TTSの言語はそれぞれの設定に従います。"</string>
+    <string name="module_caption_restart_help">"字幕が生成されない場合は、TikTokを完全に終了して開き直してからお試しください。モジュールは現在のカードの初期化が完了し、遮られていないことを確認できる場合にだけ認識を開始します。状態が不明なカードはスキップします。 現在はおすすめフィードの字幕レイヤーに対応しています。検索、ライブ、Takoの独立した字幕レイヤーは対象外です。"</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="metadata_ui_field_language" formatted="false">"语言"</string>
+    <string name="metadata_ui_field_gender" formatted="false">"性别"</string>
+    <string name="metadata_ui_field_age" formatted="false">"年龄"</string>
+    <string name="metadata_ui_field_tone" formatted="false">"语气"</string>
+    <string name="metadata_ui_field_accent" formatted="false">"口音"</string>
+    <string name="metadata_ui_voice_label">"%1$s：%2$s"</string>
+    <string name="metadata_ui_lang_zh_cn" formatted="false">"中文（中国）"</string>
+    <string name="metadata_ui_lang_zh_tw" formatted="false">"中文（台湾）"</string>
+    <string name="metadata_ui_lang_zh_hk" formatted="false">"中文（香港）"</string>
+    <string name="metadata_ui_lang_zh_hans" formatted="false">"简体中文"</string>
+    <string name="metadata_ui_lang_zh_hant" formatted="false">"繁体中文"</string>
+    <string name="metadata_ui_language_tl" formatted="false">"他加禄语"</string>
+    <string name="metadata_ui_accent_chinese" formatted="false">"中式"</string>
+    <string name="metadata_ui_follow_host_unavailable" formatted="false">"请在TikTok内查看关注与粉丝名单"</string>
+    <string name="metadata_ui_follow_signed_out" formatted="false">"未登录TikTok账号"</string>
+    <string name="metadata_ui_follow_account">"账号 %1$s\n%2$s"</string>
+    <string name="metadata_ui_following" formatted="false">"我关注的"</string>
+    <string name="metadata_ui_followers" formatted="false">"关注我的"</string>
+    <string name="metadata_ui_follow_known">"%1$s：%2$d 人 · %3$s 更新"</string>
+    <string name="metadata_ui_follow_not_loaded">"%1$s：尚未加载"</string>
+    <string name="metadata_ui_follow_loading">"%1$s · 拉取中"</string>
+    <string name="metadata_ui_follow_failed">"%1$s · 拉取失败，请重试"</string>
+    <string name="metadata_ui_raw_detail">"%1$s · %2$s"</string>
+    <string name="metadata_ui_backup_no_dates" formatted="false">"无浏览日期"</string>
+    <string name="metadata_ui_date_range">"%1$s — %2$s"</string>
+    <string name="metadata_ui_backup_summary">"%1$s；%2$d 次浏览，%3$d 次功能使用，%4$d 条可见片段，%5$d 条记录；%6$s"</string>
+    <string name="metadata_ui_backup_has_context" formatted="false">"含侧写自述/反馈"</string>
+    <string name="metadata_ui_backup_no_context" formatted="false">"无侧写自述/反馈"</string>
+    <string name="metadata_ui_phase_waiting" formatted="false">"等待开始"</string>
+    <string name="metadata_ui_phase_preparing" formatted="false">"准备下载"</string>
+    <string name="metadata_ui_phase_downloading" formatted="false">"正在下载"</string>
+    <string name="metadata_ui_phase_saving" formatted="false">"正在保存"</string>
+    <string name="metadata_ui_phase_encoding_live" formatted="false">"正在编码实况"</string>
+    <string name="metadata_ui_phase_saving_live" formatted="false">"正在保存实况"</string>
+    <string name="metadata_ui_phase_parsing" formatted="false">"正在解析作品"</string>
+    <string name="metadata_ui_phase_completed" formatted="false">"已完成"</string>
+    <string name="metadata_ui_phase_cancelled" formatted="false">"已取消"</string>
+    <string name="metadata_ui_phase_timed_out" formatted="false">"超过 30 分钟，已停止"</string>
+    <string name="metadata_ui_phase_failed" formatted="false">"下载失败，请重试"</string>
+</resources>

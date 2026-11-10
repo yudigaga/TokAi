@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="metadata_ui_field_language" formatted="false">"Language"</string>
+    <string name="metadata_ui_field_gender" formatted="false">"Gender"</string>
+    <string name="metadata_ui_field_age" formatted="false">"Age"</string>
+    <string name="metadata_ui_field_tone" formatted="false">"Tone"</string>
+    <string name="metadata_ui_field_accent" formatted="false">"Accent"</string>
+    <string name="metadata_ui_voice_label">"%1$s: %2$s"</string>
+    <string name="metadata_ui_lang_zh_cn" formatted="false">"Chinese (China)"</string>
+    <string name="metadata_ui_lang_zh_tw" formatted="false">"Chinese (Taiwan)"</string>
+    <string name="metadata_ui_lang_zh_hk" formatted="false">"Chinese (Hong Kong)"</string>
+    <string name="metadata_ui_lang_zh_hans" formatted="false">"Simplified Chinese"</string>
+    <string name="metadata_ui_lang_zh_hant" formatted="false">"Traditional Chinese"</string>
+    <string name="metadata_ui_language_tl" formatted="false">"Tagalog"</string>
+    <string name="metadata_ui_accent_chinese" formatted="false">"Chinese"</string>
+    <string name="metadata_ui_follow_host_unavailable" formatted="false">"View following and follower lists inside TikTok"</string>
+    <string name="metadata_ui_follow_signed_out" formatted="false">"Not signed in to TikTok"</string>
+    <string name="metadata_ui_follow_account">"Account %1$s\n%2$s"</string>
+    <string name="metadata_ui_following" formatted="false">"Following"</string>
+    <string name="metadata_ui_followers" formatted="false">"Followers"</string>
+    <string name="metadata_ui_follow_known">"%1$s · People: %2$d · Updated %3$s"</string>
+    <string name="metadata_ui_follow_not_loaded">"%1$s: Not loaded"</string>
+    <string name="metadata_ui_follow_loading">"%1$s · Loading"</string>
+    <string name="metadata_ui_follow_failed">"%1$s · Fetch failed; retry"</string>
+    <string name="metadata_ui_raw_detail">"%1$s · %2$s"</string>
+    <string name="metadata_ui_backup_no_dates" formatted="false">"No browsing dates"</string>
+    <string name="metadata_ui_date_range">"%1$s — %2$s"</string>
+    <string name="metadata_ui_backup_summary">"%1$s; Views: %2$d; Feature uses: %3$d; Visible segments: %4$d; Records: %5$d; %6$s"</string>
+    <string name="metadata_ui_backup_has_context" formatted="false">"Includes profile self-description/feedback"</string>
+    <string name="metadata_ui_backup_no_context" formatted="false">"No profile self-description/feedback"</string>
+    <string name="metadata_ui_phase_waiting" formatted="false">"Waiting to start"</string>
+    <string name="metadata_ui_phase_preparing" formatted="false">"Preparing download"</string>
+    <string name="metadata_ui_phase_downloading" formatted="false">"Downloading"</string>
+    <string name="metadata_ui_phase_saving" formatted="false">"Saving"</string>
+    <string name="metadata_ui_phase_encoding_live" formatted="false">"Encoding motion photo"</string>
+    <string name="metadata_ui_phase_saving_live" formatted="false">"Saving motion photo"</string>
+    <string name="metadata_ui_phase_parsing" formatted="false">"Parsing post"</string>
+    <string name="metadata_ui_phase_completed" formatted="false">"Completed"</string>
+    <string name="metadata_ui_phase_cancelled" formatted="false">"Canceled"</string>
+    <string name="metadata_ui_phase_timed_out" formatted="false">"Stopped after exceeding 30 minutes"</string>
+    <string name="metadata_ui_phase_failed" formatted="false">"Download failed; retry"</string>
+</resources>

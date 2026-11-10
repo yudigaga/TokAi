@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"TokAi"</string>
+    <string name="module_brand">"TokAi"</string>
+    <string name="module_version">"模块版本 %1$s"</string>
+    <string name="module_host_version">"TikTok 47.5.3"</string>
+    <string name="module_status">"模块状态"</string>
+    <string name="module_framework_connected">"LSPosed 已连接"</string>
+    <string name="module_framework_disconnected">"LSPosed 未连接"</string>
+    <string name="module_framework_waiting">"等待 LSPosed 服务连接以读取TikTok进程诊断。"</string>
+    <string name="module_restart_required">"请完全退出并重新打开TikTok后生效。"</string>
+    <string name="module_settings_title">"功能设置"</string>
+    <string name="module_settings_location">"TikTok内功能设置独立保存在TikTok应用，本页只显示模块应用状态。"</string>
+    <string name="module_open_host">"打开TikTok"</string>
+    <string name="module_host_unavailable">"未安装TikTok或无法打开应用。"</string>
+    <string name="voice_quick_catalog_status">"已缓存 %1$d 项 · 匹配 %2$d 项%3$s"</string>
+    <string name="voice_quick_catalog_empty">"\n未找到匹配音色，可清空搜索或到完整设置搜索全部音色。"</string>
+    <string name="module_description">"本地 TikTok 增强模块"</string>
+    <string name="module_language_title">"界面语言"</string>
+    <string name="module_language_summary">"仅更改此入口的模块界面，不影响TikTok和地区伪装。"</string>
+    <string name="module_language_system">"跟随系统"</string>
+    <string name="module_language_save_failed">"界面语言保存失败，请重试。"</string>
+    <string name="module_language_reopen">"已保存，重新打开模块页面后生效。"</string>
+    <string name="module_action_cancel">"取消"</string>
+    <string name="module_language_help">"在模块首页或桌面应用的“界面语言”中选择：跟随系统（默认）、简体中文、繁體中文、한국어、日本語、English。两个入口分别保存所选语言。切换后模块页面会重新打开，仅更改模块自身的设置、弹窗、帮助和状态文字。TikTok本体、地区伪装、字幕识别及AI/TTS的语言沿用各自设置。"</string>
+    <string name="module_caption_restart_help">"如未生成字幕，可完全退出并重新打开TikTok后重试。模块只在能够确认当前卡片已完整初始化且无遮挡时启动识别；状态不明的卡片会跳过。 当前适配推荐流字幕层；搜索、直播和Tako的独立字幕层不在此范围内。"</string>
+</resources>

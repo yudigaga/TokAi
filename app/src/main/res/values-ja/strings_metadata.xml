@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="metadata_ui_field_language" formatted="false">"言語"</string>
+    <string name="metadata_ui_field_gender" formatted="false">"性別"</string>
+    <string name="metadata_ui_field_age" formatted="false">"年齢"</string>
+    <string name="metadata_ui_field_tone" formatted="false">"語調"</string>
+    <string name="metadata_ui_field_accent" formatted="false">"アクセント"</string>
+    <string name="metadata_ui_voice_label">"%1$s：%2$s"</string>
+    <string name="metadata_ui_lang_zh_cn" formatted="false">"中国語（中国）"</string>
+    <string name="metadata_ui_lang_zh_tw" formatted="false">"中国語（台湾）"</string>
+    <string name="metadata_ui_lang_zh_hk" formatted="false">"中国語（香港）"</string>
+    <string name="metadata_ui_lang_zh_hans" formatted="false">"簡体字中国語"</string>
+    <string name="metadata_ui_lang_zh_hant" formatted="false">"繁体字中国語"</string>
+    <string name="metadata_ui_language_tl" formatted="false">"タガログ語"</string>
+    <string name="metadata_ui_accent_chinese" formatted="false">"中国風"</string>
+    <string name="metadata_ui_follow_host_unavailable" formatted="false">"TikTok内でフォロー・フォロワー一覧を確認してください"</string>
+    <string name="metadata_ui_follow_signed_out" formatted="false">"TikTokにログインしていません"</string>
+    <string name="metadata_ui_follow_account">"アカウント %1$s\n%2$s"</string>
+    <string name="metadata_ui_following" formatted="false">"フォロー中"</string>
+    <string name="metadata_ui_followers" formatted="false">"フォロワー"</string>
+    <string name="metadata_ui_follow_known">"%1$s：%2$d人 · %3$s更新"</string>
+    <string name="metadata_ui_follow_not_loaded">"%1$s：未読み込み"</string>
+    <string name="metadata_ui_follow_loading">"%1$s · 読み込み中"</string>
+    <string name="metadata_ui_follow_failed">"%1$s · 取得に失敗しました。再試行してください"</string>
+    <string name="metadata_ui_raw_detail">"%1$s · %2$s"</string>
+    <string name="metadata_ui_backup_no_dates" formatted="false">"閲覧日付なし"</string>
+    <string name="metadata_ui_date_range">"%1$s — %2$s"</string>
+    <string name="metadata_ui_backup_summary">"%1$s；閲覧%2$d回、機能使用%3$d回、表示区間%4$d件、記録%5$d件；%6$s"</string>
+    <string name="metadata_ui_backup_has_context" formatted="false">"プロフィールの自己説明・感想を含む"</string>
+    <string name="metadata_ui_backup_no_context" formatted="false">"プロフィールの自己説明・感想なし"</string>
+    <string name="metadata_ui_phase_waiting" formatted="false">"開始待ち"</string>
+    <string name="metadata_ui_phase_preparing" formatted="false">"ダウンロード準備中"</string>
+    <string name="metadata_ui_phase_downloading" formatted="false">"ダウンロード中"</string>
+    <string name="metadata_ui_phase_saving" formatted="false">"保存中"</string>
+    <string name="metadata_ui_phase_encoding_live" formatted="false">"モーションフォトをエンコード中"</string>
+    <string name="metadata_ui_phase_saving_live" formatted="false">"モーションフォトを保存中"</string>
+    <string name="metadata_ui_phase_parsing" formatted="false">"投稿を解析中"</string>
+    <string name="metadata_ui_phase_completed" formatted="false">"完了"</string>
+    <string name="metadata_ui_phase_cancelled" formatted="false">"キャンセル済み"</string>
+    <string name="metadata_ui_phase_timed_out" formatted="false">"30分を超えたため停止しました"</string>
+    <string name="metadata_ui_phase_failed" formatted="false">"ダウンロードに失敗しました。再試行してください"</string>
+</resources>

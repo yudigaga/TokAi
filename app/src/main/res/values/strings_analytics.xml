@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analytics_ui_last_feedback">"Latest profile feedback · %1$s"</string>
+    <string name="analytics_ui_recording_status">"%1$s · %2$s · Refresh manually for the latest data"</string>
+    <string name="analytics_ui_recent_days">"Last %1$s days"</string>
+    <string name="analytics_ui_label_count">"%1$s · %2$s times"</string>
+    <string name="analytics_ui_trend_summary">"%1$s total · Peak %2$s: %3$s"</string>
+    <string name="analytics_ui_label_count_share">"%1$s, %2$s times, %3$s"</string>
+    <string name="analytics_ui_peak_hour_caption">"Local time when recorded · Most active %1$s, %2$s times"</string>
+    <string name="analytics_ui_first_record">"First record  %1$s"</string>
+    <string name="analytics_ui_analysis_metadata">"%1$s · %2$s · %3$s\nBased on these chart statistics. Reanalyze after refreshing or changing the range; AI is not requested automatically."</string>
+    <string name="analytics_ui_analysis_consent">"Only tapping the button below sends this range\'s charts, preceding-period and 7/30-day comparisons, profile metrics, associations, and your purpose of use, including creator, topic, and module-feature rankings, to the selected model: %1$s. Routine collection stays local and does not request AI. Results remain only on this page.\nAI judgments are for reference. Chart statistics do not represent actual watch time."</string>
+    <string name="analytics_ui_export_explanation">"Export one long PNG image or PDF, then choose where to share it. It includes the complete report, rankings, recent records, and existing AI results without another AI request. %1$s Review visible creators, topics, and self-description. Choose PDF if the image is too long."</string>
+    <string name="analytics_ui_model_profile_preview">"Model profile · %1$s"</string>
+    <string name="analytics_ui_secondary_prompt_preview">"Secondary prompt · %1$s"</string>
+    <string name="analytics_ui_chart_analysis_at">"Based on chart statistics requested at %1$s"</string>
+    <string name="analytics_ui_share_analysis_body">"TokAi · Profile and chart analysis\n%1$s · %2$s\n\n%3$s"</string>
+    <string name="analytics_ui_report_generated_at">"%1$s · Report generated %2$s"</string>
+    <string name="analytics_ui_choose_export_location">"Choose a save location for %1$s."</string>
+    <string name="analytics_ui_pdf_generated">"Complete PDF generated (%1$s pages). Choose where to share it."</string>
+    <string name="analytics_ui_label_count_accessibility">"%1$s, %2$s times"</string>
+    <string name="analytics_ui_portrait_summary">"%1$s · %2$s creators · %3$s topics"</string>
+    <string name="analytics_ui_views_days_summary">"%1$s views · %2$s recorded days"</string>
+    <string name="analytics_ui_feature_summary">"%1$s feature triggers%2$s"</string>
+    <string name="analytics_ui_peak_summary">"Most records: %1$s · %2$s times"</string>
+    <string name="analytics_ui_segments_summary">"%1$s visible segments · %2$s ended"</string>
+    <string name="analytics_ui_latest_record">"Latest: %1$s"</string>
+    <string name="analytics_ui_active_streak_summary">"%1$s active days · %2$s-day streak"</string>
+    <string name="analytics_ui_leading_rank">"%1$s%2$s · %3$s times"</string>
+    <string name="analytics_ui_portrait_reading_boundary">"%1$s\n\nEncountering content does not by itself establish liking it. Gaps do not mean no use; automatic triggers are not deliberate choices.\nThis is not a psychological assessment and does not infer occupation, health, politics, or stable personality."</string>
+    <string name="analytics_ui_calendar_boundary">"Color represents views. Outlined cells have no retained events, possibly because collection was off or incomplete. %1$s"</string>
+    <string name="analytics_ui_topics_boundary">"%1$s topics identified with %2$s tag occurrences. A post may have multiple topics. Tags are neither distinct posts nor self-reported interests."</string>
+    <string name="analytics_ui_ranked_label_count">"%1$s  %2$s · %3$s times"</string>
+    <string name="analytics_ui_authors_boundary">"Encountered %1$s identifiable creators. Posts encountered again across days account for %2$s. Repeated exposure may come from recommendations, not deliberate following or rewatching."</string>
+    <string name="analytics_ui_rhythm_boundary">"Counted in local time when events occurred. Night (0–5 h) accounts for %1$s and weekends %2$s. The range may contain different numbers of weekdays and weekend days. This does not represent sleep or daily routine."</string>
+    <string name="analytics_ui_comparison_dates">"Current %1$s — %2$s\nPrevious %3$s — %4$s"</string>
+    <string name="analytics_ui_missing_topic_period">"%1$s lacks comparable topic records, so no topic change is inferred. Collection gaps or unidentified topics do not mean no interest."</string>
+    <string name="analytics_ui_rank_description">"Rank %1$s · %2$s times"</string>
+    <string name="analytics_ui_period_evidence_title">"%1$s comparison evidence"</string>
+    <string name="analytics_ui_period_evidence_body">"Current %1$s — %2$s: %3$s views, %4$s feature triggers.\nPrevious %5$s — %6$s: %7$s views, %8$s feature triggers.\n%9$s"</string>
+    <string name="analytics_ui_visible_segments_detail">"%1$s visible segments; %2$s ended, with %3$s confirmed visible time. Dwell time does not establish complete viewing or liking; automatic actions are marked separately."</string>
+    <string name="analytics_ui_joint_count">"%1$s  →  %2$s\n%3$s associations"</string>
+    <string name="analytics_ui_collapsed_label">"%1$s, collapsed"</string>
+    <string name="analytics_ui_duration_seconds">"%1$s seconds"</string>
+    <string name="analytics_ui_duration_minutes">"%1$s minutes"</string>
+    <string name="analytics_ui_calendar_day_hit">"%1$s · %2$s views · %3$s feature triggers%4$s"</string>
+    <string name="analytics_ui_rhythm_hour_hit">"%1$s %2$s:00 · %3$s records"</string>
+    <string name="analytics_ui_hour_label">"%1$s h"</string>
+    <string name="analytics_ui_type_band_hit">"%1$s · %2$s %3$s times · %4$s"</string>
+    <string name="analytics_ui_topic_occurrences">"%1$s · %2$s tag occurrences"</string>
+    <string name="analytics_ui_author_cumulative_hit">"%1$s · %2$s times · Cumulative %3$s"</string>
+    <string name="analytics_ui_compare_values">"%1$s · Previous %2$s / Current %3$s"</string>
+    <string name="analytics_ui_compare_hit">"%1$s · Previous %2$s · Current %3$s%4$s"</string>
+    <string name="analytics_ui_advertisement_views">"Including %1$s ad encounters."</string>
+    <string name="analytics_ui_paper_label_count">"%1$s  ·  %2$s times"</string>
+    <string name="analytics_ui_paper_active_streak">"Active %1$s days  /  Current streak %2$s days"</string>
+    <string name="analytics_ui_first_retained_record">"First retained record: %1$s"</string>
+    <string name="analytics_ui_paper_report_metadata">"%1$s\nReport generated  %2$s"</string>
+    <string name="analytics_ui_paper_analysis_metadata">"%1$s  ·  %2$s\nAnalysis generated  %3$s\nThe following concerns only the snapshot used for that request and is for reference."</string>
+    <string name="analytics_ui_pdf_page_footer">"Page %1$s / %2$s · Complete local analytics report"</string>
+    <string name="analytics_ui_share_report_format">"Share complete report%1$s"</string>
+    <string name="analytics_ui_today" formatted="false">"Today"</string>
+    <string name="analytics_ui_range_7_days" formatted="false">"7 days"</string>
+    <string name="analytics_ui_range_30_days" formatted="false">"30 days"</string>
+    <string name="analytics_ui_range_90_days" formatted="false">"90 days"</string>
+    <string name="analytics_ui_range_all" formatted="false">"All"</string>
+    <string name="analytics_ui_no_model" formatted="false">"No model configured"</string>
+    <string name="analytics_ui_enable_recording" formatted="false">"Enable local recording"</string>
+    <string name="analytics_ui_enable_recording_description" formatted="false">"Enable local recording, off by default"</string>
+    <string name="analytics_ui_local_recording_note" formatted="false">"Recorded only on this device · Disable or clear anytime"</string>
+    <string name="analytics_ui_recording_notes" formatted="false">"Recording notes and self-description"</string>
+    <string name="analytics_ui_optional_purpose_feedback" formatted="false">"Optional: add your purpose and feedback, and view recording notes"</string>
+    <string name="analytics_ui_recording_privacy" formatted="false">"Off by default. Posts, creators, topics, and feature usage are recorded only locally. Excluded from settings backups by default; include them explicitly if desired. Summaries last 365 days and association details at most 30 days. Summaries are sent only when you request AI. Disabling collection keeps records; clear them anytime."</string>
+    <string name="analytics_ui_purpose_optional" formatted="false">"My purpose of use · Optional"</string>
+    <string name="analytics_ui_feedback_unset" formatted="false">"Latest profile feedback · Not provided"</string>
+    <string name="analytics_ui_statistics_range" formatted="false">"Statistics range"</string>
+    <string name="analytics_ui_loading_records" formatted="false">"Loading local records…"</string>
+    <string name="analytics_ui_refresh" formatted="false">"Refresh"</string>
+    <string name="analytics_ui_clear_records" formatted="false">"Clear records"</string>
+    <string name="analytics_ui_analytics_title" formatted="false">"Local analytics"</string>
+    <string name="analytics_ui_close" formatted="false">"Close"</string>
+    <string name="analytics_ui_clearing_records" formatted="false">"Clearing local records…"</string>
+    <string name="analytics_ui_purpose_provided" formatted="false">"My purpose of use · Provided"</string>
+    <string name="analytics_ui_not_provided" formatted="false">"Not provided"</string>
+    <string name="analytics_ui_records_load_failed" formatted="false">"Unable to read local records. Tap Refresh to check. The switch above shows the recording state."</string>
+    <string name="analytics_ui_recording_active" formatted="false">"Recording locally"</string>
+    <string name="analytics_ui_recording_off" formatted="false">"Recording off"</string>
+    <string name="analytics_ui_all_retained_days" formatted="false">"All (last 365 days)"</string>
+    <string name="analytics_ui_clear_all_title" formatted="false">"Clear all local analytics records?"</string>
+    <string name="analytics_ui_clear_all_warning" formatted="false">"Deletes browsing, feature-use records, purpose of use, and feedback across all ranges. This cannot be undone. The recording switch keeps its current state."</string>
+    <string name="analytics_ui_cancel" formatted="false">"Cancel"</string>
+    <string name="analytics_ui_clear_all" formatted="false">"Clear all"</string>
+    <string name="analytics_ui_purpose_title" formatted="false">"My purpose of use"</string>
+    <string name="analytics_ui_purpose_hint" formatted="false">"For example: relax, learn photography, or find cooking ideas. May be blank."</string>
+    <string name="analytics_ui_purpose_explanation" formatted="false">"Your own description helps distinguish actions from motives. It is saved locally and sent only with an AI analysis you explicitly request."</string>
+    <string name="analytics_ui_save" formatted="false">"Save"</string>
+    <string name="analytics_ui_feedback_yes" formatted="false">"Matches"</string>
+    <string name="analytics_ui_feedback_partial" formatted="false">"Partly matches"</string>
+    <string name="analytics_ui_feedback_no" formatted="false">"Does not match"</string>
+    <string name="analytics_ui_clear_feedback" formatted="false">"Clear feedback"</string>
+    <string name="analytics_ui_feedback_question" formatted="false">"Does this profile match your experience?"</string>
+    <string name="analytics_ui_feedback_save_unconfirmed" formatted="false">"Feedback save unconfirmed · Tap to retry"</string>
+    <string name="analytics_ui_browsing_overview" formatted="false">"Browsing overview"</string>
+    <string name="analytics_ui_views" formatted="false">"Views"</string>
+    <string name="analytics_ui_unique_works" formatted="false">"Distinct posts"</string>
+    <string name="analytics_ui_feature_uses" formatted="false">"Module feature uses"</string>
+    <string name="analytics_ui_ad_posts" formatted="false">"Including ads"</string>
+    <string name="analytics_ui_overview_boundary" formatted="false">"Only posts actually shown after recording is enabled are counted. Repeat encounters add views; distinct posts are deduplicated by post ID. Feature counts represent integrated actual triggers, not the number of enabled switches."</string>
+    <string name="analytics_ui_empty_recording_active" formatted="false">"No records in this range yet. Browse posts or use module features, then tap Refresh."</string>
+    <string name="analytics_ui_empty_recording_off" formatted="false">"No records yet. Enable the switch above to start collecting. Past browsing is not backfilled."</string>
+    <string name="analytics_ui_feature_top10" formatted="false">"Module features · Top 10"</string>
+    <string name="analytics_ui_no_feature_usage" formatted="false">"No module feature-use records"</string>
+    <string name="analytics_ui_browsing_trend" formatted="false">"Browsing trend"</string>
+    <string name="analytics_ui_trend_selection_hint" formatted="false">"Tap a point on the line to see its count"</string>
+    <string name="analytics_ui_no_trend_data" formatted="false">"No trend data"</string>
+    <string name="analytics_ui_post_type_share" formatted="false">"Post type shares"</string>
+    <string name="analytics_ui_no_post_type_data" formatted="false">"No post type data"</string>
+    <string name="analytics_ui_post_type_boundary" formatted="false">"Live means motion photos. A mixed photo post with any motion photos counts once as a motion-photo post. Long videos are at least 5 minutes. Unrecognized content is Unknown/Other. LIVE cards are separate and do not establish entering a LIVE room or watch duration."</string>
+    <string name="analytics_ui_author_top10" formatted="false">"Creators · Top 10"</string>
+    <string name="analytics_ui_no_author_records" formatted="false">"No creator records"</string>
+    <string name="analytics_ui_topic_top10" formatted="false">"Topics · Top 10"</string>
+    <string name="analytics_ui_no_topic_rank_records" formatted="false">"No topic records; posts without topics are excluded from this ranking"</string>
+    <string name="analytics_ui_browsing_hours" formatted="false">"Browsing time distribution"</string>
+    <string name="analytics_ui_no_hour_data" formatted="false">"No browsing-time data"</string>
+    <string name="analytics_ui_recent_records" formatted="false">"Recent records"</string>
+    <string name="analytics_ui_no_recent_records" formatted="false">"No recent records"</string>
+    <string name="analytics_ui_module_feature" formatted="false">"Module feature"</string>
+    <string name="analytics_ui_browse_post" formatted="false">"Browse post"</string>
+    <string name="analytics_ui_usage_history" formatted="false">"Usage history"</string>
+    <string name="analytics_ui_active_days" formatted="false">"Active days"</string>
+    <string name="analytics_ui_active_streak" formatted="false">"Consecutive active days"</string>
+    <string name="analytics_ui_none" formatted="false">"None yet"</string>
+    <string name="analytics_ui_activity_boundary" formatted="false">"Active days and streaks use retained records in the selected range. Blank dates may reflect disabled or incomplete collection. A current streak allows today to have no record yet. The first record is measured since the last clear and may be older than 365 days."</string>
+    <string name="analytics_ui_ai_chart_analysis" formatted="false">"AI chart analysis"</string>
+    <string name="analytics_ui_expand_ai_sections" formatted="false">"Expand AI interpretations in all blocks"</string>
+    <string name="analytics_ui_share_analysis_text" formatted="false">"Share analysis text"</string>
+    <string name="analytics_ui_requesting_analysis" formatted="false">"Requesting AI analysis…"</string>
+    <string name="analytics_ui_cancel_analysis" formatted="false">"Cancel analysis"</string>
+    <string name="analytics_ui_analysis_cancelled" formatted="false">"Analysis canceled. You can request it again."</string>
+    <string name="analytics_ui_choose_available_model" formatted="false">"Choose an available AI profile. Following global requires an enabled global model."</string>
+    <string name="analytics_ui_no_analysis_data" formatted="false">"No data to analyze in this range. Analysis becomes available after records are collected."</string>
+    <string name="analytics_ui_request_analysis" formatted="false">"Request AI analysis"</string>
+    <string name="analytics_ui_retry_analysis" formatted="false">"Request AI analysis again"</string>
+    <string name="analytics_ui_export_default_locations" formatted="false">"Images are saved to Pictures/TokAi and PDFs to Downloads/TokAi."</string>
+    <string name="analytics_ui_choose_report_location_sentence" formatted="false">"Choose where to save the report file."</string>
+    <string name="analytics_ui_export_share_report" formatted="false">"Export/share report"</string>
+    <string name="analytics_ui_customized" formatted="false">"Customized"</string>
+    <string name="analytics_ui_default" formatted="false">"Default"</string>
+    <string name="analytics_ui_restore_secondary_prompt" formatted="false">"Restore default secondary prompt"</string>
+    <string name="analytics_ui_analysis_settings_note" formatted="false">"This model and secondary prompt are only for local analytics. Blank uses the default prompt; report structure and statistical definitions remain."</string>
+    <string name="analytics_ui_global_no_active_model" formatted="false">"Follow global (no active model)"</string>
+    <string name="analytics_ui_selected_profile_unavailable" formatted="false">"Selected profile unavailable; choose again"</string>
+    <string name="analytics_ui_streaming" formatted="false">"Streaming"</string>
+    <string name="analytics_ui_non_streaming" formatted="false">"Non-streaming"</string>
+    <string name="analytics_ui_model_profiles_unreadable" formatted="false">"Unable to read model profiles. Check AI model settings."</string>
+    <string name="analytics_ui_follow_global_model" formatted="false">"Follow global model"</string>
+    <string name="analytics_ui_analysis_model_title" formatted="false">"Model for local analytics"</string>
+    <string name="analytics_ui_analysis_prompt_title" formatted="false">"Local analytics secondary prompt"</string>
+    <string name="analytics_ui_ai_interpretation" formatted="false">"AI interpretation"</string>
+    <string name="analytics_ui_analysis_incomplete_retry" formatted="false">"Analysis did not complete. Try again later."</string>
+    <string name="analytics_ui_profile_chart_analysis" formatted="false">"TokAi · Profile and chart analysis"</string>
+    <string name="analytics_ui_share_ai_analysis" formatted="false">"Share AI chart analysis"</string>
+    <string name="analytics_ui_share_text_unavailable" formatted="false">"Unable to open sharing. Long press the analysis text to copy it."</string>
+    <string name="analytics_ui_load_report_first" formatted="false">"Load the local report first"</string>
+    <string name="analytics_ui_long_png" formatted="false">"Long PNG image"</string>
+    <string name="analytics_ui_pdf_document" formatted="false">"PDF document"</string>
+    <string name="analytics_ui_laying_out_report" formatted="false">"Laying out the complete report…"</string>
+    <string name="analytics_ui_export_cancelled_no_file" formatted="false">"Canceled. No report file was created."</string>
+    <string name="analytics_ui_png_generated" formatted="false">"Complete long PNG generated. Choose where to share it."</string>
+    <string name="analytics_ui_share_report_unavailable" formatted="false">"Unable to open sharing. The report was not shared; try again."</string>
+    <string name="analytics_ui_prefer_pdf_for_long_report" formatted="false">"The content is long. Choose PDF to export the complete report."</string>
+    <string name="analytics_ui_report_export_failed" formatted="false">"Report generation or saving failed. Choose PDF for an overly long image, or check the location or reduce the range and retry. Report content is unchanged."</string>
+    <string name="analytics_ui_no_type_records" formatted="false">"No post type records"</string>
+    <string name="analytics_ui_most_encountered_prefix" formatted="false">"Most encountered: "</string>
+    <string name="analytics_ui_leading_topic_prefix" formatted="false">"Leading topic: "</string>
+    <string name="analytics_ui_no_topic_records" formatted="false">"No topic records"</string>
+    <string name="analytics_ui_no_hour_records" formatted="false">"No time-of-day records"</string>
+    <string name="analytics_ui_no_previous_comparison" formatted="false">"No previous-period comparison"</string>
+    <string name="analytics_ui_comparison_incomplete_summary" formatted="false">"Period comparison · Coverage incomplete"</string>
+    <string name="analytics_ui_view_period_changes" formatted="false">"View counts and topic changes between periods"</string>
+    <string name="analytics_ui_expand" formatted="false">"Expand"</string>
+    <string name="analytics_ui_collapse" formatted="false">"Collapse"</string>
+    <string name="analytics_ui_trend_accessibility" formatted="false">"Browsing trend. Tap to choose a date; accessibility clicks cycle through dates."</string>
+    <string name="analytics_ui_type_share_accessibility" formatted="false">"Post type shares: "</string>
+    <string name="analytics_ui_hour_distribution_accessibility" formatted="false">"Browsing time distribution: "</string>
+    <string name="analytics_ui_portrait_heading" formatted="false">"You during this period"</string>
+    <string name="analytics_ui_portrait_subtitle" formatted="false">"A temporary profile assembled from local activity records"</string>
+    <string name="analytics_ui_portrait_insufficient" formatted="false">"Not enough records to describe you yet. Continued use will reveal content, rhythm, and tool patterns."</string>
+    <string name="analytics_ui_view_evidence" formatted="false">"View evidence and limitations"</string>
+    <string name="analytics_ui_portrait_scope_title" formatted="false">"What this profile knows and does not know"</string>
+    <string name="analytics_ui_calendar_title" formatted="false">"Browsing footprint · Calendar heatmap"</string>
+    <string name="analytics_ui_calendar_paper_hint" formatted="false">"Local browsing records by date"</string>
+    <string name="analytics_ui_calendar_select_hint" formatted="false">"Select a date to see views and feature counts"</string>
+    <string name="analytics_ui_calendar_last84" formatted="false">"Showing the latest 84 days in the selected range."</string>
+    <string name="analytics_ui_type_bands_title" formatted="false">"Content mix · Changes over time"</string>
+    <string name="analytics_ui_type_bands_paper_hint" formatted="false">"Each row totals 100%; bands show the period\'s content mix"</string>
+    <string name="analytics_ui_type_bands_select_hint" formatted="false">"Each row totals 100%; tap a band for raw counts"</string>
+    <string name="analytics_ui_type_bands_boundary" formatted="false">"Compares recorded content mix; empty rows mean missing records. Live means motion photos; videos at least 5 minutes count as long."</string>
+    <string name="analytics_ui_topic_paper_title" formatted="false">"Topic rankings · Your content map"</string>
+    <string name="analytics_ui_topic_map_title" formatted="false">"Your content world · Topic map"</string>
+    <string name="analytics_ui_topics_unidentified" formatted="false">"No identifiable topics. This cannot establish how broad your interests are."</string>
+    <string name="analytics_ui_topic_map_paper_hint" formatted="false">"Area represents occurrences; full names and counts are listed below"</string>
+    <string name="analytics_ui_topic_map_select_hint" formatted="false">"Area represents occurrences; select a tile for its full name"</string>
+    <string name="analytics_ui_author_paper_title" formatted="false">"Creator rankings · Exposure sources"</string>
+    <string name="analytics_ui_author_curve_title" formatted="false">"Exposure sources · Creator concentration"</string>
+    <string name="analytics_ui_authors_unidentified" formatted="false">"No identifiable creators; exposure sources cannot yet be described."</string>
+    <string name="analytics_ui_author_curve_hint" formatted="false">"Sorted by occurrences; the curve shows cumulative share"</string>
+    <string name="analytics_ui_rhythm_title" formatted="false">"Weekly rhythm · Weekday × hour"</string>
+    <string name="analytics_ui_rhythm_paper_hint" formatted="false">"Shading represents records by weekday and hour"</string>
+    <string name="analytics_ui_rhythm_select_hint" formatted="false">"Select a cell for its count; accessibility clicks cycle through cells"</string>
+    <string name="analytics_ui_comparison_title" formatted="false">"Recent changes · Compare with yourself"</string>
+    <string name="analytics_ui_no_comparable_period" formatted="false">"No comparable preceding period yet."</string>
+    <string name="analytics_ui_coverage_incomplete" formatted="false">"Coverage is incomplete; no increase or decrease is inferred."</string>
+    <string name="analytics_ui_comparison_chart_hint" formatted="false">"Gray is previous, blue current; each item has its own scale"</string>
+    <string name="analytics_ui_last7days" formatted="false">"Last 7 days"</string>
+    <string name="analytics_ui_last30days" formatted="false">"Last 30 days"</string>
+    <string name="analytics_ui_topic_migration_title" formatted="false">"Topic migration · Previous → current"</string>
+    <string name="analytics_ui_both_periods" formatted="false">"Both periods"</string>
+    <string name="analytics_ui_current_period" formatted="false">"Current period"</string>
+    <string name="analytics_ui_previous_period" formatted="false">"Previous period"</string>
+    <string name="analytics_ui_topic_migration_boundary" formatted="false">"Shows leading topic ranks and counts in both periods. Absence from the summary is not zero. Today is incomplete and counts depend on collection coverage. Ranking shifts do not directly establish changed interests."</string>
+    <string name="analytics_ui_not_summarized" formatted="false">"Not in summary"</string>
+    <string name="analytics_ui_associations_title" formatted="false">"From exposure to action · Association clues"</string>
+    <string name="analytics_ui_feature_sources" formatted="false">"Feature trigger sources"</string>
+    <string name="analytics_ui_no_associations" formatted="false">"No associated records yet. Separate night, topic, and save counts cannot be combined into one action."</string>
+    <string name="analytics_ui_topic_hour_associations" formatted="false">"Topics and times within the same encounter"</string>
+    <string name="analytics_ui_topic_hour_boundary" formatted="false">"Time means the visible segment\'s starting hour; each may have multiple topics. This is not dwell-duration distribution."</string>
+    <string name="analytics_ui_type_action_associations" formatted="false">"Content and actions within the same encounter"</string>
+    <string name="analytics_ui_weekday_mon_short" formatted="false">"Mon"</string>
+    <string name="analytics_ui_weekday_tue_short" formatted="false">"Tue"</string>
+    <string name="analytics_ui_weekday_wed_short" formatted="false">"Wed"</string>
+    <string name="analytics_ui_weekday_thu_short" formatted="false">"Thu"</string>
+    <string name="analytics_ui_weekday_fri_short" formatted="false">"Fri"</string>
+    <string name="analytics_ui_weekday_sat_short" formatted="false">"Sat"</string>
+    <string name="analytics_ui_weekday_sun_short" formatted="false">"Sun"</string>
+    <string name="analytics_ui_no_retained_events_fragment" formatted="false">" · No retained events; use unknown"</string>
+    <string name="analytics_ui_calendar_chart_description" formatted="false">"Calendar heatmap"</string>
+    <string name="analytics_ui_weekday_mon" formatted="false">"Monday"</string>
+    <string name="analytics_ui_weekday_tue" formatted="false">"Tuesday"</string>
+    <string name="analytics_ui_weekday_wed" formatted="false">"Wednesday"</string>
+    <string name="analytics_ui_weekday_thu" formatted="false">"Thursday"</string>
+    <string name="analytics_ui_weekday_fri" formatted="false">"Friday"</string>
+    <string name="analytics_ui_weekday_sat" formatted="false">"Saturday"</string>
+    <string name="analytics_ui_weekday_sun" formatted="false">"Sunday"</string>
+    <string name="analytics_ui_rhythm_chart_description" formatted="false">"Weekday and hour heatmap"</string>
+    <string name="analytics_ui_type_bands_description" formatted="false">"Content-mix percentage bands"</string>
+    <string name="analytics_ui_topic_treemap_description" formatted="false">"Topic treemap"</string>
+    <string name="analytics_ui_author_curve_description" formatted="false">"Cumulative creator share; other creators are grouped"</string>
+    <string name="analytics_ui_view_count" formatted="false">"View count"</string>
+    <string name="analytics_ui_feature_triggers" formatted="false">"Feature triggers"</string>
+    <string name="analytics_ui_incomplete_trend_fragment" formatted="false">" · Incomplete coverage; trend undetermined"</string>
+    <string name="analytics_ui_comparison_chart_description" formatted="false">"Period comparison dot chart; independent scale per row"</string>
+    <string name="analytics_ui_long_png_limit" formatted="false">"Report exceeds the long-image size limit. Choose PDF for the complete content."</string>
+    <string name="analytics_ui_unsupported_export_size" formatted="false">"Unsupported report export size"</string>
+    <string name="analytics_ui_report_layout_too_large" formatted="false">"Report layout is too large"</string>
+    <string name="analytics_ui_pdf_page_limit" formatted="false">"Report exceeds the PDF page limit. Reduce the statistics range."</string>
+    <string name="analytics_ui_pagination_failed" formatted="false">"Unable to paginate the complete report. Reduce the statistics range."</string>
+    <string name="analytics_ui_text_too_large_for_page" formatted="false">"Report text is too large to paginate completely"</string>
+    <string name="analytics_ui_choose_report_format" formatted="false">"Choose a report format"</string>
+    <string name="analytics_ui_complete_report_title" formatted="false">"TokAi · Complete local analytics report"</string>
+    <string name="analytics_ui_report_title" formatted="false">"TokAi · Local analytics report"</string>
+    <string name="analytics_ui_pdf_file_too_large" formatted="false">"Report PDF file is too large"</string>
+    <string name="analytics_ui_storage_context_unavailable" formatted="false">"Report storage context unavailable"</string>
+    <string name="analytics_ui_choose_report_location" formatted="false">"Choose a report file location"</string>
+    <string name="analytics_ui_report_write_failed" formatted="false">"Unable to write the report file"</string>
+    <string name="analytics_ui_report_save_incomplete" formatted="false">"Unable to finish saving the report file"</string>
+    <string name="analytics_ui_long_image" formatted="false">"Long image"</string>
+    <string name="analytics_ui_export_cancelled" formatted="false">"Report export canceled"</string>
+    <string name="analytics_ui_record_overview" formatted="false">"Record overview"</string>
+    <string name="analytics_ui_local_recorded_events" formatted="false">"Local statistics · Recorded events"</string>
+    <string name="analytics_ui_paper_record_boundary" formatted="false">"Views represent integrated content encounters. Distinct posts use local identifiers for deduplication. Feature counts mean triggers, not successful requests."</string>
+    <string name="analytics_ui_paper_no_records" formatted="false">"No retained records in this range. A gap does not mean no use."</string>
+    <string name="analytics_ui_local_charts_evidence" formatted="false">"Local statistics · Charts and evidence"</string>
+    <string name="analytics_ui_local_daily_statistics" formatted="false">"Local statistics · Daily summaries"</string>
+    <string name="analytics_ui_paper_no_trend" formatted="false">"No trend records."</string>
+    <string name="analytics_ui_post_types" formatted="false">"Post types"</string>
+    <string name="analytics_ui_paper_no_types" formatted="false">"No post type records."</string>
+    <string name="analytics_ui_paper_type_boundary" formatted="false">"Live means motion photos. A mixed post with motion photos counts as one motion-photo post. Long videos are at least 5 minutes. Unidentified content is unknown or other. LIVE cards do not establish entering a LIVE room or watch duration."</string>
+    <string name="analytics_ui_daily_exposure_hours" formatted="false">"Exposure times during the day"</string>
+    <string name="analytics_ui_local_time_statistics" formatted="false">"Local statistics · Local time"</string>
+    <string name="analytics_ui_hours_boundary" formatted="false">"Counted by local event time, not sleep, actual watch duration, or daily routine."</string>
+    <string name="analytics_ui_creator_ranking" formatted="false">"Creator rankings"</string>
+    <string name="analytics_ui_paper_no_creators" formatted="false">"No identifiable creators."</string>
+    <string name="analytics_ui_topic_ranking" formatted="false">"Topic rankings"</string>
+    <string name="analytics_ui_paper_no_topics" formatted="false">"No identifiable topics."</string>
+    <string name="analytics_ui_feature_ranking" formatted="false">"Module feature rankings"</string>
+    <string name="analytics_ui_paper_no_features" formatted="false">"No module feature records."</string>
+    <string name="analytics_ui_local_recent_summaries" formatted="false">"Local statistics · Individual record summaries"</string>
+    <string name="analytics_ui_paper_no_recent" formatted="false">"No recent records."</string>
+    <string name="analytics_ui_local_retained_range" formatted="false">"Local statistics · Retained record range"</string>
+    <string name="analytics_ui_no_first_record_time" formatted="false">"No first-record time yet."</string>
+    <string name="analytics_ui_source_reading_boundaries" formatted="false">"Sources and interpretation limits"</string>
+    <string name="analytics_ui_about_report" formatted="false">"About this report"</string>
+    <string name="analytics_ui_report_source_boundary" formatted="false">"Local statistics come from integrated records collected on this device while enabled. Gaps do not mean no use, views are not actual watch time, and feature triggers are not successful requests."</string>
+    <string name="analytics_ui_report_ai_boundary" formatted="false">"Charts are local statistics. AI interpretations come from the request identified in the report, not a new analysis. Distinguish content exposure, automatic behavior, and deliberate preferences. This is not a psychological assessment and does not infer occupation, health, politics, or stable personality."</string>
+    <string name="analytics_ui_report_share_boundary" formatted="false">"Before sharing, review creators, topics, recent records, and AI text, which may quote your purpose or self-description. No database, API settings, or keys are attached."</string>
+    <string name="analytics_ui_my_local_report" formatted="false">"My local usage report"</string>
+    <string name="analytics_ui_report_subtitle" formatted="false">"See the records, preserve the unknown"</string>
+    <string name="analytics_ui_exposure_views" formatted="false">"Browsing encounters"</string>
+    <string name="analytics_ui_independent_works" formatted="false">"Distinct posts"</string>
+    <string name="analytics_ui_local_top10" formatted="false">"Local statistics · Top 10"</string>
+    <string name="analytics_ui_ai_source_label" formatted="false">"AI generated · Read separately from local statistics"</string>
+    <string name="analytics_ui_no_ai_export" formatted="false">"This report has no AI results yet. Export did not request AI."</string>
+    <string name="analytics_ui_period_contrast" formatted="false">"Period comparison"</string>
+    <string name="analytics_ui_questions_to_check" formatted="false">"Questions to verify"</string>
+    <string name="analytics_ui_overall_observation" formatted="false">"Overall observations"</string>
+    <string name="analytics_ui_content_mix" formatted="false">"Content mix"</string>
+    <string name="analytics_ui_creator_exposure" formatted="false">"Creator exposure"</string>
+    <string name="analytics_ui_topic_exposure" formatted="false">"Topic exposure"</string>
+    <string name="analytics_ui_feature_usage" formatted="false">"Feature usage"</string>
+    <string name="analytics_ui_time_rhythm" formatted="false">"Time-of-day rhythm"</string>
+    <string name="analytics_ui_evidence_heading" formatted="false">"Evidence and limitations"</string>
+    <string name="analytics_ui_type_short_video" formatted="false">"Short video"</string>
+    <string name="analytics_ui_type_long_video" formatted="false">"Long video"</string>
+    <string name="analytics_ui_type_live_photo" formatted="false">"Motion-photo post"</string>
+    <string name="analytics_ui_type_image" formatted="false">"Photo post"</string>
+    <string name="analytics_ui_type_live" formatted="false">"LIVE card"</string>
+    <string name="analytics_ui_type_unknown" formatted="false">"Other posts"</string>
+    <string name="analytics_ui_source_manual" formatted="false">"Manual action"</string>
+    <string name="analytics_ui_source_automatic" formatted="false">"Automatic trigger"</string>
+    <string name="analytics_ui_source_system" formatted="false">"System processing"</string>
+    <string name="analytics_ui_source_unknown" formatted="false">"Unknown source"</string>
+    <string name="analytics_ui_stage_entry" formatted="false">"Entry"</string>
+    <string name="analytics_ui_stage_request" formatted="false">"Request"</string>
+    <string name="analytics_ui_stage_accepted" formatted="false">"Accepted"</string>
+    <string name="analytics_ui_stage_success" formatted="false">"Success"</string>
+    <string name="analytics_ui_stage_failure" formatted="false">"Failure"</string>
+    <string name="analytics_ui_stage_confirmed" formatted="false">"Confirmed"</string>
+    <string name="analytics_ui_stage_unknown" formatted="false">"Unknown stage"</string>
+    <string name="analytics_ui_feature_auto_follow" formatted="false">"Automatic follow"</string>
+    <string name="analytics_ui_feature_auto_like" formatted="false">"Automatic like"</string>
+    <string name="analytics_ui_feature_auto_comment_sent" formatted="false">"Automatic comment"</string>
+    <string name="analytics_ui_feature_auto_reply_sent" formatted="false">"Automatic reply"</string>
+    <string name="analytics_ui_feature_auto_slide" formatted="false">"Automatic scrolling"</string>
+    <string name="analytics_ui_feature_gesture_menu" formatted="false">"Quick menu"</string>
+    <string name="analytics_ui_feature_view_finder" formatted="false">"View finder"</string>
+    <string name="analytics_ui_feature_copy_text" formatted="false">"Copy text"</string>
+    <string name="analytics_ui_feature_save_media" formatted="false">"Save media"</string>
+    <string name="analytics_ui_feature_open_comments" formatted="false">"Open comments"</string>
+    <string name="analytics_ui_feature_gesture_speed" formatted="false">"Toggle playback speed"</string>
+    <string name="analytics_ui_feature_comment_tts" formatted="false">"Comment audio"</string>
+    <string name="analytics_ui_feature_download_queued" formatted="false">"Download task"</string>
+    <string name="analytics_ui_feature_third_party_download" formatted="false">"Third-party download"</string>
+    <string name="analytics_ui_feature_feed_filter" formatted="false">"Content filtering"</string>
+    <string name="analytics_ui_tail_group">"Other (%1$s categories)"</string>
+    <string name="analytics_ui_evidence_none" formatted="false">"No browsing sample yet"</string>
+    <string name="analytics_ui_evidence_small" formatted="false">"Small sample; descriptive records only"</string>
+    <string name="analytics_ui_evidence_cross_day" formatted="false">"Samples across days, still limited by coverage"</string>
+    <string name="analytics_ui_evidence_sufficient" formatted="false">"More cross-day samples; still only recorded behavior"</string>
+    <string name="analytics_ui_fact_content_world_title" formatted="false">"Your content landscape"</string>
+    <string name="analytics_ui_fact_content_world_body">"Records cover %1$s creators and %2$s topics. %3$s"</string>
+    <string name="analytics_ui_fact_content_world_evidence">"Full creator-distribution evenness %1$s; full topic-distribution evenness %2$s; %3$s topic occurrences."</string>
+    <string name="analytics_ui_fact_content_world_limit" formatted="false">"This is recommendation-feed exposure structure. Posts may have multiple topics, and topic shares use all topic occurrences as their denominator. This does not prove liking."</string>
+    <string name="analytics_ui_fact_world_insufficient" formatted="false">"More distinct creators and topics are needed to compare source and topic distributions."</string>
+    <string name="analytics_ui_fact_world_authors_even" formatted="false">"Creators are more evenly distributed than topics: broader sources with relatively concentrated themes."</string>
+    <string name="analytics_ui_fact_world_topics_even" formatted="false">"Topics are at least as evenly distributed as creators; themes and exposure sources have different dispersion."</string>
+    <string name="analytics_ui_fact_content_shape_title" formatted="false">"Content formats you encountered"</string>
+    <string name="analytics_ui_fact_content_shape_body">"%1$s accounts for %2$s of this period\'s records; %3$s content formats were observed."</string>
+    <string name="analytics_ui_fact_content_shape_evidence">"%1$s view records, %2$s distinct posts; leading type %3$s."</string>
+    <string name="analytics_ui_fact_content_shape_limit" formatted="false">"Motion-photo posts and LIVE cards are counted separately. Content length is not watch duration, and format cannot establish engagement."</string>
+    <string name="analytics_ui_fact_daily_rhythm_title" formatted="false">"Your browsing rhythm"</string>
+    <string name="analytics_ui_fact_daily_rhythm_body">"Browsing was recorded on %1$s days; early morning accounts for %2$s and weekends %3$s."</string>
+    <string name="analytics_ui_fact_daily_rhythm_evidence">"Early morning is 00:00–05:59; weekends are Saturday and Sunday. Both use this period\'s %1$s view records as denominator."</string>
+    <string name="analytics_ui_fact_daily_rhythm_limit" formatted="false">"Separate time and topic shares cannot be combined into liking a topic late at night. Weekend share is not normalized by weekday/weekend day counts."</string>
+    <string name="analytics_ui_fact_familiarity_title" formatted="false">"Familiar and new encounters"</string>
+    <string name="analytics_ui_fact_familiarity_body">"%1$s posts appeared again on different dates, accounting for %2$s of distinct posts."</string>
+    <string name="analytics_ui_fact_familiarity_evidence">"Repeated across days %1$s / distinct posts %2$s; %3$s total views."</string>
+    <string name="analytics_ui_fact_familiarity_limit" formatted="false">"Repeats may come from recommendations, deliberate returns, or different entries. This is not an intentional rewatch rate and cannot reconstruct save intent."</string>
+    <string name="analytics_ui_fact_tool_style_title" formatted="false">"How tools participate"</string>
+    <string name="analytics_ui_fact_tool_style_body">"%1$s module feature events: %2$s manual entries and %3$s automatic triggers."</string>
+    <string name="analytics_ui_fact_tool_style_evidence">"%1$s events have unknown sources. Feature and view counts are separate."</string>
+    <string name="analytics_ui_fact_tool_style_limit" formatted="false">"Entry, request, acceptance, and success are distinct stages, not directly task counts. Automatic actions do not establish deliberate approval."</string>
+    <string name="analytics_ui_fact_change_title" formatted="false">"Changes during this period"</string>
+    <string name="analytics_ui_fact_change_body">"Current: %1$s views and %2$s feature events; equally long previous period: %3$s and %4$s. %5$s"</string>
+    <string name="analytics_ui_fact_change_previous_incomplete" formatted="false">"Previous coverage is insufficient; no growth or decline is inferred."</string>
+    <string name="analytics_ui_fact_change_today_incomplete" formatted="false">"This period includes today\'s incomplete records; changes will continue."</string>
+    <string name="analytics_ui_fact_change_evidence">"%1$s to %2$s compared with %3$s to %4$s."</string>
+    <string name="analytics_ui_fact_topic_change_title" formatted="false">"Shifts in leading topics"</string>
+    <string name="analytics_ui_fact_topic_count">"%1$s (%2$s occurrences)"</string>
+    <string name="analytics_ui_fact_topic_change_body">"The leading topic is %1$s; the equally long preceding period\'s was %2$s. %3$s"</string>
+    <string name="analytics_ui_fact_topic_change_incomplete" formatted="false">"Previous coverage is incomplete. Recorded content is shown side by side without inferring preference changes."</string>
+    <string name="analytics_ui_fact_topic_change_complete" formatted="false">"Changes in the leader reflect exposure structure, not necessarily changed interests."</string>
+    <string name="analytics_ui_fact_topic_change_evidence">"%1$s to %2$s → %3$s to %4$s. Rankings use all topic records; posts may have multiple topics."</string>
+    <string name="analytics_ui_fact_topic_change_limit">"%1$s This period includes unfinished today. Tail entries are grouped as Other; absence from rankings does not mean never encountered."</string>
+    <string name="analytics_ui_fact_observed_attention_title" formatted="false">"Recorded visible segments"</string>
+    <string name="analytics_ui_fact_observed_attention_body">"Captured %1$s visible segments in the retained range, totaling %2$s confirmed visible seconds."</string>
+    <string name="analytics_ui_fact_observed_attention_evidence" formatted="false">"Only bounded samples while foreground, visible, and still on the same post accumulate. Segments are not distinct posts."</string>
+    <string name="analytics_ui_fact_observed_attention_limit" formatted="false">"Visibility is not attention or liking. Old data are not backfilled; background, occlusion, and heartbeat gaps are excluded. Each segment is capped at 30 minutes."</string>
+    <string name="analytics_ui_coverage_window">"Statistics window %1$s to %2$s; today is incomplete. Views include repeat encounters. Blank days may mean no use, collection disabled, or missing coverage."</string>
+    <string name="analytics_ui_coverage_retention" formatted="false">"Daily summaries last up to 365 days. Associated visible segments last 30 days, at most 20,000 segments and 30,000 actions. Associations are not fabricated from old summaries."</string>
+    <string name="analytics_ui_coverage_visibility" formatted="false">"Dwell is focused foreground visibility sampling, not guaranteed detection of same-window occlusion or actual attention, and not complete viewing or liking. Checkpoints save about every 3 seconds; termination may lose an unsaved tail. Segments are capped at 30 minutes."</string>
+    <string name="analytics_ui_coverage_topics" formatted="false">"Topic shares use all occurrences as denominator; one post may have multiple topics. Creator/topic evenness uses full distributions, not only Top 10."</string>
+    <string name="analytics_ui_coverage_authors">"Identified-creator records %1$s / total views %2$s. Unknown creators are excluded from creator counts, evenness, and concentration. Creator shares use identified-creator records as denominator."</string>
+    <string name="analytics_ui_coverage_sources" formatted="false">"Manual, automatic, system, and unknown sources are separate. Older feature events have unknown sources. Action stages are counted separately, not directly as distinct tasks."</string>
+    <string name="analytics_ui_coverage_joint" formatted="false">"Time associations use segment start hours. Charts show the top 48 groups actually recorded within the same segment. Unassociated actions still count as features but not in post-association charts."</string>
+    <string name="analytics_ui_coverage_earliest">"Earliest traceable record: %1$s. Earlier unrecorded dates cannot be treated as zero use."</string>
+    <string name="analytics_ui_coverage_dropped">"The local write queue rejected %1$s tasks since clearing, causing missing samples. Collection does not cover every host page."</string>
+    <string name="analytics_ui_comparison_limit_complete" formatted="false">"Equal calendar-day windows are compared in local time, including unfinished today. Previous dates are retained, but uncovered pages, host exits, and collection gaps may still omit records. Count changes cannot be directly attributed to changed interests."</string>
+    <string name="analytics_ui_comparison_limit_incomplete" formatted="false">"Equal calendar-day windows are compared in local time, including unfinished today. The previous period predates recording/retention or includes known collection-off time, so no growth rate is calculated. Count changes cannot be directly attributed to changed interests."</string>
+    <string name="analytics_ui_unidentified" formatted="false">"Unidentified"</string>
+    <string name="analytics_ui_three_labels">"%1$s · %2$s · %3$s"</string>
+    <string name="analytics_ui_failure_http">"The model service returned HTTP %1$d. Analysis did not complete; check the service and retry."</string>
+    <string name="analytics_ui_failure_timeout" formatted="false">"Model analysis timed out. Retry later or adjust the selected model\'s timeout."</string>
+    <string name="analytics_ui_failure_empty" formatted="false">"The model service responded without analysis content. Retry."</string>
+    <string name="analytics_ui_failure_overlong" formatted="false">"A reply was received, but analysis exceeds the length limit. Retry."</string>
+    <string name="analytics_ui_failure_format" formatted="false">"A reply was received, but analysis format is incomplete or invalid. Retry."</string>
+    <string name="analytics_ui_failure_incomplete" formatted="false">"Model analysis was incomplete. Retry later."</string>
+    <string name="analytics_ui_failure_input_too_large" formatted="false">"The compressed summary still exceeds the send limit. Reduce the range and retry."</string>
+    <string name="analytics_ui_failure_prepare" formatted="false">"Unable to prepare local analysis. Refresh statistics and check the selected model profile."</string>
+    <string name="analytics_ui_failure_transport" formatted="false">"The analysis connection did not complete. Retry later."</string>
+    <string name="analytics_ui_share_contrasts" formatted="false">"Contrasts and changes"</string>
+    <string name="analytics_ui_share_questions" formatted="false">"Questions for yourself"</string>
+    <string name="analytics_ui_range_selected">"%1$s, selected"</string>
+    <string name="analytics_ui_range_view_statistics">"%1$s, view statistics"</string>
+    <string name="analytics_ui_expanded_label">"%1$s, expanded"</string>
+    <string name="analytics_ui_expanded_collapse_label">"%1$s, expanded, tap to collapse"</string>
+    <string name="analytics_ui_collapsed_expand_label">"%1$s, collapsed, tap to expand"</string>
+    <string name="analytics_ui_label_value">"%1$s, %2$s"</string>
+    <string name="analytics_ui_chart_accessibility_summary">"%1$s. Tap to select; accessibility clicks cycle through items. %2$s"</string>
+    <string name="analytics_ui_chart_count_entry">"%1$s %2$s times; "</string>
+    <string name="analytics_ui_chart_share_entry">"%1$s %2$s times, %3$s; "</string>
+    <string name="analytics_ui_chart_hour_entry">"%1$s h, %2$s times; "</string>
+    <string name="analytics_ui_summary_with_ai">"%1$s · Includes AI interpretation"</string>
+    <string name="analytics_ui_contains_ai" formatted="false">"Includes AI interpretation"</string>
+    <string name="analytics_ui_model_label">"%1$s · %2$s · %3$s"</string>
+    <string name="analytics_ui_follow_global_label">"Follow global · %1$s"</string>
+    <string name="analytics_ui_evidence_period">"%1$s · %2$s — %3$s"</string>
+    <string name="analytics_ui_report_eyebrow" formatted="false">"TOKAI / LOCAL INSIGHTS"</string>
+    <string name="analytics_ui_report_footer">"TOKAI / LOCAL REPORT · %1$s"</string>
+    <string name="analytics_ui_report_clip_label" formatted="false">"TokAi report"</string>
+</resources>

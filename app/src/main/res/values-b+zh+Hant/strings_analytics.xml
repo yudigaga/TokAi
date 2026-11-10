@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analytics_ui_last_feedback">"最近一次側寫反饋 · %1$s"</string>
+    <string name="analytics_ui_recording_status">"%1$s · %2$s · 手動刷新獲取最新資料"</string>
+    <string name="analytics_ui_recent_days">"最近 %1$s 天"</string>
+    <string name="analytics_ui_label_count">"%1$s · %2$s 次"</string>
+    <string name="analytics_ui_trend_summary">"共 %1$s 次 · 最高 %2$s：%3$s 次"</string>
+    <string name="analytics_ui_label_count_share">"%1$s，%2$s 次，佔 %3$s"</string>
+    <string name="analytics_ui_peak_hour_caption">"按記錄時的本地時間統計 · 最活躍 %1$s，%2$s 次"</string>
+    <string name="analytics_ui_first_record">"首次記錄  %1$s"</string>
+    <string name="analytics_ui_analysis_metadata">"%1$s · %2$s · %3$s\n基於本次圖表統計。刷新圖表或切換時間範圍後需重新分析，不會自動請求 AI。"</string>
+    <string name="analytics_ui_analysis_consent">"僅在點擊下方按鈕時，將當前範圍圖表、前期及 7/30 天對照、側寫指標、關聯統計和你填寫的使用目的（含作者、話題和模組功能排行）發送給所選模型：%1$s。日常採集只存本地，不自動請求 AI。結果僅保留在當前頁面。\nAI 的判斷僅供參考，圖表統計不代表實際觀看時長。"</string>
+    <string name="analytics_ui_export_explanation">"導出一張長圖 PNG 或一份 PDF，再由你選擇分享目標；包含完整報告、排行、最近記錄與已有 AI 結果，不會再次請求 AI。%1$s請覈對其中可見的作者、話題和自述；長圖過長時請選擇 PDF。"</string>
+    <string name="analytics_ui_model_profile_preview">"模型配置 · %1$s"</string>
+    <string name="analytics_ui_secondary_prompt_preview">"二級提示詞 · %1$s"</string>
+    <string name="analytics_ui_chart_analysis_at">"基於 %1$s 請求時的圖表統計"</string>
+    <string name="analytics_ui_share_analysis_body">"TokAi · 人物側寫與圖表分析\n%1$s · %2$s\n\n%3$s"</string>
+    <string name="analytics_ui_report_generated_at">"%1$s · 報告生成 %2$s"</string>
+    <string name="analytics_ui_choose_export_location">"請選擇%1$s的保存位置。"</string>
+    <string name="analytics_ui_pdf_generated">"已生成一份完整 PDF（%1$s 頁），請選擇分享目標。"</string>
+    <string name="analytics_ui_label_count_accessibility">"%1$s，%2$s 次"</string>
+    <string name="analytics_ui_portrait_summary">"%1$s · %2$s 位作者 · %3$s 個話題"</string>
+    <string name="analytics_ui_views_days_summary">"%1$s 次瀏覽 · %2$s 天有記錄"</string>
+    <string name="analytics_ui_feature_summary">"%1$s 次功能觸發%2$s"</string>
+    <string name="analytics_ui_peak_summary">"記錄最多：%1$s · %2$s 次"</string>
+    <string name="analytics_ui_segments_summary">"%1$s 段可見片段 · %2$s 段已結束"</string>
+    <string name="analytics_ui_latest_record">"最近：%1$s"</string>
+    <string name="analytics_ui_active_streak_summary">"%1$s 天活躍 · 連續 %2$s 天"</string>
+    <string name="analytics_ui_leading_rank">"%1$s%2$s · %3$s 次"</string>
+    <string name="analytics_ui_portrait_reading_boundary">"%1$s\n\n刷到描述內容接觸，不能單獨證明喜歡。記錄空白不等於沒有使用；自動觸發不能當作主動選擇。\n這不是心理測評，不推斷職業、健康、政治或穩定人格。"</string>
+    <string name="analytics_ui_calendar_boundary">"色彩表示瀏覽次數；空心格表示無保留事件，可能是採集關閉或未覆蓋。%1$s"</string>
+    <string name="analytics_ui_topics_boundary">"識別到 %1$s 個話題，共 %2$s 次標籤出現。一個作品可能有多個話題；標籤不是獨立作品，也不是使用者自述興趣。"</string>
+    <string name="analytics_ui_ranked_label_count">"%1$s  %2$s · %3$s 次"</string>
+    <string name="analytics_ui_authors_boundary">"共接觸 %1$s 位可識別作者。跨日再次遇見的作品佔比 %2$s。反覆刷到可能來自推薦，不等於主動關注或重看。"</string>
+    <string name="analytics_ui_rhythm_boundary">"按事件發生時的本地時間統計。夜間（0—5 時）佔 %1$s，週末佔 %2$s。所選範圍的工作日和週末天數可能不同；不代表睡眠或生活作息。"</string>
+    <string name="analytics_ui_comparison_dates">"本期 %1$s — %2$s\n前期 %3$s — %4$s"</string>
+    <string name="analytics_ui_missing_topic_period">"%1$s缺少可比話題記錄，暫不判斷主題變化。採集空白或未識別話題不代表沒有興趣。"</string>
+    <string name="analytics_ui_rank_description">"第 %1$s · %2$s 次"</string>
+    <string name="analytics_ui_period_evidence_title">"%1$s對照依據"</string>
+    <string name="analytics_ui_period_evidence_body">"本期 %1$s — %2$s：%3$s 次瀏覽，%4$s 次功能觸發。\n前期 %5$s — %6$s：%7$s 次瀏覽，%8$s 次功能觸發。\n%9$s"</string>
+    <string name="analytics_ui_visible_segments_detail">"可見片段 %1$s 段；已結束 %2$s 段，確認可見停留合計 %3$s。停留不等於完整觀看或喜歡；自動行爲單獨標註。"</string>
+    <string name="analytics_ui_joint_count">"%1$s  →  %2$s\n%3$s 次關聯"</string>
+    <string name="analytics_ui_collapsed_label">"%1$s，已收起"</string>
+    <string name="analytics_ui_duration_seconds">"%1$s 秒"</string>
+    <string name="analytics_ui_duration_minutes">"%1$s 分鐘"</string>
+    <string name="analytics_ui_calendar_day_hit">"%1$s · 瀏覽 %2$s 次 · 功能 %3$s 次%4$s"</string>
+    <string name="analytics_ui_rhythm_hour_hit">"%1$s %2$s 時 · %3$s 次記錄"</string>
+    <string name="analytics_ui_hour_label">"%1$s時"</string>
+    <string name="analytics_ui_type_band_hit">"%1$s · %2$s %3$s 次 · %4$s"</string>
+    <string name="analytics_ui_topic_occurrences">"%1$s · %2$s 次標籤出現"</string>
+    <string name="analytics_ui_author_cumulative_hit">"%1$s · %2$s 次 · 累計 %3$s"</string>
+    <string name="analytics_ui_compare_values">"%1$s · 前期 %2$s / 本期 %3$s"</string>
+    <string name="analytics_ui_compare_hit">"%1$s · 前期 %2$s · 本期 %3$s%4$s"</string>
+    <string name="analytics_ui_advertisement_views">"其中廣告接觸 %1$s 次。"</string>
+    <string name="analytics_ui_paper_label_count">"%1$s  ·  %2$s 次"</string>
+    <string name="analytics_ui_paper_active_streak">"活躍 %1$s 天  /  當前連續 %2$s 天"</string>
+    <string name="analytics_ui_first_retained_record">"首次保留記錄：%1$s"</string>
+    <string name="analytics_ui_paper_report_metadata">"%1$s\n報告生成  %2$s"</string>
+    <string name="analytics_ui_paper_analysis_metadata">"%1$s  ·  %2$s\n分析生成  %3$s\n以下僅屬於當時請求的統計快照，僅供參考。"</string>
+    <string name="analytics_ui_pdf_page_footer">"第 %1$s / %2$s 頁 · 完整本地分析報告"</string>
+    <string name="analytics_ui_share_report_format">"分享完整報告%1$s"</string>
+    <string name="analytics_ui_today" formatted="false">"今天"</string>
+    <string name="analytics_ui_range_7_days" formatted="false">"7 天"</string>
+    <string name="analytics_ui_range_30_days" formatted="false">"30 天"</string>
+    <string name="analytics_ui_range_90_days" formatted="false">"90 天"</string>
+    <string name="analytics_ui_range_all" formatted="false">"全部"</string>
+    <string name="analytics_ui_no_model" formatted="false">"未配置模型"</string>
+    <string name="analytics_ui_enable_recording" formatted="false">"開啓本地記錄"</string>
+    <string name="analytics_ui_enable_recording_description" formatted="false">"開啓本地記錄，預設關閉"</string>
+    <string name="analytics_ui_local_recording_note" formatted="false">"僅在本機記錄 · 可隨時關閉或清空"</string>
+    <string name="analytics_ui_recording_notes" formatted="false">"記錄說明與自述"</string>
+    <string name="analytics_ui_optional_purpose_feedback" formatted="false">"可選：填寫用途與反饋，查看記錄說明"</string>
+    <string name="analytics_ui_recording_privacy" formatted="false">"預設關閉。記錄作品、作者、話題和功能使用，僅存本機；預設不納入配置備份，可在備份中選擇包含。彙總保留 365 天，關聯明細最多 30 天；主動請求 AI 時才發送摘要。關閉採集保留記錄，可隨時清空。"</string>
+    <string name="analytics_ui_purpose_optional" formatted="false">"我的使用目的 · 可選"</string>
+    <string name="analytics_ui_feedback_unset" formatted="false">"最近一次側寫反饋 · 尚未填寫"</string>
+    <string name="analytics_ui_statistics_range" formatted="false">"統計範圍"</string>
+    <string name="analytics_ui_loading_records" formatted="false">"正在讀取本地記錄…"</string>
+    <string name="analytics_ui_refresh" formatted="false">"刷新"</string>
+    <string name="analytics_ui_clear_records" formatted="false">"清空記錄"</string>
+    <string name="analytics_ui_analytics_title" formatted="false">"本地資料分析"</string>
+    <string name="analytics_ui_close" formatted="false">"關閉"</string>
+    <string name="analytics_ui_clearing_records" formatted="false">"正在清空本地記錄…"</string>
+    <string name="analytics_ui_purpose_provided" formatted="false">"我的使用目的 · 已填寫"</string>
+    <string name="analytics_ui_not_provided" formatted="false">"尚未填寫"</string>
+    <string name="analytics_ui_records_load_failed" formatted="false">"本地記錄讀取失敗，請點擊刷新覈對。記錄狀態以上方開關爲準。"</string>
+    <string name="analytics_ui_recording_active" formatted="false">"正在本地記錄"</string>
+    <string name="analytics_ui_recording_off" formatted="false">"記錄已關閉"</string>
+    <string name="analytics_ui_all_retained_days" formatted="false">"全部（最近 365 天）"</string>
+    <string name="analytics_ui_clear_all_title" formatted="false">"清空全部本地分析記錄？"</string>
+    <string name="analytics_ui_clear_all_warning" formatted="false">"將刪除所有時間範圍的瀏覽、功能使用記錄以及使用目的和反饋，無法撤銷。記錄開關保持當前狀態。"</string>
+    <string name="analytics_ui_cancel" formatted="false">"取消"</string>
+    <string name="analytics_ui_clear_all" formatted="false">"清空全部"</string>
+    <string name="analytics_ui_purpose_title" formatted="false">"我的使用目的"</string>
+    <string name="analytics_ui_purpose_hint" formatted="false">"例如：放鬆、學習攝影、找做飯靈感。可以留空。"</string>
+    <string name="analytics_ui_purpose_explanation" formatted="false">"這是你的自述，用來區分行爲與動機。先保存在本機；主動請求 AI 分析時才一併發送。"</string>
+    <string name="analytics_ui_save" formatted="false">"保存"</string>
+    <string name="analytics_ui_feedback_yes" formatted="false">"符合"</string>
+    <string name="analytics_ui_feedback_partial" formatted="false">"部分符合"</string>
+    <string name="analytics_ui_feedback_no" formatted="false">"不符合"</string>
+    <string name="analytics_ui_clear_feedback" formatted="false">"清除反饋"</string>
+    <string name="analytics_ui_feedback_question" formatted="false">"當前側寫與你的感受符合嗎？"</string>
+    <string name="analytics_ui_feedback_save_unconfirmed" formatted="false">"反饋保存未確認 · 點擊重試"</string>
+    <string name="analytics_ui_browsing_overview" formatted="false">"瀏覽概覽"</string>
+    <string name="analytics_ui_views" formatted="false">"刷到次數"</string>
+    <string name="analytics_ui_unique_works" formatted="false">"不同作品"</string>
+    <string name="analytics_ui_feature_uses" formatted="false">"模組功能使用"</string>
+    <string name="analytics_ui_ad_posts" formatted="false">"其中廣告作品"</string>
+    <string name="analytics_ui_overview_boundary" formatted="false">"只統計開啓記錄後實際展示的作品；重複刷到會累加次數，不同作品按作品 ID 去重。功能次數表示已接入統計的實際觸發，不代表開關數量。"</string>
+    <string name="analytics_ui_empty_recording_active" formatted="false">"這個時間範圍還沒有記錄。繼續刷作品或使用模組功能後，點擊刷新查看。"</string>
+    <string name="analytics_ui_empty_recording_off" formatted="false">"還沒有記錄。開啓上方開關後開始收集；不會補錄過去的瀏覽歷史。"</string>
+    <string name="analytics_ui_feature_top10" formatted="false">"模組功能排行 Top 10"</string>
+    <string name="analytics_ui_no_feature_usage" formatted="false">"暫無模組功能使用記錄"</string>
+    <string name="analytics_ui_browsing_trend" formatted="false">"瀏覽趨勢"</string>
+    <string name="analytics_ui_trend_selection_hint" formatted="false">"點擊折線上的位置查看具體次數"</string>
+    <string name="analytics_ui_no_trend_data" formatted="false">"暫無趨勢資料"</string>
+    <string name="analytics_ui_post_type_share" formatted="false">"作品類型佔比"</string>
+    <string name="analytics_ui_no_post_type_data" formatted="false">"暫無作品類型資料"</string>
+    <string name="analytics_ui_post_type_boundary" formatted="false">"Live 指實況照片，含任意實況照片的混合圖集計爲一次實況圖集。長影片爲時長 ≥ 5 分鐘的影片；無法識別的內容列爲未知/其他作品。直播卡片單列，不代表進入直播間或觀看時長。"</string>
+    <string name="analytics_ui_author_top10" formatted="false">"作者排行 Top 10"</string>
+    <string name="analytics_ui_no_author_records" formatted="false">"暫無作者記錄"</string>
+    <string name="analytics_ui_topic_top10" formatted="false">"話題排行 Top 10"</string>
+    <string name="analytics_ui_no_topic_rank_records" formatted="false">"暫無話題記錄；無話題的作品不計入此排行"</string>
+    <string name="analytics_ui_browsing_hours" formatted="false">"瀏覽時段分佈"</string>
+    <string name="analytics_ui_no_hour_data" formatted="false">"暫無瀏覽時段資料"</string>
+    <string name="analytics_ui_recent_records" formatted="false">"最近記錄"</string>
+    <string name="analytics_ui_no_recent_records" formatted="false">"暫無最近記錄"</string>
+    <string name="analytics_ui_module_feature" formatted="false">"模組功能"</string>
+    <string name="analytics_ui_browse_post" formatted="false">"瀏覽作品"</string>
+    <string name="analytics_ui_usage_history" formatted="false">"使用歷程"</string>
+    <string name="analytics_ui_active_days" formatted="false">"活躍天數"</string>
+    <string name="analytics_ui_active_streak" formatted="false">"連續活躍天數"</string>
+    <string name="analytics_ui_none" formatted="false">"暫無"</string>
+    <string name="analytics_ui_activity_boundary" formatted="false">"活躍天數與連續天數基於所選範圍內保留的記錄；空白日期可能是採集關閉或未覆蓋。連續活躍允許今天尚未產生記錄。首次記錄從上次清空後計算，可早於 365 天。"</string>
+    <string name="analytics_ui_ai_chart_analysis" formatted="false">"AI 圖表分析"</string>
+    <string name="analytics_ui_expand_ai_sections" formatted="false">"展開各區塊的 AI 解讀"</string>
+    <string name="analytics_ui_share_analysis_text" formatted="false">"分享分析文字"</string>
+    <string name="analytics_ui_requesting_analysis" formatted="false">"正在請求 AI 分析…"</string>
+    <string name="analytics_ui_cancel_analysis" formatted="false">"取消分析"</string>
+    <string name="analytics_ui_analysis_cancelled" formatted="false">"已取消分析，可重新請求。"</string>
+    <string name="analytics_ui_choose_available_model" formatted="false">"請選擇可用的 AI 模型配置；跟隨全局時需先啓用全局模型。"</string>
+    <string name="analytics_ui_no_analysis_data" formatted="false">"當前範圍暫無可分析資料，產生記錄後即可分析。"</string>
+    <string name="analytics_ui_request_analysis" formatted="false">"請求 AI 分析"</string>
+    <string name="analytics_ui_retry_analysis" formatted="false">"重新請求 AI 分析"</string>
+    <string name="analytics_ui_export_default_locations" formatted="false">"長圖保存到相冊 Pictures/TokAi，PDF 保存到下載目錄 Downloads/TokAi。"</string>
+    <string name="analytics_ui_choose_report_location_sentence" formatted="false">"請選擇報告文件的保存位置。"</string>
+    <string name="analytics_ui_export_share_report" formatted="false">"導出/分享報告"</string>
+    <string name="analytics_ui_customized" formatted="false">"已自定義"</string>
+    <string name="analytics_ui_default" formatted="false">"預設"</string>
+    <string name="analytics_ui_restore_secondary_prompt" formatted="false">"恢復預設二級提示詞"</string>
+    <string name="analytics_ui_analysis_settings_note" formatted="false">"所選模型和二級提示詞單獨用於本地資料分析。留空使用預設提示詞，報告結構和統計口徑保留。"</string>
+    <string name="analytics_ui_global_no_active_model" formatted="false">"跟隨全局（未啓用模型）"</string>
+    <string name="analytics_ui_selected_profile_unavailable" formatted="false">"所選配置不可用，請重新選擇"</string>
+    <string name="analytics_ui_streaming" formatted="false">"流式"</string>
+    <string name="analytics_ui_non_streaming" formatted="false">"非流式"</string>
+    <string name="analytics_ui_model_profiles_unreadable" formatted="false">"模型配置無法讀取，請在 AI 模型設置中檢查。"</string>
+    <string name="analytics_ui_follow_global_model" formatted="false">"跟隨全局模型"</string>
+    <string name="analytics_ui_analysis_model_title" formatted="false">"本地資料分析使用的模型"</string>
+    <string name="analytics_ui_analysis_prompt_title" formatted="false">"本地資料分析二級提示詞"</string>
+    <string name="analytics_ui_ai_interpretation" formatted="false">"AI 解讀"</string>
+    <string name="analytics_ui_analysis_incomplete_retry" formatted="false">"本次分析未完成，請稍後重試。"</string>
+    <string name="analytics_ui_profile_chart_analysis" formatted="false">"TokAi · 人物側寫與圖表分析"</string>
+    <string name="analytics_ui_share_ai_analysis" formatted="false">"分享 AI 圖表分析"</string>
+    <string name="analytics_ui_share_text_unavailable" formatted="false">"無法打開系統分享面板，可長按分析文字複製。"</string>
+    <string name="analytics_ui_load_report_first" formatted="false">"請先讀取本地報告"</string>
+    <string name="analytics_ui_long_png" formatted="false">"長圖 PNG"</string>
+    <string name="analytics_ui_pdf_document" formatted="false">"PDF 文檔"</string>
+    <string name="analytics_ui_laying_out_report" formatted="false">"正在排版完整報告…"</string>
+    <string name="analytics_ui_export_cancelled_no_file" formatted="false">"已取消，未生成報告文件。"</string>
+    <string name="analytics_ui_png_generated" formatted="false">"已生成一張完整長圖 PNG，請選擇分享目標。"</string>
+    <string name="analytics_ui_share_report_unavailable" formatted="false">"無法打開分享面板，報告文件未分享，可重試。"</string>
+    <string name="analytics_ui_prefer_pdf_for_long_report" formatted="false">"內容較長，請選擇 PDF 導出完整報告。"</string>
+    <string name="analytics_ui_report_export_failed" formatted="false">"報告生成或保存失敗。長圖過長時請選擇 PDF；也可檢查保存位置或縮小範圍後重試。報告內容未更改。"</string>
+    <string name="analytics_ui_no_type_records" formatted="false">"暫無作品類型記錄"</string>
+    <string name="analytics_ui_most_encountered_prefix" formatted="false">"最常遇見："</string>
+    <string name="analytics_ui_leading_topic_prefix" formatted="false">"主要話題："</string>
+    <string name="analytics_ui_no_topic_records" formatted="false">"暫無話題記錄"</string>
+    <string name="analytics_ui_no_hour_records" formatted="false">"暫無時段記錄"</string>
+    <string name="analytics_ui_no_previous_comparison" formatted="false">"暫無前期對照"</string>
+    <string name="analytics_ui_comparison_incomplete_summary" formatted="false">"前後期對照 · 記錄覆蓋尚不完整"</string>
+    <string name="analytics_ui_view_period_changes" formatted="false">"查看前後期次數與話題變化"</string>
+    <string name="analytics_ui_expand" formatted="false">"展開"</string>
+    <string name="analytics_ui_collapse" formatted="false">"收起"</string>
+    <string name="analytics_ui_trend_accessibility" formatted="false">"瀏覽趨勢。點擊圖表選擇日期；輔助功能點擊可依次查看。"</string>
+    <string name="analytics_ui_type_share_accessibility" formatted="false">"作品類型佔比："</string>
+    <string name="analytics_ui_hour_distribution_accessibility" formatted="false">"瀏覽時段分佈："</string>
+    <string name="analytics_ui_portrait_heading" formatted="false">"這段時間的你"</string>
+    <string name="analytics_ui_portrait_subtitle" formatted="false">"由本地行爲記錄拼出的階段側寫"</string>
+    <string name="analytics_ui_portrait_insufficient" formatted="false">"還沒有足夠的記錄來描述你。繼續使用後，內容、節奏與工具習慣會逐漸清晰。"</string>
+    <string name="analytics_ui_view_evidence" formatted="false">"查看依據與邊界"</string>
+    <string name="analytics_ui_portrait_scope_title" formatted="false">"這份側寫知道什麼、還不知道什麼"</string>
+    <string name="analytics_ui_calendar_title" formatted="false">"瀏覽足跡 · 日期熱力圖"</string>
+    <string name="analytics_ui_calendar_paper_hint" formatted="false">"按日期排列的本地瀏覽記錄"</string>
+    <string name="analytics_ui_calendar_select_hint" formatted="false">"點選日期，查看那一天的瀏覽與功能次數"</string>
+    <string name="analytics_ui_calendar_last84" formatted="false">"當前展示範圍內最近 84 天。"</string>
+    <string name="analytics_ui_type_bands_title" formatted="false">"內容構成 · 隨時間變化"</string>
+    <string name="analytics_ui_type_bands_paper_hint" formatted="false">"每行歸一爲 100%，色帶表示該時段的內容構成"</string>
+    <string name="analytics_ui_type_bands_select_hint" formatted="false">"每行歸一爲 100%，點選色帶查看原始次數"</string>
+    <string name="analytics_ui_type_bands_boundary" formatted="false">"比較的是已記錄內容構成；空行表示缺少記錄。Live 爲實況照片；影片時長 ≥ 5 分鐘計爲長影片。"</string>
+    <string name="analytics_ui_topic_paper_title" formatted="false">"話題排行 · 你的內容地圖"</string>
+    <string name="analytics_ui_topic_map_title" formatted="false">"你的內容世界 · 話題地圖"</string>
+    <string name="analytics_ui_topics_unidentified" formatted="false">"暫無可識別話題，不能據此判斷興趣是否廣泛。"</string>
+    <string name="analytics_ui_topic_map_paper_hint" formatted="false">"面積代表話題出現次數，完整名稱與次數列於圖下"</string>
+    <string name="analytics_ui_topic_map_select_hint" formatted="false">"面積代表話題出現次數，點選色塊查看完整名稱"</string>
+    <string name="analytics_ui_author_paper_title" formatted="false">"作者排行 · 接觸來源曲線"</string>
+    <string name="analytics_ui_author_curve_title" formatted="false">"接觸來源 · 作者集中曲線"</string>
+    <string name="analytics_ui_authors_unidentified" formatted="false">"暫無可識別作者，暫不能描述接觸來源。"</string>
+    <string name="analytics_ui_author_curve_hint" formatted="false">"按出現次數排序，曲線表示累計佔比"</string>
+    <string name="analytics_ui_rhythm_title" formatted="false">"一週節奏 · 星期 × 小時"</string>
+    <string name="analytics_ui_rhythm_paper_hint" formatted="false">"顏色深淺表示各星期、小時的記錄次數"</string>
+    <string name="analytics_ui_rhythm_select_hint" formatted="false">"點選格子查看次數；輔助功能點擊可依次查看"</string>
+    <string name="analytics_ui_comparison_title" formatted="false">"最近的變化 · 與自己對照"</string>
+    <string name="analytics_ui_no_comparable_period" formatted="false">"暫無可比較的前一時段。"</string>
+    <string name="analytics_ui_coverage_incomplete" formatted="false">"記錄覆蓋尚不完整，暫不判斷上升或下降。"</string>
+    <string name="analytics_ui_comparison_chart_hint" formatted="false">"灰點爲前期，藍點爲本期；每項使用獨立刻度"</string>
+    <string name="analytics_ui_last7days" formatted="false">"最近 7 天"</string>
+    <string name="analytics_ui_last30days" formatted="false">"最近 30 天"</string>
+    <string name="analytics_ui_topic_migration_title" formatted="false">"話題遷移 · 前期 → 本期"</string>
+    <string name="analytics_ui_both_periods" formatted="false">"兩期"</string>
+    <string name="analytics_ui_current_period" formatted="false">"本期"</string>
+    <string name="analytics_ui_previous_period" formatted="false">"前期"</string>
+    <string name="analytics_ui_topic_migration_boundary" formatted="false">"展示兩期主要話題的名次和記錄次數。未列入摘要不等於零；今天尚未結束，次數受採集覆蓋影響。榜單遷移不直接等於興趣改變。"</string>
+    <string name="analytics_ui_not_summarized" formatted="false">"未列入摘要"</string>
+    <string name="analytics_ui_associations_title" formatted="false">"從接觸到行動 · 關聯線索"</string>
+    <string name="analytics_ui_feature_sources" formatted="false">"功能觸發來源"</string>
+    <string name="analytics_ui_no_associations" formatted="false">"尚無可關聯的記錄。不能把獨立的夜間次數、話題次數與保存次數拼成同一次行爲。"</string>
+    <string name="analytics_ui_topic_hour_associations" formatted="false">"同一次接觸中的話題與時段"</string>
+    <string name="analytics_ui_topic_hour_boundary" formatted="false">"時段指可見片段開始的小時；每段可含多個話題。這裏不是停留時長分佈。"</string>
+    <string name="analytics_ui_type_action_associations" formatted="false">"同一次接觸中的內容與動作"</string>
+    <string name="analytics_ui_weekday_mon_short" formatted="false">"一"</string>
+    <string name="analytics_ui_weekday_tue_short" formatted="false">"二"</string>
+    <string name="analytics_ui_weekday_wed_short" formatted="false">"三"</string>
+    <string name="analytics_ui_weekday_thu_short" formatted="false">"四"</string>
+    <string name="analytics_ui_weekday_fri_short" formatted="false">"五"</string>
+    <string name="analytics_ui_weekday_sat_short" formatted="false">"六"</string>
+    <string name="analytics_ui_weekday_sun_short" formatted="false">"日"</string>
+    <string name="analytics_ui_no_retained_events_fragment" formatted="false">" · 無保留事件，使用情況未知"</string>
+    <string name="analytics_ui_calendar_chart_description" formatted="false">"日期熱力圖"</string>
+    <string name="analytics_ui_weekday_mon" formatted="false">"週一"</string>
+    <string name="analytics_ui_weekday_tue" formatted="false">"週二"</string>
+    <string name="analytics_ui_weekday_wed" formatted="false">"週三"</string>
+    <string name="analytics_ui_weekday_thu" formatted="false">"週四"</string>
+    <string name="analytics_ui_weekday_fri" formatted="false">"週五"</string>
+    <string name="analytics_ui_weekday_sat" formatted="false">"週六"</string>
+    <string name="analytics_ui_weekday_sun" formatted="false">"週日"</string>
+    <string name="analytics_ui_rhythm_chart_description" formatted="false">"星期與小時熱力圖"</string>
+    <string name="analytics_ui_type_bands_description" formatted="false">"內容構成百分比色帶"</string>
+    <string name="analytics_ui_topic_treemap_description" formatted="false">"話題矩形樹圖"</string>
+    <string name="analytics_ui_author_curve_description" formatted="false">"作者累計佔比，其他作者爲合併分組"</string>
+    <string name="analytics_ui_view_count" formatted="false">"瀏覽次數"</string>
+    <string name="analytics_ui_feature_triggers" formatted="false">"功能觸發"</string>
+    <string name="analytics_ui_incomplete_trend_fragment" formatted="false">" · 覆蓋不完整，不能判定趨勢"</string>
+    <string name="analytics_ui_comparison_chart_description" formatted="false">"前後期對照點圖，每行獨立刻度"</string>
+    <string name="analytics_ui_long_png_limit" formatted="false">"報告超過單張長圖尺寸限制，請選擇 PDF 導出完整內容"</string>
+    <string name="analytics_ui_unsupported_export_size" formatted="false">"報告導出尺寸不受支持"</string>
+    <string name="analytics_ui_report_layout_too_large" formatted="false">"報告佈局尺寸過大"</string>
+    <string name="analytics_ui_pdf_page_limit" formatted="false">"報告內容超過 PDF 頁數限制，請縮小統計範圍"</string>
+    <string name="analytics_ui_pagination_failed" formatted="false">"報告無法完整分頁，請縮小統計範圍"</string>
+    <string name="analytics_ui_text_too_large_for_page" formatted="false">"報告文字尺寸過大，無法完整分頁"</string>
+    <string name="analytics_ui_choose_report_format" formatted="false">"請選擇報告格式"</string>
+    <string name="analytics_ui_complete_report_title" formatted="false">"TokAi · 完整本地分析報告"</string>
+    <string name="analytics_ui_report_title" formatted="false">"TokAi · 本地分析報告"</string>
+    <string name="analytics_ui_pdf_file_too_large" formatted="false">"報告 PDF 文件過大"</string>
+    <string name="analytics_ui_storage_context_unavailable" formatted="false">"報告存儲上下文不可用"</string>
+    <string name="analytics_ui_choose_report_location" formatted="false">"請選擇報告文件保存位置"</string>
+    <string name="analytics_ui_report_write_failed" formatted="false">"無法寫入報告文件"</string>
+    <string name="analytics_ui_report_save_incomplete" formatted="false">"無法完成報告文件保存"</string>
+    <string name="analytics_ui_long_image" formatted="false">"長圖"</string>
+    <string name="analytics_ui_export_cancelled" formatted="false">"報告導出已取消"</string>
+    <string name="analytics_ui_record_overview" formatted="false">"記錄概覽"</string>
+    <string name="analytics_ui_local_recorded_events" formatted="false">"本地統計 · 已記錄事件"</string>
+    <string name="analytics_ui_paper_record_boundary" formatted="false">"瀏覽次數表示已接入的內容接觸，獨立作品按本地標識去重；功能次數表示觸發，不等於請求成功。"</string>
+    <string name="analytics_ui_paper_no_records" formatted="false">"當前範圍暫無保留記錄。空白不代表沒有使用。"</string>
+    <string name="analytics_ui_local_charts_evidence" formatted="false">"本地統計 · 圖表與依據"</string>
+    <string name="analytics_ui_local_daily_statistics" formatted="false">"本地統計 · 按日期彙總"</string>
+    <string name="analytics_ui_paper_no_trend" formatted="false">"暫無趨勢記錄。"</string>
+    <string name="analytics_ui_post_types" formatted="false">"作品類型"</string>
+    <string name="analytics_ui_paper_no_types" formatted="false">"暫無作品類型記錄。"</string>
+    <string name="analytics_ui_paper_type_boundary" formatted="false">"Live 指實況照片，混合圖集中含實況照片時計爲一次實況圖集。長影片爲時長 ≥ 5 分鐘的影片；無法識別的內容列爲未知或其他。直播卡片不代表進入直播間或觀看時長。"</string>
+    <string name="analytics_ui_daily_exposure_hours" formatted="false">"一天中的接觸時段"</string>
+    <string name="analytics_ui_local_time_statistics" formatted="false">"本地統計 · 當地時間"</string>
+    <string name="analytics_ui_hours_boundary" formatted="false">"按事件發生時的本地時間計數，不代表睡眠、實際觀看時長或生活作息。"</string>
+    <string name="analytics_ui_creator_ranking" formatted="false">"作者排行"</string>
+    <string name="analytics_ui_paper_no_creators" formatted="false">"暫無可識別作者。"</string>
+    <string name="analytics_ui_topic_ranking" formatted="false">"話題排行"</string>
+    <string name="analytics_ui_paper_no_topics" formatted="false">"暫無可識別話題。"</string>
+    <string name="analytics_ui_feature_ranking" formatted="false">"模組功能排行"</string>
+    <string name="analytics_ui_paper_no_features" formatted="false">"暫無模組功能記錄。"</string>
+    <string name="analytics_ui_local_recent_summaries" formatted="false">"本地統計 · 逐條記錄摘要"</string>
+    <string name="analytics_ui_paper_no_recent" formatted="false">"暫無最近記錄。"</string>
+    <string name="analytics_ui_local_retained_range" formatted="false">"本地統計 · 保留記錄範圍"</string>
+    <string name="analytics_ui_no_first_record_time" formatted="false">"暫無首次記錄時間。"</string>
+    <string name="analytics_ui_source_reading_boundaries" formatted="false">"來源與閱讀邊界"</string>
+    <string name="analytics_ui_about_report" formatted="false">"關於這份報告"</string>
+    <string name="analytics_ui_report_source_boundary" formatted="false">"本地統計來自此設備已接入且開啓採集的記錄。採集空白不等於沒有使用，瀏覽次數不是實際觀看時長，功能觸發不等於請求成功。"</string>
+    <string name="analytics_ui_report_ai_boundary" formatted="false">"圖表是本地統計；AI 解讀來自報告中註明的那次請求，不是重新分析。接觸內容、自動行爲與主動偏好應分開理解。這不是心理測評，不推斷職業、健康、政治或穩定人格。"</string>
+    <string name="analytics_ui_report_share_boundary" formatted="false">"分享前請覈對作者、話題、最近記錄和 AI 文字；AI 可能引用已提供的使用目的或自述。報告不附加資料庫、介面配置或密鑰。"</string>
+    <string name="analytics_ui_my_local_report" formatted="false">"我的本地使用報告"</string>
+    <string name="analytics_ui_report_subtitle" formatted="false">"看見記錄，也保留未知"</string>
+    <string name="analytics_ui_exposure_views" formatted="false">"瀏覽接觸"</string>
+    <string name="analytics_ui_independent_works" formatted="false">"獨立作品"</string>
+    <string name="analytics_ui_local_top10" formatted="false">"本地統計 · 前 10 項"</string>
+    <string name="analytics_ui_ai_source_label" formatted="false">"AI 生成 · 與本地統計分開閱讀"</string>
+    <string name="analytics_ui_no_ai_export" formatted="false">"此報告尚無 AI 分析結果。導出沒有請求 AI。"</string>
+    <string name="analytics_ui_period_contrast" formatted="false">"前後對照"</string>
+    <string name="analytics_ui_questions_to_check" formatted="false">"待確認的問題"</string>
+    <string name="analytics_ui_overall_observation" formatted="false">"整體觀察"</string>
+    <string name="analytics_ui_content_mix" formatted="false">"內容構成"</string>
+    <string name="analytics_ui_creator_exposure" formatted="false">"作者接觸"</string>
+    <string name="analytics_ui_topic_exposure" formatted="false">"話題接觸"</string>
+    <string name="analytics_ui_feature_usage" formatted="false">"功能使用"</string>
+    <string name="analytics_ui_time_rhythm" formatted="false">"時段節奏"</string>
+    <string name="analytics_ui_evidence_heading" formatted="false">"依據與邊界"</string>
+    <string name="analytics_ui_type_short_video" formatted="false">"短影片"</string>
+    <string name="analytics_ui_type_long_video" formatted="false">"長影片"</string>
+    <string name="analytics_ui_type_live_photo" formatted="false">"實況圖集"</string>
+    <string name="analytics_ui_type_image" formatted="false">"圖集"</string>
+    <string name="analytics_ui_type_live" formatted="false">"直播卡片"</string>
+    <string name="analytics_ui_type_unknown" formatted="false">"其他作品"</string>
+    <string name="analytics_ui_source_manual" formatted="false">"主動操作"</string>
+    <string name="analytics_ui_source_automatic" formatted="false">"自動觸發"</string>
+    <string name="analytics_ui_source_system" formatted="false">"系統處理"</string>
+    <string name="analytics_ui_source_unknown" formatted="false">"來源未知"</string>
+    <string name="analytics_ui_stage_entry" formatted="false">"入口"</string>
+    <string name="analytics_ui_stage_request" formatted="false">"請求"</string>
+    <string name="analytics_ui_stage_accepted" formatted="false">"已受理"</string>
+    <string name="analytics_ui_stage_success" formatted="false">"成功"</string>
+    <string name="analytics_ui_stage_failure" formatted="false">"失敗"</string>
+    <string name="analytics_ui_stage_confirmed" formatted="false">"已確認"</string>
+    <string name="analytics_ui_stage_unknown" formatted="false">"階段未知"</string>
+    <string name="analytics_ui_feature_auto_follow" formatted="false">"自動關注"</string>
+    <string name="analytics_ui_feature_auto_like" formatted="false">"自動點贊"</string>
+    <string name="analytics_ui_feature_auto_comment_sent" formatted="false">"自動評論"</string>
+    <string name="analytics_ui_feature_auto_reply_sent" formatted="false">"自動回覆"</string>
+    <string name="analytics_ui_feature_auto_slide" formatted="false">"自動翻頁"</string>
+    <string name="analytics_ui_feature_gesture_menu" formatted="false">"快捷菜單"</string>
+    <string name="analytics_ui_feature_view_finder" formatted="false">"視圖查找器"</string>
+    <string name="analytics_ui_feature_copy_text" formatted="false">"複製文案"</string>
+    <string name="analytics_ui_feature_save_media" formatted="false">"保存媒體"</string>
+    <string name="analytics_ui_feature_open_comments" formatted="false">"打開評論"</string>
+    <string name="analytics_ui_feature_gesture_speed" formatted="false">"切換倍速"</string>
+    <string name="analytics_ui_feature_comment_tts" formatted="false">"評論語音"</string>
+    <string name="analytics_ui_feature_download_queued" formatted="false">"下載任務"</string>
+    <string name="analytics_ui_feature_third_party_download" formatted="false">"第三方下載"</string>
+    <string name="analytics_ui_feature_feed_filter" formatted="false">"內容過濾"</string>
+    <string name="analytics_ui_tail_group">"其他（%1$s 類）"</string>
+    <string name="analytics_ui_evidence_none" formatted="false">"暫無瀏覽樣本"</string>
+    <string name="analytics_ui_evidence_small" formatted="false">"樣本較少，僅作記錄描述"</string>
+    <string name="analytics_ui_evidence_cross_day" formatted="false">"已有跨日樣本，仍受覆蓋限制"</string>
+    <string name="analytics_ui_evidence_sufficient" formatted="false">"跨日樣本較充足，仍只代表已記錄行爲"</string>
+    <string name="analytics_ui_fact_content_world_title" formatted="false">"你的內容版圖"</string>
+    <string name="analytics_ui_fact_content_world_body">"記錄涉及 %1$s 個作者、%2$s 個話題。%3$s"</string>
+    <string name="analytics_ui_fact_content_world_evidence">"全量作者分佈均勻度 %1$s；全量話題分佈均勻度 %2$s；%3$s 次話題出現。"</string>
+    <string name="analytics_ui_fact_content_world_limit" formatted="false">"這是推薦流接觸結構。單作品可含多個話題，話題佔比以話題出現總次數爲分母；不能據此證明喜歡。"</string>
+    <string name="analytics_ui_fact_world_insufficient" formatted="false">"繼續積累不同作者和話題，才能比較來源與主題的分佈。"</string>
+    <string name="analytics_ui_fact_world_authors_even" formatted="false">"作者分佈比話題分佈更均勻，呈現來源展開、主題相對集中的組合。"</string>
+    <string name="analytics_ui_fact_world_topics_even" formatted="false">"話題分佈至少與作者分佈同樣均勻，內容主題和接觸來源呈現不同的分散程度。"</string>
+    <string name="analytics_ui_fact_content_shape_title" formatted="false">"你遇見的內容形態"</string>
+    <string name="analytics_ui_fact_content_shape_body">"%1$s佔本期記錄的 %2$s，共觀察到 %3$s 種內容形態。"</string>
+    <string name="analytics_ui_fact_content_shape_evidence">"瀏覽記錄 %1$s 次，去重作品 %2$s 個；主類型 %3$s。"</string>
+    <string name="analytics_ui_fact_content_shape_limit" formatted="false">"實況圖集和直播卡片分別統計。內容時長不等於觀看時長，不能由類型推斷投入程度。"</string>
+    <string name="analytics_ui_fact_daily_rhythm_title" formatted="false">"你的瀏覽節奏"</string>
+    <string name="analytics_ui_fact_daily_rhythm_body">"本期有瀏覽記錄的日期爲 %1$s 天；凌晨佔 %2$s，週末佔 %3$s。"</string>
+    <string name="analytics_ui_fact_daily_rhythm_evidence">"凌晨定義 00:00–05:59；週末爲週六和週日；分母均爲本期 %1$s 次瀏覽記錄。"</string>
+    <string name="analytics_ui_fact_daily_rhythm_limit" formatted="false">"時段和話題的各自佔比不能合成爲‘深夜喜歡某話題’。週末佔比未按工作日/週末天數歸一。"</string>
+    <string name="analytics_ui_fact_familiarity_title" formatted="false">"重逢與新遇見"</string>
+    <string name="analytics_ui_fact_familiarity_body">"有 %1$s 個作品在不同日期再次出現，佔去重作品的 %2$s。"</string>
+    <string name="analytics_ui_fact_familiarity_evidence">"跨日重複作品 %1$s / 本期去重作品 %2$s；總瀏覽 %3$s 次。"</string>
+    <string name="analytics_ui_fact_familiarity_limit" formatted="false">"重複出現可能來自推薦、主動返回或不同入口；它不是主動回看率，也不能還原保存意圖。"</string>
+    <string name="analytics_ui_fact_tool_style_title" formatted="false">"工具參與的方式"</string>
+    <string name="analytics_ui_fact_tool_style_body">"模組功能共記錄 %1$s 次，其中主動入口 %2$s 次，自動觸發 %3$s 次。"</string>
+    <string name="analytics_ui_fact_tool_style_evidence">"來源未知 %1$s 次；功能次數與瀏覽次數分別統計。"</string>
+    <string name="analytics_ui_fact_tool_style_limit" formatted="false">"入口、請求、受理和成功是不同階段，次數不可直接當作任務數。自動操作不能代表主動認可。"</string>
+    <string name="analytics_ui_fact_change_title" formatted="false">"這段時間的變化"</string>
+    <string name="analytics_ui_fact_change_body">"本期瀏覽 %1$s 次、功能 %2$s 次；等長前期分別爲 %3$s 次、%4$s 次。%5$s"</string>
+    <string name="analytics_ui_fact_change_previous_incomplete" formatted="false">"前期記錄覆蓋不足，暫不判斷增長或下降。"</string>
+    <string name="analytics_ui_fact_change_today_incomplete" formatted="false">"本期包含今天未結束的記錄，變化仍會繼續。"</string>
+    <string name="analytics_ui_fact_change_evidence">"%1$s 至 %2$s 對比 %3$s 至 %4$s。"</string>
+    <string name="analytics_ui_fact_topic_change_title" formatted="false">"話題主線的遷移"</string>
+    <string name="analytics_ui_fact_topic_count">"%1$s（%2$s 次出現）"</string>
+    <string name="analytics_ui_fact_topic_change_body">"本期出現最多的話題是 %1$s；等長前期爲 %2$s。%3$s"</string>
+    <string name="analytics_ui_fact_topic_change_incomplete" formatted="false">"前期覆蓋不完整，只並列已記錄內容，暫不判斷偏好變化。"</string>
+    <string name="analytics_ui_fact_topic_change_complete" formatted="false">"榜首變化反映接觸結構，不能直接等同興趣變化。"</string>
+    <string name="analytics_ui_fact_topic_change_evidence">"%1$s 至 %2$s → %3$s 至 %4$s；榜單來自全量話題統計，一條作品可有多個話題。"</string>
+    <string name="analytics_ui_fact_topic_change_limit">"%1$s 本期含今天未結束的記錄；尾部合併爲其他，未上榜不等於從未接觸。"</string>
+    <string name="analytics_ui_fact_observed_attention_title" formatted="false">"有記錄的停留片段"</string>
+    <string name="analytics_ui_fact_observed_attention_body">"最近保留範圍內捕獲 %1$s 個可見片段，累計確認可見 %2$s 秒。"</string>
+    <string name="analytics_ui_fact_observed_attention_evidence" formatted="false">"只有前臺、頁面可見且仍指向同一作品的有界採樣才累積；片段不等於獨立作品。"</string>
+    <string name="analytics_ui_fact_observed_attention_limit" formatted="false">"可見不等於注視或喜歡。舊資料無停留補算；後臺、遮擋、心跳間隙不計；每段最多 30 分鐘。"</string>
+    <string name="analytics_ui_coverage_window">"統計窗口 %1$s 至 %2$s；今天尚未結束。瀏覽次數包括再次刷到；空白日可能未使用、關閉採集或未覆蓋。"</string>
+    <string name="analytics_ui_coverage_retention" formatted="false">"日期彙總最多保留 365 天；關聯可見片段保留 30 天且最多 20,000 段，動作最多 30,000 條。舊彙總不會補造關聯。"</string>
+    <string name="analytics_ui_coverage_visibility" formatted="false">"停留是前臺有焦點的可見採樣，不保證識別同窗口遮擋或實際注視，也不等於完整觀看或喜歡。約每 3 秒保存檢查點，進程終止可能丟失未落盤尾部；單片段上限 30 分鐘。"</string>
+    <string name="analytics_ui_coverage_topics" formatted="false">"話題佔比以全部話題出現次數爲分母，一條作品可以包含多個話題；作者與話題均勻度來自全量分佈，不只 Top 10。"</string>
+    <string name="analytics_ui_coverage_authors">"已識別作者的記錄 %1$s / 總瀏覽 %2$s；未知作者不計入作者數量、均勻度和集中度，作者佔比以已識別作者記錄爲分母。"</string>
+    <string name="analytics_ui_coverage_sources" formatted="false">"主動、自動、系統與未知來源分別統計；舊版功能事件來源未知。動作階段分別計數，不能直接當作獨立任務數。"</string>
+    <string name="analytics_ui_coverage_joint" formatted="false">"時段關聯採用可見片段開始小時；關聯圖只展示實際同段記錄中次數最多的 48 組。未關聯動作仍計入功能次數，不進入作品關聯圖。"</string>
+    <string name="analytics_ui_coverage_earliest">"可追溯記錄起點：%1$s；沒有記錄的更早日期不能當作零使用。"</string>
+    <string name="analytics_ui_coverage_dropped">"本地寫入隊列自清空以來拒絕 %1$s 個任務；拒絕會導致樣本缺失。採集不覆蓋宿主所有頁面。"</string>
+    <string name="analytics_ui_comparison_limit_complete" formatted="false">"按本地自然日比較等長窗口，本期含未結束的今天。前期日期在保留範圍內，但未覆蓋頁面、宿主退出與採集缺口仍可能漏記。次數變化不能直接歸因爲興趣變化。"</string>
+    <string name="analytics_ui_comparison_limit_incomplete" formatted="false">"按本地自然日比較等長窗口，本期含未結束的今天。前期早於記錄/保留起點，或含已知關閉採集時間；不計算增長率。次數變化不能直接歸因爲興趣變化。"</string>
+    <string name="analytics_ui_unidentified" formatted="false">"未識別"</string>
+    <string name="analytics_ui_three_labels">"%1$s · %2$s · %3$s"</string>
+    <string name="analytics_ui_failure_http">"模型服務返回 HTTP %1$d，本次分析未完成，請覈對模型服務後重試。"</string>
+    <string name="analytics_ui_failure_timeout" formatted="false">"等待模型分析超時，請稍後重試或調整所選模型的超時設置。"</string>
+    <string name="analytics_ui_failure_empty" formatted="false">"模型服務已響應，但未返回分析內容，請重試。"</string>
+    <string name="analytics_ui_failure_overlong" formatted="false">"已收到模型回覆，但分析內容超過長度限制，請重試。"</string>
+    <string name="analytics_ui_failure_format" formatted="false">"已收到模型回覆，但分析格式不完整或不符合要求，請重試。"</string>
+    <string name="analytics_ui_failure_incomplete" formatted="false">"模型分析未完整返回，請稍後重試。"</string>
+    <string name="analytics_ui_failure_input_too_large" formatted="false">"統計摘要壓縮後仍超過發送上限，請縮小統計範圍後重試。"</string>
+    <string name="analytics_ui_failure_prepare" formatted="false">"無法準備本地分析，請刷新統計並確認所選模型配置可用。"</string>
+    <string name="analytics_ui_failure_transport" formatted="false">"本次分析連接未完成，請稍後重試。"</string>
+    <string name="analytics_ui_share_contrasts" formatted="false">"反差與變化"</string>
+    <string name="analytics_ui_share_questions" formatted="false">"留給自己的問題"</string>
+    <string name="analytics_ui_range_selected">"%1$s，已選擇"</string>
+    <string name="analytics_ui_range_view_statistics">"%1$s，查看統計"</string>
+    <string name="analytics_ui_expanded_label">"%1$s，已展開"</string>
+    <string name="analytics_ui_expanded_collapse_label">"%1$s，已展開，點擊收起"</string>
+    <string name="analytics_ui_collapsed_expand_label">"%1$s，已收起，點擊展開"</string>
+    <string name="analytics_ui_label_value">"%1$s，%2$s"</string>
+    <string name="analytics_ui_chart_accessibility_summary">"%1$s。點擊選擇，輔助功能點擊依次查看。%2$s"</string>
+    <string name="analytics_ui_chart_count_entry">"%1$s %2$s 次；"</string>
+    <string name="analytics_ui_chart_share_entry">"%1$s %2$s 次，%3$s；"</string>
+    <string name="analytics_ui_chart_hour_entry">"%1$s 時 %2$s 次；"</string>
+    <string name="analytics_ui_summary_with_ai">"%1$s · 含 AI 解讀"</string>
+    <string name="analytics_ui_contains_ai" formatted="false">"含 AI 解讀"</string>
+    <string name="analytics_ui_model_label">"%1$s · %2$s · %3$s"</string>
+    <string name="analytics_ui_follow_global_label">"跟隨全局 · %1$s"</string>
+    <string name="analytics_ui_evidence_period">"%1$s · %2$s — %3$s"</string>
+    <string name="analytics_ui_report_eyebrow" formatted="false">"TOKAI / 本地洞察"</string>
+    <string name="analytics_ui_report_footer">"TOKAI / 本地報告 · %1$s"</string>
+    <string name="analytics_ui_report_clip_label" formatted="false">"TokAi 報告"</string>
+</resources>

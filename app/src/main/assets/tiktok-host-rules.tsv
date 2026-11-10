@@ -1,0 +1,542 @@
+#tokai-host-rules	1	com.zhiliaoapp.musically
+# TikTok 47.5.3 / 2024705030. Static anchors require runtime reflection and real-device acceptance.
+id	feature	kind	class_descriptor	class_strings	method_name	method_descriptor	method_strings	invoke_owners	field_owners	opcodes	exact_method_count	exact_field_count	field_types	field_names
+adv_gesture_item_params	interface	class	Lcom/ss/android/ugc/aweme/feed/model/VideoItemParams;										Lcom/ss/android/ugc/aweme/feed/model/Aweme;|I	mAweme|currentPosition
+adv_gesture_long_press	interface	method	LX/05nw;		run	()V								
+adv_gesture_panel_hide_play_control	playback	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		hideIvPlay	()V								
+adv_gesture_panel_player	playback	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		getPlayerManager	()LX/037d;								
+adv_gesture_panel_show_play_control	playback	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		showIvPlay	()V								
+adv_gesture_player_get_speed	playback	method	LX/037d;		getSpeed	()F								
+adv_gesture_player_is_playing	playback	method	LX/037b;		isPlaying	()Z								
+adv_gesture_player_pause	playback	method	LX/037d;		LJJLIIIJJI	()V								
+adv_gesture_player_play	playback	method	LX/037d;		LJJJJJ	(Lcom/ss/android/ugc/aweme/feed/model/Video;Lcom/ss/android/ugc/aweme/feed/model/Audio;ZZ)Ljava/lang/String;								
+adv_gesture_player_resume	playback	method	LX/037d;		LJIIZILJ	()V								
+adv_gesture_player_set_speed	playback	method	LX/037d;		LJJIJIL	(F)V								
+adv_gesture_touch_layout	interface	class	LX/05nq;										F|I|LX/05nw;	LL|LLJJI|LLJJIJIL|LLJLIL
+adv_im_all_conversations	message	method	LX/0BEh;		LIZIZ	()Ljava/util/List;								
+adv_im_builder_build	message	method	LX/14Lg;		build	()LX/0BLT;								
+adv_im_builder_content	message	method	LX/14Lg;		content	(Ljava/lang/String;)LX/14Lg;								
+adv_im_builder_conversation	message	method	LX/14Lg;		conversation	(LX/0BZ0;)LX/14Lg;								
+adv_im_builder_type	message	method	LX/14Lg;		msgType	(I)LX/14Lg;								
+adv_im_conversation	message	method	LX/0BEg;		LIZ	(Ljava/lang/String;)LX/0BZ0;								
+adv_im_conversation_async	message	method	LX/0BEg;		LJJIZ	(Ljava/lang/String;LX/0BG8;)V								
+adv_im_conversation_core	message	method	LX/0BZ0;		getCoreInfo	()LX/0Bvz;								
+adv_im_conversation_id	message	method	LX/0BZ0;		getConversationId	()Ljava/lang/String;								
+adv_im_conversation_members	message	method	LX/0BZ0;		getMemberIds	()Ljava/util/List;								
+adv_im_conversation_name	message	method	LX/0Bvz;		getName	()Ljava/lang/String;								
+adv_im_db_update	message	method	LX/0BCb;		LJIJ	(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I								
+adv_im_message_ext	message	method	LX/0BLT;		getExt	()Ljava/util/Map;								
+adv_im_message_recalled	message	method	LX/0BLT;		isRecalled	()Z								
+adv_im_message_uuid	message	method	LX/0BLT;		getUuid	()Ljava/lang/String;								
+adv_im_single_chat	message	method	LX/0BZ0;		isSingleChat	()Z								
+adv_im_text_content	message	method	Lcom/ss/android/ugc/aweme/im/message/content/TextContent;		obtain	(Ljava/lang/String;)Lcom/ss/android/ugc/aweme/im/message/content/TextContent;								
+adv_player_get_speed	playback	method	LX/037e;		getSpeed	()F								
+adv_player_manager_get_speed	playback	method	LX/037e;		getSpeed	()F								
+adv_player_manager_play	playback	method	LX/037e;		LJJII	(Lcom/ss/android/ugc/aweme/feed/model/Video;Lcom/ss/android/ugc/aweme/feed/model/Audio;ZZIZZLX/0Cqe;LX/0IC9;ZLjava/util/HashMap;LX/06Jd;Ljava/lang/String;)Ljava/lang/String;								
+adv_player_manager_resume	playback	method	LX/037e;		LJIIZILJ	()V	resumePlay							
+adv_player_manager_set_speed	playback	method	LX/037e;		LJJIJIL	(F)V								
+adv_player_move_next	playback	method	Lcom/ss/android/ugc/feed/platform/panel/viewpager/ViewPagerPanelComponent;		CJ	()Z	auto							
+adv_player_move_previous	playback	method	Lcom/ss/android/ugc/feed/platform/panel/viewpager/ViewPagerPanelComponent;		e60	()V	auto							
+adv_player_play	playback	method	LX/037e;		LJJII	(Lcom/ss/android/ugc/aweme/feed/model/Video;Lcom/ss/android/ugc/aweme/feed/model/Audio;ZZIZZLX/0Cqe;LX/0IC9;ZLjava/util/HashMap;LX/06Jd;Ljava/lang/String;)Ljava/lang/String;								
+adv_player_resume	playback	method	LX/037e;		LJIIZILJ	()V	resumePlay							
+adv_player_set_speed	playback	method	LX/037e;		LJJIJIL	(F)V								
+adv_ui_black_spaces	interface	method	Lcom/ss/android/ugc/feed/platform/panel/adaption/ScreenAdaptionComponent;		wq	(Lcom/ss/android/ugc/aweme/screenadaption/adaptionparams/ScreenAdaptionResult;)V							Landroid/view/View;	LLJLLL|LLJZ
+adv_ui_black_spaces_init	interface	method	Lcom/ss/android/ugc/feed/platform/panel/adaption/ScreenAdaptionComponent;		LLLLLLLZIL	(Landroid/view/View;Landroid/os/Bundle;)V							Landroid/view/View;	LLJLLL|LLJZ
+adv_ui_black_spaces_restore	interface	method	Lcom/ss/android/ugc/feed/platform/panel/adaption/ScreenAdaptionComponent;		zq	()V							Landroid/view/View;	LLJLLL|LLJZ
+adv_ui_double_tap	interface	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		handleDoubleClick	(Landroid/view/MotionEvent;)V								
+adv_ui_long_press_speed	interface	method	Lcom/ss/android/ugc/aweme/feed/longvideo/edgespeedup/EdgeSpeedupAssem;		Zs	(FF)V	fix_6844100557_early_edge_speed_ready							
+adv_ui_splash_gate	basic	method	LX/05Ws;		LJI	(ILandroid/content/Context;)Z	warmCanShowTopView has no splash|coldShowSplash has splash							
+adv_video_cell_render_view	method_scan	method	Lcom/ss/android/ugc/aweme/feed/assem/ability/IVideoCellAbility;		getVideoView	()Landroid/view/View;								
+adv_video_cell_spaces	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/FeedCellAdaptionComponentV2;		lq	(Lcom/ss/android/ugc/aweme/videoadaption/adaptionparams/AdaptionPaddingValues;)V							Landroid/view/View;	LLLJIL|LLLJL|LLLL|LLLLII
+adv_video_cover_apply	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		aq	(Lcom/ss/android/ugc/aweme/videoadaption/adaptionparams/VideoAdaptionResult;Ljava/lang/String;)V								
+adv_video_cover_aweme	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		Fp	()Lcom/ss/android/ugc/aweme/feed/model/Aweme;								
+adv_video_cover_cell	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		Op	()Lcom/ss/android/ugc/aweme/feed/assem/ability/IVideoCellAbility;								
+adv_video_cover_current	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		lN2	()Lcom/ss/android/ugc/aweme/videoadaption/adaptionparams/VideoAdaptionResult;								
+adv_video_cover_destroy	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		onHostDestroy	()V								
+adv_video_cover_first_frame	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		onRenderFirstFrame	(Ljava/lang/String;)V								
+adv_video_cover_init	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		onViewCreated	(Landroid/view/View;)V								
+adv_video_cover_result	method_scan	class	Lcom/ss/android/ugc/aweme/videoadaption/adaptionparams/VideoAdaptionResult;											
+adv_video_cover_source_fake_landscape	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Video;		getFakeLandscapeInfo	()Lcom/ss/android/ugc/aweme/feed/model/FakeLandscapeInfo;								
+adv_video_cover_source_height	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Video;		getHeight	()I								
+adv_video_cover_source_width	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Video;		getWidth	()I								
+adv_video_cover_unbind	method_scan	method	Lcom/ss/android/ugc/feed/platform/cell/component/adaption/CellAdaptionComponentV2;		unBind	()V								
+auto_message_editor_bind	auto_message	method	Lcom/ss/android/ugc/aweme/im/chatroom/input/components/inputfield/InputFieldAssem;		onViewCreated	(Landroid/view/View;)V								LLJLILLLLZIIL|LLJLLL
+auto_message_editor_getter	auto_message	method	Lcom/ss/android/ugc/aweme/im/chatroom/input/components/inputfield/InputFieldVM;		x11	()Landroid/widget/EditText;								
+auto_message_session_id	auto_message	method	Lcom/ss/android/ugc/aweme/im/chatroom/api/model/SessionInfo;		getConversationId	()Ljava/lang/String;								
+auto_message_text_api	auto_message	method	Lcom/ss/android/ugc/aweme/im/chatroom/input/components/inputfield/InputFieldVM;		V5	(Ljava/lang/CharSequence;)V								
+auto_slide_comment_fragment	method_scan	method	Landroidx/fragment/app/FragmentManager;		LJJJLIIL	(Ljava/lang/String;)Landroidx/fragment/app/Fragment;								
+auto_slide_comments_showing	playback	method	Lcom/ss/android/ugc/aweme/feed/controller/BaseController;		LJJIJL	()Landroidx/fragment/app/FragmentManager;								
+auto_slide_completed	playback	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onPlayCompleted	(Ljava/lang/String;)V								
+auto_slide_current_holder	playback	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		LJLJLLL	()LX/06RP;								
+auto_slide_pager_touch	playback	method	Lcom/ss/android/ugc/aweme/common/widget/VerticalViewPager;		dispatchTouchEvent	(Landroid/view/MotionEvent;)Z								
+auto_slide_panel_context	playback	class	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;										Lcom/ss/android/ugc/aweme/common/widget/VerticalViewPager;|Lcom/ss/android/ugc/feed/platform/panel/viewpager/IViewPagerComponentAbility;|Lcom/ss/android/ugc/aweme/feed/BaseDialogController;	LLJLLL|LLJZ|LLLLLJIL
+auto_slide_scroll_state	playback	method	Lcom/ss/android/ugc/aweme/common/widget/VerticalViewPager;		getScrollState	()I								
+aweme_ad_flag	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		isAd	()Z								
+aweme_feed_attributes	method_scan	class	Lcom/ss/android/ugc/aweme/feed/model/Aweme;										Lcom/ss/android/ugc/aweme/feed/model/AnchorInfo;|Ljava/lang/String;|Lcom/ss/android/ugc/aweme/feed/model/AwemeStatistics;	anchorInfo|desc|statistics
+aweme_is_image	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getPhotoModeImageInfo	()Lcom/ss/android/ugc/aweme/feed/model/PhotoModeImageInfo;								
+aweme_is_live	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getRoomFeedCellStruct	()Lcom/ss/android/ugc/aweme/feed/model/live/RoomFeedCellStruct;								
+aweme_statistics	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getStatistics	()Lcom/ss/android/ugc/aweme/feed/model/AwemeStatistics;								
+aweme_statistics_digg_count	method_scan	class	Lcom/ss/android/ugc/aweme/feed/model/AwemeStatistics;										J	diggCount
+aweme_type	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getAwemeType	()I								
+aweme_video	method_scan	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getVideo	()Lcom/ss/android/ugc/aweme/feed/model/Video;								
+comment_image_model	method_scan	class	Lcom/ss/android/ugc/aweme/comment/model/CommentImageStruct;											originUrl|cropUrl
+comment_longpress_bind	method_scan	method	LX/0znB;		onBindViewHolder	(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V								LLJJI
+comment_longpress_item_model	method_scan	class	LX/0znB;										Lcom/ss/android/ugc/aweme/comment/model/Comment;	LLJJI
+comment_model	method_scan	class	Lcom/ss/android/ugc/aweme/comment/model/Comment;										Ljava/lang/String;|Ljava/util/List;	text|imageList
+comment_panel_params	method_scan	class	LX/0znB;										Lcom/ss/android/ugc/aweme/comment/model/Comment;	LLJJI
+comment_reply_comment_model	comment_reply	class	Lcom/ss/android/ugc/aweme/comment/model/Comment;											cid|awemeId|user|text|createTime|rootCommentId|replyToReplyId|replyToUserId|imageList
+comment_reply_comment_user	comment_reply	method	Lcom/ss/android/ugc/aweme/comment/model/Comment;		getUser	()Lcom/ss/android/ugc/aweme/profile/model/User;								
+comment_reply_user_model	comment_reply	class	Lcom/ss/android/ugc/aweme/profile/model/User;											uid|nickname
+comment_reply_work_model	comment_reply	class	Lcom/ss/android/ugc/aweme/feed/model/Aweme;											aid
+comment_request_factory	comment_tools	method	Lcom/bytedance/retrofit2/RequestFactory;		toRequest	(LX/059r;[Ljava/lang/Object;)Lcom/bytedance/retrofit2/client/Request;								relativeUrl|method
+comment_uploader_listener	comment_voice	method	Lcom/ss/bduploader/BDVideoUploaderBase;		setListener	(Lcom/ss/bduploader/BDVideoUploaderListener;)V								
+comment_uploader_path	comment_voice	method	Lcom/ss/bduploader/BDVideoUploaderBase;		setPathName	(Ljava/lang/String;)V								
+component_bottom_navigation	method_scan	class	LX/05Yr;											
+component_player_pause	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onPausePlay	(Ljava/lang/String;)V								
+component_player_playing	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onResumePlay	(Ljava/lang/String;)V								
+component_shop_tab	method_scan	class	LX/06H8;										LX/06H9;	LLJJIII
+component_shop_tab_accessor	method_scan	method	LX/06H8;		getIconData	()LX/06H9;								
+component_shop_tab_data	method_scan	class	LX/06H9;	HOME										
+component_shop_tab_identity	method_scan	class	LX/063r;										Ljava/lang/String;	LIZIZ|LIZJ
+component_top_navigation	method_scan	class	Lcom/ss/android/ugc/aweme/homepage/ui/view/tab/top/MainTabStrip;										Landroid/widget/FrameLayout;	LLJJIJIL
+digg_core_presenter_bind	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LJJIJIL	(I)V	onViewHolderSelected							
+digg_view_model_like	method_scan	method	Lcom/ss/android/ugc/aweme/feed/assem/digg/VideoDiggAssem;		yq	(Landroid/view/View;Ljava/lang/String;)V	click_like|long_press_like							
+digg_view_model_state	method_scan	class	Lcom/ss/android/ugc/aweme/feed/assem/digg/VideoDiggVM;											
+dm_speech_message_conversation	message	method	LX/0BLT;		getConversationId	()Ljava/lang/String;								
+dm_speech_message_local_ext	message	method	LX/0BLT;		getLocalExt	()Ljava/util/Map;								
+download_native_click	method_scan	method	LX/0G45;		LJIILIIL	(Landroid/content/Context;Lcom/ss/android/ugc/aweme/share/base/model/BaseSharePackage;)V								
+download_native_module	method_scan	class	LX/0G45;										Lcom/ss/android/ugc/aweme/feed/model/Aweme;	LLJJI
+download_native_module_name	method_scan	method	LX/0G45;		key	()Ljava/lang/String;	save							
+download_native_photo_bind	method_scan	method	LX/109z;		LJJIIJZLJL	(Landroid/widget/ImageView;Landroid/view/View;I)V								
+download_native_photo_click	method_scan	method	LX/109z;		LJIILIIL	(Landroid/content/Context;Lcom/ss/android/ugc/aweme/share/base/model/BaseSharePackage;)V								
+download_native_photo_name	method_scan	method	LX/109z;		key	()Ljava/lang/String;	save							
+download_native_view_factory	method_scan	method	LX/0G45;		LJJIIJZLJL	(Landroid/widget/ImageView;Landroid/view/View;I)V								
+feed_aweme_accessor	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		getAweme	()Lcom/ss/android/ugc/aweme/feed/model/Aweme;								
+feed_holder_main_root	method_scan	class	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;										Landroid/view/View;	u
+feed_holder_page_selected	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onPageSelected	(I)V	on_viewpager_page_selected							
+feed_holder_pause	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onPause	()V	video_on_pause							
+feed_holder_quick_root	method_scan	class	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;										Landroid/view/View;	u
+feed_holder_resume	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onResume	()V								
+feed_holder_selected	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LJJIJIL	(I)V	onViewHolderSelected							
+feed_item_bind_aweme	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LLIIIJ	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)V	VideoViewCell.bind() called with: aweme id = 							
+feed_item_bind_aweme_position	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LLIIJI	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;IZ)V	bindVideoData,position:							
+feed_view_holder	method_scan	class	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;											
+home_tab_appearance	interface	class	Lcom/ss/android/ugc/aweme/experiment/TopTabAppearance;											item
+home_tab_list_provider	interface	method	Lcom/ss/android/ugc/aweme/experiment/MainTabConfigServiceImpl;		LIZ	()Ljava/util/List;								
+home_tab_model	interface	class	Lcom/ss/android/ugc/aweme/experiment/TopTabItem;											topTabKey|appearance
+home_tab_resolved_provider	interface	method	Lcom/ss/android/ugc/aweme/experiment/MainTabConfigServiceImpl;		LJFF	(LX/1PvC;)Ljava/util/List;								
+home_tab_select_or_refresh	interface	method	LX/0NFY;		onClick	(Landroid/view/View;)V	homepage_refresh|click_bottom_icon							
+home_tab_view_config	interface	class	Lcom/ss/android/ugc/aweme/experiment/TabItemViewConfig;											title
+host_activity_result_callback	method_scan	method	LX/013L;		LIZ	(Ljava/lang/Object;)V								
+host_activity_result_contract	method_scan	class	LX/015b;											
+host_activity_result_launch	method_scan	method	LX/013N;		LIZ	(Ljava/lang/Object;LX/01Yo;)V								
+host_activity_result_register	method_scan	method	LX/013R;		LIZLLL	(Ljava/lang/String;LX/015b;LX/013L;)LX/01ti;								
+host_activity_result_registry	method_scan	class	LX/013R;											
+host_activity_result_start	method_scan	class	LX/01uR;											
+host_activity_result_unregister	method_scan	method	LX/013N;		LIZIZ	()V								
+host_chat_avatar	method_scan	class	Lcom/ss/android/ugc/aweme/base/ui/SmartAvatarImageView;											
+host_chat_input	method_scan	class	Lcom/ss/android/ugc/aweme/im/sdk/chat/ui/view/SearchableEditText;											
+host_chat_message_text	method_scan	class	Lcom/ss/android/ugc/aweme/im/common/view/TightTuxTextView;											
+host_settings_activity	method_scan	class	Lcom/ss/android/ugc/aweme/setting/ui/SettingContainerActivity;											
+host_settings_fragment_create	method_scan	method	Lcom/ss/android/ugc/aweme/setting/ui/rvmpcompose/SettingsComposeRvmpFragment;		onCreateView	(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;								
+host_settings_scroll	method_scan	class	Landroidx/compose/ui/platform/ComposeView;											
+host_tux_icon	method_scan	class	Lcom/bytedance/tux/icon/TuxIconView;											
+host_tux_text	method_scan	class	Lcom/bytedance/tux/input/TuxTextView;											
+image_holder_main_root	method_scan	class	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;										Landroid/view/View;	u
+image_holder_page_selected	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onPageSelected	(I)V	on_viewpager_page_selected							
+image_holder_pause	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onPause	()V	video_on_pause							
+image_holder_resume	method_scan	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		onResume	()V								
+main_feed_api_v1	method_scan	method	Lcom/ss/android/ugc/aweme/feed/api/FeedApi$RetrofitApi;		postFetchRecommendFeedV2Call	(Ljava/lang/Object;LX/06Bo;)LX/04Na;								
+main_feed_response_model	method_scan	class	Lcom/ss/android/ugc/aweme/feed/model/FeedItemList;										Ljava/util/List;	items
+media_account_service	comment_tools	method	LX/03Hd;		LJFF	()Lcom/ss/android/ugc/aweme/IAccountUserService;								
+media_current_user	comment_tools	method	LX/03dT;		getCurUser	()Lcom/ss/android/ugc/aweme/profile/model/User;								
+media_video_control	download	class	Lcom/ss/android/ugc/aweme/feed/model/VideoControl;										Ljava/lang/Boolean;|I	allowDownload|preventDownloadType
+retrofit_response_url	method_scan	class	LX/054D;										Ljava/lang/String;	LIZ
+retrofit_success_response	method_scan	method	LX/053z;		LIZLLL	(Ljava/lang/Object;LX/054D;)LX/053z;	rawResponse must be successful response							
+tako_avatar_header_created	method_scan	method	Lcom/ss/android/ugc/aweme/tako/botpage/toptitle/TopTitleAssem;		onViewCreated	(Landroid/view/View;)V								
+tako_avatar_seven_header_created	method_scan	method	Lcom/ss/android/ugc/aweme/tako/otherpage/sheet/SevenSheetTopTitleAssem;		onViewCreated	(Landroid/view/View;)V								
+tako_avatar_sheet_header_created	method_scan	method	Lcom/ss/android/ugc/aweme/tako/otherpage/sheet/SheetTopTitleAssem;		onViewCreated	(Landroid/view/View;)V								
+tiktok_caption_asr_api	interface	method	LX/1KHd;		LIZJ	()Lcom/ss/android/ugc/aweme/shortvideo/subtitle/SubtitleApi;								
+tiktok_caption_asr_auth	interface	method	LX/1KHd;		LIZIZ	()LX/0owQ;								
+tiktok_caption_asr_auth_model	interface	class	Lcom/ss/android/ugc/aweme/publish/model/UploadAuthKeyConfig;											
+tiktok_caption_asr_body	interface	class	Lcom/ss/android/ugc/aweme/shortvideo/subtitle/SubmitAudioBody;											
+tiktok_caption_asr_call_cancel	interface	method	LX/04Na;		cancel	()V								
+tiktok_caption_asr_call_enqueue	interface	method	LX/04Na;		enqueue	(LX/059q;)V								
+tiktok_caption_asr_http_callback	interface	class	LX/059q;											
+tiktok_caption_asr_http_response	interface	class	LX/053z;											
+tiktok_caption_asr_listener	interface	class	LX/1MhO;											
+tiktok_caption_asr_query	interface	method	Lcom/ss/android/ugc/aweme/shortvideo/subtitle/SubtitleApi;		query	(Ljava/lang/String;)LX/04Na;								
+tiktok_caption_asr_result	interface	class	Lcom/ss/android/ugc/aweme/shortvideo/subtitle/QueryAudioResponse;											
+tiktok_caption_asr_step	interface	class	LX/0owQ;											
+tiktok_caption_asr_submit	interface	method	Lcom/ss/android/ugc/aweme/shortvideo/subtitle/SubtitleApi;		submit	(Ljava/lang/String;IILjava/lang/String;ZZLjava/lang/String;ZZ)LX/04Na;								
+tiktok_caption_asr_upload_close	interface	method	LX/1Mh6;		LIZ	()V								
+tiktok_caption_asr_upload_config	interface	class	Lcom/ss/android/ugc/aweme/publish/model/UploadVideoConfig;											
+tiktok_caption_asr_upload_file	interface	method	LX/1Mh6;		LJFF	(Ljava/lang/String;)V								
+tiktok_caption_asr_upload_info	interface	class	Lcom/ss/android/ugc/aweme/uploader/factory/AbstractVideoUploader$VideoUploadInfo;											
+tiktok_caption_asr_upload_kind	interface	class	LX/1KHl;											
+tiktok_caption_asr_upload_listener	interface	method	LX/1Mh6;		LJ	(LX/1MhO;)V								
+tiktok_caption_asr_upload_policy	interface	method	LX/1KI3;		LIZ	(Lcom/ss/android/ugc/aweme/publish/model/UploadVideoConfig;Ljava/lang/String;)I								
+tiktok_caption_asr_upload_start	interface	method	LX/1Mh6;		LJII	()V								
+tiktok_caption_asr_upload_tag	interface	method	LX/1Mh6;		LIZLLL	(Ljava/lang/String;)V								
+tiktok_caption_asr_utterance	interface	class	Lcom/ss/android/ugc/aweme/sticker/data/Utterance;											
+tiktok_caption_aweme_id	interface	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getAid	()Ljava/lang/String;								
+tiktok_caption_aweme_video	interface	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getVideo	()Lcom/ss/android/ugc/aweme/feed/model/Video;								
+tiktok_caption_base_state_scope	interface	method	LX/0Etn;		LIZLLL	(Z)V								
+tiktok_caption_burned_in_gate	interface	method	LX/08J2;		LJJIJ	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;Ljava/lang/Boolean;)Z								
+tiktok_caption_caption_items	interface	class	Lcom/ss/android/ugc/aweme/feed/model/CaptionModel;										Ljava/util/List;	captionList
+tiktok_caption_display_gate	interface	method	LX/0EtA;		LJIIIZ	(Ljava/lang/String;LX/0EqV;Ljava/lang/String;LX/0Et3;)V								
+tiktok_caption_display_policy_caller	interface	method	LX/08J2;		LJJIJIL	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;Z)Z								
+tiktok_caption_foreign_original_gate	interface	method	LX/08J2;		LJJIJIIJI	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;Ljava/lang/Boolean;)Z								
+tiktok_caption_holder_panel	interface	class	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;										LX/04eY;	LLLZLZ
+tiktok_caption_holder_unselected	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		su	(Z)V	onViewHolderUnSelected,pageDown							
+tiktok_caption_keva_service	interface	method	LX/06ES;		LIZ	()Lcom/ss/android/ugc/aweme/service/ICaptionKevaService;								
+tiktok_caption_lite_gate	interface	method	LX/08J2;		LIZLLL	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z								
+tiktok_caption_pending_removal	interface	method	Lcom/ss/android/ugc/aweme/service/ICaptionKevaService;		LJJIL	(Ljava/lang/String;)Z								
+tiktok_caption_playback_aid	interface	method	Lcom/ss/android/ugc/aweme/feed/model/VideoUrlModel;		getSourceId	()Ljava/lang/String;								
+tiktok_caption_player_media	interface	method	LX/037b;		LJIL	()Lcom/ss/android/ugc/aweme/feed/model/VideoUrlModel;								
+tiktok_caption_player_position	interface	method	LX/037b;		getCurrentPosition	()J								
+tiktok_caption_scope_duplicate_caller	interface	method	LX/0Eu1;		emit	(Ljava/lang/Object;LX/03Rb;)Ljava/lang/Object;								
+tiktok_caption_scope_override_caller	interface	method	LX/0Eu4;		emit	(Ljava/lang/Object;LX/03Rb;)Ljava/lang/Object;								
+tiktok_caption_scope_setting_caller	interface	method	LX/0Etx;		emit	(Ljava/lang/Object;LX/03Rb;)Ljava/lang/Object;								
+tiktok_caption_scope_video_caller	interface	method	LX/0EuG;		invokeSuspend	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_translated_playback	interface	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getIsPlayingTranslatedVideo	()Z								
+tiktok_caption_user_setting_gate	interface	method	LX/08J2;		LJJ	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z								
+tiktok_caption_video_metadata	interface	method	Lcom/ss/android/ugc/aweme/feed/model/Video;		getCaptionModel	()Lcom/ss/android/ugc/aweme/feed/model/CaptionModel;								
+tiktok_caption_visibility_caller_001	interface	method	LX/07Jm;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_002	interface	method	LX/07Jp;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_003	interface	method	LX/07Js;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_004	interface	method	LX/07Km;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_005	interface	method	LX/07Kp;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_006	interface	method	LX/07Ks;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_007	interface	method	LX/07LR;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_008	interface	method	LX/07Lb;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_caller_009	interface	method	LX/1RM8;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_010	interface	method	LX/1RM8;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_011	interface	method	LY/AObserverS191S0100000_27_I1;		onChanged$2	(LY/AObserverS191S0100000_27_I1;Ljava/lang/Object;)V								
+tiktok_caption_visibility_caller_012	interface	method	Lcom/ss/android/ugc/aweme/FeedTextViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_013	interface	method	Lcom/ss/android/ugc/aweme/api/component/anole/mask/AnoleMaskFullScreenTriggerComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_014	interface	method	Lcom/ss/android/ugc/aweme/api/component/anole/mask/AnoleMaskFullScreenTriggerComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_015	interface	method	Lcom/ss/android/ugc/aweme/api/component/interaction/CommerceInteractionComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_016	interface	method	Lcom/ss/android/ugc/aweme/api/component/interaction/CommerceInteractionComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_017	interface	method	Lcom/ss/android/ugc/aweme/commercialize/feed/assem/FeedCommerceAssem;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_018	interface	method	Lcom/ss/android/ugc/aweme/commercialize/feed/assem/FeedCommerceAssem;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_019	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/common/cell/CreationFeedCardRootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_020	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/common/cell/CreationFeedCardRootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_021	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/common/cell/CreationFeedCardViewHolder;		Ht	(Z)V								
+tiktok_caption_visibility_caller_022	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/common/cell/CreationFeedCardViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_023	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/common/cell/CreationFeedCardViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_024	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/onthisday/cell/OnThisDayCreationRootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_025	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/onthisday/cell/OnThisDayCreationRootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_026	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/onthisday/ui/OnThisDayCreationCardViewHolder;		Ht	(Z)V								
+tiktok_caption_visibility_caller_027	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/onthisday/ui/OnThisDayCreationCardViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_028	interface	method	Lcom/ss/android/ugc/aweme/creation/fyp/onthisday/ui/OnThisDayCreationCardViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_029	interface	method	Lcom/ss/android/ugc/aweme/creationeoycard/CreationEoyCardViewHolder;		Ht	(Z)V								
+tiktok_caption_visibility_caller_030	interface	method	Lcom/ss/android/ugc/aweme/creationeoycard/CreationEoyCardViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_031	interface	method	Lcom/ss/android/ugc/aweme/creationeoycard/CreationEoyCardViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_032	interface	method	Lcom/ss/android/ugc/aweme/creationeoycard/CreationEoyRootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_033	interface	method	Lcom/ss/android/ugc/aweme/creationeoycard/CreationEoyRootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_034	interface	method	Lcom/ss/android/ugc/aweme/detail/ui/DetailFeedVideoViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_035	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/AdMultiContentViewHolder;		Ht	(Z)V								
+tiktok_caption_visibility_caller_036	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/AdMultiContentViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_037	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/AdMultiContentViewHolder;		LJLI	()Lcom/bytedance/assem/arch/reused/ReusedUIAssem;								
+tiktok_caption_visibility_caller_038	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/AdMultiContentViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_039	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/DynamicAdViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_040	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/ForwardFeedVideoViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_041	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/FullFeedVideoViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_042	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoBaseCell;		Ht	(Z)V								
+tiktok_caption_visibility_caller_043	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_044	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LJLI	()Lcom/bytedance/assem/arch/reused/ReusedUIAssem;								
+tiktok_caption_visibility_caller_045	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_046	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/ad/CommerceVideoViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_047	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/ad/CommerceVideoViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_048	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/ad/CommerceVideoViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_049	interface	method	Lcom/ss/android/ugc/aweme/feed/assem/FeedVideoAssem;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_050	interface	method	Lcom/ss/android/ugc/aweme/feed/assem/FeedVideoAssem;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_051	interface	method	Lcom/ss/android/ugc/aweme/feed/assem/caption/VideoCLACaptionTrigger;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_052	interface	method	Lcom/ss/android/ugc/aweme/feed/assem/caption/VideoCLACaptionTrigger;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_053	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/collection/BaseCollectionFeedVH;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_054	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/collection/BaseCollectionFeedVH;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_055	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/collection/BaseUserFeedVH;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_056	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/collection/BaseUserFeedVH;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_057	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/common/component/SimpleRootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_058	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/common/component/SimpleRootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_059	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/sub/BaseSubViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_060	interface	method	Lcom/ss/android/ugc/aweme/feed/collection/sub/BaseSubViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_061	interface	method	Lcom/ss/android/ugc/aweme/feed/dm/BaseMediaFeedViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_062	interface	method	Lcom/ss/android/ugc/aweme/feed/dm/BaseMediaFeedViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_063	interface	method	Lcom/ss/android/ugc/aweme/feed/landscape/LandscapeFragmentPanel;		onPause	()V								
+tiktok_caption_visibility_caller_064	interface	method	Lcom/ss/android/ugc/aweme/feed/landscape/LandscapeInteractEntrancesContainer;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_065	interface	method	Lcom/ss/android/ugc/aweme/feed/landscape/LandscapeInteractEntrancesContainer;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_066	interface	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		onPause	()V								
+tiktok_caption_visibility_caller_067	interface	method	Lcom/ss/android/ugc/aweme/feed/panel/FullFeedFragmentPanel;		k	()V								
+tiktok_caption_visibility_caller_068	interface	method	Lcom/ss/android/ugc/aweme/feed/panel/FullFeedFragmentPanel;		l	(Z)V								
+tiktok_caption_visibility_caller_069	interface	method	Lcom/ss/android/ugc/aweme/feed/ui/FeedFollowFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_070	interface	method	Lcom/ss/android/ugc/aweme/feed/ui/FeedFollowFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_071	interface	method	Lcom/ss/android/ugc/aweme/feed/ui/FeedRecommendFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_072	interface	method	Lcom/ss/android/ugc/aweme/feed/ui/FeedRecommendFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_073	interface	method	Lcom/ss/android/ugc/aweme/friendstab/ui/SocialFriendsFeedFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_074	interface	method	Lcom/ss/android/ugc/aweme/lemon/feed/component/LemonRootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_075	interface	method	Lcom/ss/android/ugc/aweme/lemon/feed/component/LemonRootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_076	interface	method	Lcom/ss/android/ugc/aweme/lemon/feed/ui/LemonGuideCardViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_077	interface	method	Lcom/ss/android/ugc/aweme/lemon/feed/ui/LemonGuideCardViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_078	interface	method	Lcom/ss/android/ugc/aweme/live/sfv/special/LiveSfvPostCardViewHolder;		Ht	(Z)V								
+tiktok_caption_visibility_caller_079	interface	method	Lcom/ss/android/ugc/aweme/live/sfv/special/LiveSfvPostCardViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_080	interface	method	Lcom/ss/android/ugc/aweme/live/sfv/special/LiveSfvPostCardViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_081	interface	method	Lcom/ss/android/ugc/aweme/live/sfv/special/LiveSfvPostRootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_082	interface	method	Lcom/ss/android/ugc/aweme/live/sfv/special/LiveSfvPostRootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_083	interface	method	Lcom/ss/android/ugc/aweme/repostfeed/ui/RepostFeedFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_084	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/component/bottombanner/InteractAreaContainer;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_085	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/component/bottombanner/InteractAreaContainer;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_086	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/component/bottombanner/SeriesBannerInteractTriggerAssem;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_087	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/component/bottombanner/SeriesBannerInteractTriggerAssem;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_088	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/component/playnext/AutoPlayNextTriggerAssem;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_089	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/component/playnext/AutoPlayNextTriggerAssem;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_090	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/holder/MiniDramaDNUHighlightCard;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_091	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/holder/PaidContentVideoViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_092	interface	method	Lcom/ss/android/ugc/aweme/series/commonfeed/holder/PaidContentVideoViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_093	interface	method	Lcom/ss/android/ugc/aweme/series/feed/tab/BaseSeriesTabFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_094	interface	method	Lcom/ss/android/ugc/aweme/series/feed/tab/BaseSeriesTabFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_095	interface	method	Lcom/ss/android/ugc/aweme/series/feed/tab/v2/DramaPicksFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_096	interface	method	Lcom/ss/android/ugc/aweme/series/feed/tab/v2/DramaPicksFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_097	interface	method	Lcom/ss/android/ugc/aweme/stemfeed/ui/StemFeedFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_098	interface	method	Lcom/ss/android/ugc/aweme/stemfeed/ui/StemFeedFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_099	interface	method	Lcom/ss/android/ugc/aweme/story/feed/common/collection/StoryPlayerListViewHolder;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_100	interface	method	Lcom/ss/android/ugc/aweme/story/feed/common/collection/StoryPlayerListViewHolder;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_101	interface	method	Lcom/ss/android/ugc/aweme/story/feed/common/collection/StoryPlayerListViewHolder;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_102	interface	method	Lcom/ss/android/ugc/aweme/story/feed/common/collection/component/FeedCollectionContainerComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_103	interface	method	Lcom/ss/android/ugc/aweme/story/feed/common/collection/component/FeedCollectionContainerComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_104	interface	method	Lcom/ss/android/ugc/aweme/story/feed/guidecard/component/StoryGuideCardComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_105	interface	method	Lcom/ss/android/ugc/aweme/story/feed/guidecard/component/StoryGuideCardComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_106	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryBottomBarContainerComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_107	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryBottomBarContainerComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_108	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersiveBottomAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_109	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersiveBottomAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_110	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersiveInteractAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_111	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersiveInteractAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_112	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersiveLeftAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_113	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersiveLeftAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_114	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersivePlayAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_115	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/StoryImmersivePlayAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_116	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/post/StoryImmersiveInteractInfoAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_117	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/post/StoryImmersiveInteractInfoAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_118	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/toparea/StoryImmersiveTopAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_119	interface	method	Lcom/ss/android/ugc/aweme/story/feed/immersive/component/toparea/StoryImmersiveTopAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_120	interface	method	Lcom/ss/android/ugc/aweme/tako/aivideo/detail/cell/TakoAIVideoCell;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_121	interface	method	Lcom/ss/android/ugc/aweme/topicfeed/ui/fragment/BaseTopicFeedFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_122	interface	method	Lcom/ss/android/ugc/aweme/topicfeed/ui/fragment/BaseTopicFeedFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_123	interface	method	Lcom/ss/android/ugc/aweme/toptab/ui/LiveSingleFeedFragment;		onNodeHide	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_124	interface	method	Lcom/ss/android/ugc/aweme/toptab/ui/LiveSingleFeedFragment;		onNodeShow	(Landroid/os/Bundle;)V								
+tiktok_caption_visibility_caller_125	interface	method	Lcom/ss/android/ugc/aweme/translation/ui/AutoDubbingConsumptionLabelAssemV1;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_126	interface	method	Lcom/ss/android/ugc/aweme/translation/ui/AutoDubbingConsumptionLabelAssemV1;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_127	interface	method	Lcom/ss/android/ugc/aweme/translation/ui/TranslationControlsAssem;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_128	interface	method	Lcom/ss/android/ugc/aweme/translation/ui/TranslationControlsAssem;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_129	interface	method	Lcom/ss/android/ugc/aweme/ui/feed/cell/BaseSimpleFeedViewCell;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_caller_130	interface	method	Lcom/ss/android/ugc/aweme/ui/feed/cell/BaseSimpleFeedViewCell;		Ht	(Z)V								
+tiktok_caption_visibility_caller_131	interface	method	Lcom/ss/android/ugc/aweme/ui/feed/cell/BaseSimpleFeedViewCell;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_132	interface	method	Lcom/ss/android/ugc/aweme/ui/feed/cell/BaseSimpleFeedViewCell;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_133	interface	method	Lcom/ss/android/ugc/aweme/ui/feed/photos/assem/FeedPhotoSlideComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_134	interface	method	Lcom/ss/android/ugc/aweme/ui/feed/photos/assem/FeedPhotoSlideComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_135	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_136	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_137	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		YL1	(I)V								
+tiktok_caption_visibility_caller_138	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		k03	(I)V								
+tiktok_caption_visibility_caller_139	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/above/FullScreenAboveInteractionComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_140	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/above/FullScreenAboveInteractionComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_141	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/below/FullScreenBelowInteractionComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_142	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/below/FullScreenBelowInteractionComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_143	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/mask/FullMaskContainerComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_144	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/mask/FullMaskContainerComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_145	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/middle/FullScreenBetweenLRInteractComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_146	interface	method	Lcom/ss/android/ugc/feed/platform/cell/fullscreen/middle/FullScreenBetweenLRInteractComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_147	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/InteractAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_148	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/InteractAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_149	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/InteractContainerComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_150	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/InteractContainerComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_151	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/biz/BizTopAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_152	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/biz/BizTopAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_153	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/InteractBottomAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_154	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/InteractBottomAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_155	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/InteractBottomBannerComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_156	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/InteractBottomBannerComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_157	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/banner/FeedCommonBannerTrigger;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_158	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/banner/FeedCommonBannerTrigger;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_159	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/bottom/bar/BottomSurveyAssemTrigger;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_160	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/InteractInfoAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_161	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/InteractInfoAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_162	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/annotation/FcpAnnotationContainer;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_163	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/annotation/FcpAnnotationContainer;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_164	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/horiontag/FcpMetaTagContainer;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_165	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/horiontag/FcpMetaTagContainer;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_166	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/titlecontainer/InteractTitleContainer;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_167	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/info/titlecontainer/InteractTitleContainer;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_168	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/next/standardized/assem/FcpContainerAssem;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_169	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/right/InteractRightAreaComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_170	interface	method	Lcom/ss/android/ugc/feed/platform/cell/interact/right/InteractRightAreaComponent;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_171	interface	method	Lcom/ss/android/ugc/feed/platform/container/info/button/FeedBottomButtonContainer;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_caller_172	interface	method	Lcom/ss/android/ugc/feed/platform/container/info/button/FeedBottomButtonContainer;		LLLJ	(I)V								
+tiktok_caption_visibility_caller_173	interface	method	Lcom/ss/android/ugc/feed/platform/panel/player/PlayerComponentTemp;		dj	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)V								
+tiktok_caption_visibility_caller_174	interface	method	Lkotlin/jvm/internal/AFwS197S0000000_23_I1;		invoke$650	(Lkotlin/jvm/internal/AFwS197S0000000_23_I1;Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_caption_visibility_freeze_flow	interface	method	LX/0Cqi;		Dh	()LX/03D5;								
+tiktok_caption_visibility_freeze_service	interface	class	LX/0Cqi;										LX/0Cqi;	LIZIZ
+tiktok_caption_visibility_freeze_value	interface	method	LX/03D5;		getValue	()Ljava/lang/Object;								
+tiktok_caption_visibility_holder_add	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_holder_ctor	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		<init>	(LX/07sW;)V								
+tiktok_caption_visibility_holder_remove	interface	method	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;		LLLJ	(I)V								
+tiktok_caption_visibility_holder_root	interface	class	Lcom/ss/android/ugc/aweme/feed/adapter/VideoViewCell;										Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;	r
+tiktok_caption_visibility_map_add	interface	method	LX/0OO6;		LIZ	(I)I								
+tiktok_caption_visibility_map_remove	interface	method	LX/0OO6;		LIZIZ	(I)I								
+tiktok_caption_visibility_root_add	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		LJJJLZIJ	(I)V								
+tiktok_caption_visibility_root_ctor	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		<init>	(LX/07uB;Lcom/ss/android/ugc/aweme/feed/assem/ability/IVideoCellAbility;)V								
+tiktok_caption_visibility_root_owner	interface	class	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;										Lcom/ss/android/ugc/aweme/feed/assem/ability/IVideoCellAbility;	LLJLIL
+tiktok_caption_visibility_root_remove	interface	method	Lcom/ss/android/ugc/feed/platform/cell/RootCellComponent;		LLLJ	(I)V								
+tiktok_comment_ability	interface	class	Lcom/ss/android/ugc/aweme/feed/assem/ability/IVideoCommentAbility;											
+tiktok_comment_ability_resolver	interface	method	LX/0547;		LIZ	(LX/03QS;Ljava/lang/Class;Ljava/lang/String;)LX/03Qg;								
+tiktok_comment_audio_model	comment_voice	class	Lcom/ss/android/ugc/aweme/comment/model/AudioCommentModel;											vid|audioFilePath|totalDurationMillis|waveformData
+tiktok_comment_clone	comment_reply	method	Lcom/ss/android/ugc/aweme/comment/model/Comment;		clone	()Lcom/ss/android/ugc/aweme/comment/model/Comment;								
+tiktok_comment_common_model	auto_comment	class	Lcom/ss/android/ugc/aweme/comment/model/CommentCommonModel;											aweme
+tiktok_comment_context_model	auto_comment	class	Lcom/ss/android/ugc/aweme/comment/model/CommentContextSource;											commonModel
+tiktok_comment_create_comment	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		U23	(Ljava/lang/String;LX/0D8p;)Lcom/ss/android/ugc/aweme/comment/model/Comment;								
+tiktok_comment_dispatcher	auto_comment	class	LX/06TO;											
+tiktok_comment_empty_context	comment_reply	class	LX/03H9;											INSTANCE
+tiktok_comment_failure_job	auto_comment	method	LX/0ypH;		invokeSuspend	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_comment_initialize	auto_comment	method	Lcom/bytedance/assem/arch/viewModel/AssemViewModel;		initialize	(LX/06TN;Lkotlin/jvm/functions/Function1;)V								
+tiktok_comment_initialize_dispatch	auto_comment	method	Lcom/bytedance/assem/arch/viewModel/AssemViewModel;		initialize$lambda$5	(Lkotlin/jvm/functions/Function1;Lcom/bytedance/assem/arch/viewModel/AssemViewModel;LX/06TN;)Lkotlin/Unit;								
+tiktok_comment_input_model	auto_comment	class	LX/0D8p;											LIZ|LIZLLL|LJIIIIZZ
+tiktok_comment_input_snapshot	comment_tts	method	Lcom/ss/android/ugc/aweme/comment/keyboard/keyboardv2/refactor/KeyboardVMV2;		c33	(LX/0FNt;Landroid/text/Editable;)LX/0D8p;								
+tiktok_comment_item	interface	method	LX/08jl;		LIZ	(Lcom/bytedance/assem/arch/reused/ReusedAssem;)Ljava/lang/Object;			Lcom/bytedance/assem/arch/reused/ReusedAssem;|LX/08Rp;					
+tiktok_comment_keyboard_bind	comment_tts	method	Lcom/ss/android/ugc/aweme/comment/keyboard/keyboardv2/refactor/PortraitInputKeyboard;		onViewCreated	(Landroid/view/View;)V								
+tiktok_comment_keyboard_model	comment_tts	method	Lcom/ss/android/ugc/aweme/comment/keyboard/keyboardv2/refactor/BaseInputAssem;		gr	()Lcom/ss/android/ugc/aweme/comment/keyboard/keyboardv2/refactor/KeyboardVMV2;								
+tiktok_comment_keyboard_service	comment_tts	method	Lcom/ss/android/ugc/aweme/comment/keyboard/keyboardv2/refactor/BaseInputAssem;		dr	()LX/0FNt;								
+tiktok_comment_keyboard_source	comment_tts	method	Lcom/ss/android/ugc/aweme/comment/keyboard/keyboardv2/refactor/BaseInputAssem;		Vq	()Lcom/ss/android/ugc/aweme/comment/model/CommentContextSource;								
+tiktok_comment_lifecycle_event	auto_comment	method	Landroidx/lifecycle/LifecycleRegistry;		handleLifecycleEvent	(Landroidx/lifecycle/Lifecycle$Event;)V								
+tiktok_comment_lifecycle_registry	auto_comment	class	Landroidx/lifecycle/LifecycleRegistry;											
+tiktok_comment_menu_action	comment_tools	class	LX/0zbB;											LIZIZ|LJ
+tiktok_comment_observable_subscribe	comment_reply	method	LX/02sL;		LIZIZ	(LX/02sR;)V								
+tiktok_comment_open	interface	method	Lcom/ss/android/ugc/aweme/feed/assem/videocomment/VideoCommentAssem;		jw2	(I)V	openCommentPanel: jumpType=	Lcom/ss/android/ugc/aweme/feed/assem/videocomment/VideoCommentAssem;						
+tiktok_comment_publish_checked	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		KS0	(LX/0D8p;Lcom/ss/android/ugc/aweme/comment/model/Comment;Lkotlin/jvm/functions/Function1;)V								
+tiktok_comment_publish_dispatch	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		d33	(Lcom/ss/android/ugc/aweme/comment/model/Comment;LX/0D8p;Z)V								
+tiktok_comment_publish_failure	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		c33	(Ljava/lang/Throwable;Lcom/ss/android/ugc/aweme/comment/model/Comment;Ljava/lang/String;)V								
+tiktok_comment_publish_failure_state	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		g33	(Ljava/lang/Exception;Lcom/ss/android/ugc/aweme/comment/model/Comment;)V								
+tiktok_comment_publish_input	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		i33	(LX/0D8p;Lcom/ss/android/ugc/aweme/comment/model/Comment;Lkotlin/jvm/functions/Function1;)V								
+tiktok_comment_publish_success	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		e33	(Lcom/ss/android/ugc/aweme/comment/model/CommentResponse;Z)V								
+tiktok_comment_publish_ui_status	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		a33	(LX/0yrB;Lcom/ss/android/ugc/aweme/comment/model/CommentResponse;)V								
+tiktok_comment_publisher_clear	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		onCleared	()V								
+tiktok_comment_publisher_lifecycle	auto_comment	method	Lcom/bytedance/assem/arch/viewModel/AssemViewModel;		setLifecycleRef	(Ljava/lang/ref/WeakReference;)V								
+tiktok_comment_publisher_prepared	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		onPrepared	()V								
+tiktok_comment_source	auto_comment	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/viewmodel/CommentPublishViewModel;		Y23	()Lcom/ss/android/ugc/aweme/comment/model/CommentContextSource;								
+tiktok_comment_success_job	auto_comment	method	LX/0yqG;		invoke	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_comment_thread_provider	comment_reply	class	Lcom/ss/android/ugc/aweme/commentv2/commentlist/CommentApiV2;											LIZ|LIZIZ
+tiktok_comment_thread_replies	comment_reply	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/ICommentApiV2;		LJIL	(Ljava/lang/String;JILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZLjava/lang/String;ILjava/lang/String;Ljava/lang/String;ZLjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;LX/03Rb;)Ljava/lang/Object;								
+tiktok_comment_thread_response	comment_reply	class	Lcom/ss/android/ugc/aweme/comment/model/CommentItemList;											items|cursor|isHasMore|rootCid
+tiktok_comment_thread_roots	comment_reply	method	Lcom/ss/android/ugc/aweme/commentv2/commentlist/ICommentApiV2;		fetchCommentListV2	(Ljava/lang/String;JILjava/lang/String;ILjava/lang/Long;ILjava/lang/String;IIIILjava/lang/Object;Ljava/util/List;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;JILjava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;)LX/02sL;								
+tiktok_comment_upload_job	auto_comment	method	LX/0zVk;		invokeSuspend	(Ljava/lang/Object;)Ljava/lang/Object;								
+tiktok_data_saver_enabled	interface	method	LX/09ne;		LIZIZ	()Z								
+tiktok_dm_send_bind	message_voice	method	Lcom/ss/android/ugc/aweme/im/chatroom/input/components/sendbtn/SendButtonAssemV2;		Sq	(Landroid/view/View;)V								
+tiktok_dm_send_click	message_voice	method	Lpt6/AbS650S0100000_27_I1;		LIZ$16	(Lpt6/AbS650S0100000_27_I1;Landroid/view/View;)V								
+tiktok_dm_user_send	message_voice	method	Lcom/ss/android/ugc/aweme/im/sdk/chat/viewmodel/SingleChatInputViewModel;		Z23	(Landroid/content/Context;)V								
+tiktok_dm_voice_dispatch	message_voice	method	Lcom/ss/android/ugc/aweme/IMVoiceMessageUtil;		LJIILIIL	(Lcom/ss/android/ugc/aweme/IMVoiceMessageUtil;Ljava/lang/String;JFLjava/util/List;Ljava/lang/String;LX/15Gk;LX/0ybl;Lcom/bytedance/im/core/proto/ReferenceInfo;Lcom/ss/android/ugc/aweme/im/message/template/component/AttachmentComponent;Lkotlin/jvm/functions/Function1;Ljava/lang/String;Ljava/util/Map;Lcom/ss/android/ugc/aweme/im/message/template/component/BaseHeaderComponent;Lokio/ByteString;I)V								
+tiktok_feed_card_insert	feed_filter	method	Lcom/ss/android/ugc/aweme/feed/model/Aweme;		getCardInsertInfo	()Lcom/ss/android/ugc/aweme/feed/model/cardinsert/CardInsertInfo;								
+tiktok_feed_card_type	feed_filter	method	Lcom/ss/android/ugc/aweme/feed/model/cardinsert/CardInsertInfo;		getCardType	()I								
+tiktok_feed_insert_batch	interface	method	Lcom/ss/android/ugc/feed/platform/panel/datalayer/DataLayerAbilityImpl;		L01	(Ljava/util/List;ILX/0OsG;)LX/0OuL;								
+tiktok_feed_insert_count	interface	method	Lcom/ss/android/ugc/feed/platform/panel/datalayer/DataLayerAbilityImpl;		e1	()I								
+tiktok_feed_insert_items	interface	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		getAwemeList	()Ljava/util/List;								
+tiktok_feed_insert_legacy	interface	method	Lcom/ss/android/ugc/aweme/feed/panel/BaseListFragmentPanel;		nV2	(ILjava/lang/String;Ljava/util/List;)V								
+tiktok_feed_insert_legacy_dispatch	interface	method	Lcom/ss/android/ugc/aweme/feed/component/InsertCacheWhenPlayLagComponent;		Op	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;IZ)V								
+tiktok_feed_insert_single	interface	method	Lcom/ss/android/ugc/feed/platform/panel/datalayer/DataLayerAbilityImpl;		Hh2	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;ILX/0OsG;)LX/0OuL;								
+tiktok_feed_legacy_materialized	method_scan	method	Lcom/ss/android/ugc/aweme/feed/api/FeedApi;		LIZIZ	(LX/06Ak;)Lcom/ss/android/ugc/aweme/feed/model/FeedItemList;								
+tiktok_feed_materialized	method_scan	method	Lcom/ss/android/ugc/aweme/feed/api/FeedApi;		LIZ	(LX/06Ak;)Lcom/ss/android/ugc/aweme/feed/model/FeedItemList;								
+tiktok_feed_native_card	feed_filter	method	Lcom/ss/android/ugc/aweme/feed/model/AwemeExtKt;		isCard	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z								
+tiktok_gesture_native_owner	method_scan	class	LX/0B5S;										Landroid/view/View;|J	LLJJIJIIJIL|LLJJL
+tiktok_gesture_native_root	method_scan	class	Lcom/ss/android/ugc/aweme/feed/VideoViewCellRootView;										LX/0B5S;	LLJJIJI
+tiktok_gesture_native_touch	method_scan	method	LX/0B5S;		onTouch	(Landroid/view/View;Landroid/view/MotionEvent;)Z								
+tiktok_gson_serialized_alternate	method_scan	method	LX/02up;		alternate	()[Ljava/lang/String;								
+tiktok_gson_serialized_name	method_scan	method	LX/02up;		value	()Ljava/lang/String;								
+tiktok_gson_to_json	method_scan	method	Lcom/google/gson/Gson;		LJIILL	(Ljava/lang/Object;)Ljava/lang/String;								
+tiktok_im_attachment_model	message	class	LX/0LWy;											
+tiktok_im_builder	message	class	LX/14Lg;											
+tiktok_im_cell_bind	message	method	Lcom/ss/android/ugc/aweme/im/sdk/chat/messagelist/skeleton/cell/IMSkeletonLayoutPowerCell;		onBindItemView	(LX/05w2;Ljava/util/List;)V								
+tiktok_im_cell_bind_full	message	method	Lcom/ss/android/ugc/aweme/im/sdk/chat/messagelist/skeleton/cell/IMSkeletonLayoutPowerCell;		onBindItemView	(LX/05w2;)V								
+tiktok_im_cell_message	message	method	LX/14BU;		LIZ	(LX/14OB;)LX/0BLT;								
+tiktok_im_cell_unbind	message	method	Lcom/ss/android/ugc/aweme/im/sdk/chat/messagelist/skeleton/cell/IMSkeletonLayoutPowerCell;		unBind	()V								
+tiktok_im_client_factory	message	method	LX/0BK2;		LIZ	(LX/0B9C;)LX/0BGS;								
+tiktok_im_client_services	message	class	LX/0BGT;											
+tiktok_im_conversation_model	message	method	LX/0B9K;		LIZ	()LX/0BEg;								
+tiktok_im_core_services	message	class	LX/0B9K;											
+tiktok_im_image_component	message	class	Lcom/ss/android/ugc/aweme/im/message/template/component/ImageComponent;											urls|decryptKey
+tiktok_im_legacy_content	message	class	LX/14cy;											
+tiktok_im_lookup_callback	message	class	LX/0BG8;											
+tiktok_im_media_params	message	class	LX/1GHQ;											
+tiktok_im_media_type	message	class	LX/1MUx;											
+tiktok_im_message_commit	message	method	LX/0BX4;		LJJII	(LX/0BLT;LX/0Y3p;Ljava/util/Map;Ljava/util/Set;ZZ)Z								
+tiktok_im_message_insert	message	method	LX/0BX4;		LJJLIIIJJI	(LX/0BLT;)Z								
+tiktok_im_message_model	message	class	LX/0BLT;											
+tiktok_im_message_pb	message	method	LX/0BLT;		getContentPB	()Lokio/ByteString;								
+tiktok_im_pb_content	message	class	LX/14dV;											
+tiktok_im_picture_template	message	class	Lcom/ss/android/ugc/aweme/im/message/template/card/PictureCardTemplate;											imageComponent|thumbnailComponent
+tiktok_im_recall_mark	message	method	LX/0Bqe;		LIZIZ	(LX/0BLT;Ljava/lang/String;LX/03Rb;)Ljava/lang/Object;								
+tiktok_im_recall_remote_ext	message	method	LX/1NCQ;		LJFF	(Ljava/util/Map;LX/0BLT;JLcom/bytedance/im/core/proto/MessageBody;)LX/1NDw;								
+tiktok_im_send	message	method	LX/0BFb;		LJIIIIZZ	(LX/1GHU;LX/14gY;LX/1MWT;)LX/0BvO;								
+tiktok_im_send_callback	message	class	LX/1MWT;											
+tiktok_im_send_failure	message	class	LX/14jf;											
+tiktok_im_send_media	message	method	LX/0BFb;		LJI	(LX/1GHQ;LX/14gY;LX/1MWT;)LX/0BvO;								
+tiktok_im_send_options	message	class	LX/14gY;											
+tiktok_im_send_params	message	class	LX/1GHU;											
+tiktok_im_send_success	message	class	LX/14gQ;											
+tiktok_im_send_target	message	class	LX/14cx;											
+tiktok_im_template_decode	message	method	LX/0CGu;		LIZ	(Lokio/ByteString;I)Lcom/ss/android/ugc/aweme/im/message/template/card/BaseTemplate;								
+tiktok_im_text_component	message	class	Lcom/ss/android/ugc/aweme/im/message/template/component/TextComponent;											text|senderStarlingKey|receiverStarlingKey
+tiktok_im_text_template	message	class	Lcom/ss/android/ugc/aweme/im/message/template/card/BubbleCardTemplate;											textComponent
+tiktok_im_uid	message	method	LX/0BBV;		getUid	()J								
+tiktok_im_voice_template	message	class	Lcom/ss/android/ugc/aweme/im/message/template/card/VoiceMessageTemplate;											
+tiktok_im_voice_wave	message	class	Lcom/ss/android/ugc/aweme/im/message/template/component/VoiceMessageAudioWaveComponent;											
+tiktok_message_input_factory	auto_message	method	LX/02sB;		LLLLLLZ	(Lcom/ss/android/ugc/aweme/im/chatroom/input/components/inputfield/IInputFieldAbility;LX/14ej;LX/14Cd;LX/14ek;Lcom/ss/android/ugc/aweme/im/chatroom/api/model/SessionInfo;LX/0cWO;LX/0ntn;LX/14z7;Lcom/ss/android/ugc/aweme/im/customize/api/ui/wallpaper/IChatWallpaperAbility;)Lcom/ss/android/ugc/aweme/im/sdk/chat/viewmodel/SingleChatInputViewModel;								
+tiktok_message_lazy_value	auto_message	method	Lcom/bytedance/assem/arch/viewModel/AssemVMLazy;		LIZ	()Lcom/bytedance/assem/arch/viewModel/AssemViewModel;								
+tiktok_message_single_chat	auto_message	method	Lcom/ss/android/ugc/aweme/im/chatroom/api/model/SessionInfo;		isSingleChat	()Z								
+tiktok_notice_comment	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/CommentNotice;											comment|aweme|replyComment|level1Comment|isAwemeInvalid
+tiktok_notice_fetch	comment_reply	method	Lcom/ss/android/ugc/aweme/notification/api/MusNotificationApiManager$NoticeApi;		LIZ	(Ljava/lang/String;I)Lcom/google/common/util/concurrent/ListenableFuture;								
+tiktok_notice_groups	comment_reply	class	LX/0Bb1;											LIZJ
+tiktok_notice_lists_response	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/NoticeListsResponse;											notices
+tiktok_notice_model	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/BaseNotice;											nid|createTime|commentNotice
+tiktok_notice_page	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/NoticeItems;											group|items|hasMore|maxTime|minTime|cursor
+tiktok_notice_provider	comment_reply	class	Lcom/ss/android/ugc/aweme/notification/api/MusNotificationApiManager;											LIZ
+tiktok_notice_request	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/MultiNotice;											group|maxTime|minTime|count|markRead|cursor
+tiktok_notice_response_received	comment_reply	method	Lcom/ss/android/ugc/aweme/notification/model/MusNewNotificationModel;		handleCombineResponse	(Landroid/os/Message;)V								
+tiktok_notice_template	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/GeneralTemplateNotice;											extraData|createTime|nid|nidStr
+tiktok_notice_template_extra	comment_reply	class	Lcom/ss/android/ugc/aweme/notice/repo/list/bean/NoticeExtraData;											comment|aweme|isAwemeInvalid
+tiktok_popup_complete	basic	method	LX/0FfZ;		LIZ	()V								
+tiktok_profile_base	interface	class	Lcom/ss/android/ugc/profile/platform/base/component/BaseUIComponent;											LLJZIJLIL|LLJLLIL|LLL
+tiktok_profile_common	interface	method	Lcom/ss/android/ugc/profile/platform/base/component/BaseUIComponent;		wq	()Lcom/ss/android/ugc/profile/platform/base/data/ProfileCommonInfo;								
+tiktok_profile_relation_render	interface	method	Lcom/ss/android/ugc/profile/platform/business/header/business/info/business/relationinfo/base/RelationInfoBaseUIComponent;		fr	()V								
+tiktok_profile_uid	interface	method	Lcom/ss/android/ugc/profile/platform/base/data/UserProfileInfo;		getUid	()Ljava/lang/String;								
+tiktok_profile_user_info	interface	method	Lcom/ss/android/ugc/profile/platform/base/data/ProfileCommonInfo;		getUserProfileInfo	()Lcom/ss/android/ugc/profile/platform/base/data/UserProfileInfo;								
+tiktok_publish_button_factory	interface	method	Lcom/ss/android/ugc/aweme/homepage/ui/view/tab/bottom/publishtab/PublishBottomTabViewFactory;		LIZ	(LX/063p;LX/06H9;)Landroid/view/View;								
+tiktok_refresh_current_tab	interface	method	Lcom/ss/android/ugc/aweme/main/TabChangeManager;		a33	()Ljava/lang/String;								
+tiktok_refresh_tab_manager	interface	method	LX/0590;		LIZ	(LX/02HR;)Lcom/ss/android/ugc/aweme/main/TabChangeManager;								
+tiktok_relation_blocking_first	method_scan	method	LX/02sL;		LIZLLL	()Ljava/lang/Object;								
+tiktok_relation_followers	method_scan	method	Lcom/ss/android/ugc/aweme/profile/api/FollowRelationApi;		LIZJ	(Ljava/lang/String;Ljava/lang/String;JIIIILjava/lang/String;Ljava/lang/String;)LX/02sL;								
+tiktok_relation_following	method_scan	method	Lcom/ss/android/ugc/aweme/profile/api/FollowRelationApi;		LIZIZ	(Ljava/lang/String;Ljava/lang/String;JIIIILjava/lang/String;ILjava/lang/String;Ljava/lang/String;)LX/02sL;								
+tiktok_relation_provider	method_scan	class	LX/1JE7;											
+tiktok_relation_timeout	method_scan	method	LX/02sL;		LJLJJL	(JLjava/util/concurrent/TimeUnit;)LX/0Iz2;								
+tiktok_short_progress_gate	feed_ui	method	LX/06WL;		LJII	(Lcom/ss/android/ugc/aweme/feed/model/Aweme;)Z								
+tiktok_short_progress_owner	feed_ui	class	LX/06WL;										Lcom/ss/android/ugc/aweme/feed/model/Aweme;|I	LLJLIL|LLJLLL
+tiktok_short_progress_recovery	feed_ui	method	LX/0yBO;		LJFF	()V								
+tiktok_short_progress_restore	feed_ui	method	LX/06Xm;		run	()V								
+tiktok_short_progress_status	feed_ui	method	LX/06WL;		onPlayerControllerVideoStatusEvent	(LX/06Wd;)V								
+tiktok_short_progress_style	feed_ui	method	LX/06WL;		LJIIL	(Z)I								
+tiktok_short_progress_tick	feed_ui	method	LX/06WL;		LJJ	(ZZLcom/ss/android/ugc/aweme/feed/model/Aweme;FLjava/lang/String;Ljava/lang/Boolean;)V								
+tiktok_short_progress_update	feed_ui	method	LX/06WL;		LJJIFFI	(Z)V								
+tiktok_short_progress_video_event	feed_ui	method	LX/06WL;		onVideoEvent	(LX/06We;)V								
+tiktok_tako_chunk	method_scan	class	Lcom/ss/android/ugc/aweme/tako/ccl/model/api/MessageChunkResult;								6	16	I|Lcom/ss/android/ugc/aweme/tako/ccl/model/api/Message;|J|Z|Ljava/lang/Integer;	event|messages|chunkIndex|streamTime|answerIndex|multiAnswerUpgrade|multiAnswerDegrade|rank
+tiktok_tako_dispatch_stream	method_scan	method	LX/17cQ;		LJIILLIIL	(Ln2;)V		LX/17cS;						
+tiktok_tako_flow	method_scan	class	LX/0Gcc;								11	6	LX/0HUd;|Ljava/lang/String;|LX/05t0;	LL|LLJJIII|LLJJIJI
+tiktok_tako_message	method_scan	class	Lcom/ss/android/ugc/aweme/tako/ccl/model/api/Message;								20	61	Lcom/ss/android/ugc/aweme/tako/ccl/model/api/MessageSender;|I|Ljava/lang/String;|J	sender|msgType|uuid|msgId|conversationId|subConversationId|sessionId|subSessionId|botId|actionId|replyUuid|replyMsgId|msgContent|LIZIZ|LIZLLL
+tiktok_tako_mix_feed	method_scan	class	Lcom/ss/android/ugc/aweme/tako/ccl/model/api/TakoMixFeed;								6	48	Ljava/lang/String;|I|Ljava/util/List;|Lcom/ss/android/ugc/aweme/tako/ccl/model/api/TakoMediaSendCard;	text|status|cardType|images|videos|videoList|mediaSendCard
+tiktok_tako_page_created	method_scan	method	Lcom/ss/android/ugc/aweme/tako/ui/TakoBaseFragment;		onViewCreated	(Landroid/view/View;Landroid/os/Bundle;)V								
+tiktok_tako_page_destroy	method_scan	method	Lcom/ss/android/ugc/aweme/tako/ui/TakoBaseFragment;		onDestroyView	()V								
+tiktok_tako_page_resume	method_scan	method	Lcom/ss/android/ugc/aweme/tako/ui/TakoBaseFragment;		onResume	()V								
+tiktok_tako_page_stop	method_scan	method	Lcom/ss/android/ugc/aweme/tako/ui/TakoBaseFragment;		onStop	()V								
+tiktok_tako_page_vm	method_scan	method	Lcom/ss/android/ugc/aweme/tako/ui/TakoBaseFragment;		QX	()Lcom/ss/android/ugc/aweme/tako/botpage/vm/MessageViewModel;								
+tiktok_tako_request	method_scan	method	LX/17cg;		LIZ	(LX/17cf;Ln2;LX/03Rb;)Ljava/lang/Object;								
+tiktok_tako_sender	method_scan	class	Lcom/ss/android/ugc/aweme/tako/ccl/model/api/MessageSender;								6	5	I|J|Z|Ljava/lang/String;	senderType|userId|botId|isSelf|iconUrl
+tiktok_tako_vm_clear	method_scan	method	Lcom/ss/android/ugc/aweme/tako/botpage/vm/MessageViewModel;		onCleared	()V								
+tiktok_update_popup	basic	method	LX/0cI0;		showPopup	(LX/06ZA;LX/0FfZ;)V	tiktok_beta_profile_upgrade_guide_show							

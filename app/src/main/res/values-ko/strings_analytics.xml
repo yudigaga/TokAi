@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analytics_ui_last_feedback">"최근 프로필 피드백 · %1$s"</string>
+    <string name="analytics_ui_recording_status">"%1$s · %2$s · 최신 데이터는 직접 새로고침해 주세요"</string>
+    <string name="analytics_ui_recent_days">"최근 %1$s일"</string>
+    <string name="analytics_ui_label_count">"%1$s · %2$s회"</string>
+    <string name="analytics_ui_trend_summary">"총 %1$s회 · 최고 %2$s: %3$s회"</string>
+    <string name="analytics_ui_label_count_share">"%1$s, %2$s회, %3$s"</string>
+    <string name="analytics_ui_peak_hour_caption">"기록 당시 현지 시간 기준 · 최다 활동 %1$s, %2$s회"</string>
+    <string name="analytics_ui_first_record">"최초 기록  %1$s"</string>
+    <string name="analytics_ui_analysis_metadata">"%1$s · %2$s · %3$s\n현재 차트 통계에 기반합니다. 새로고침하거나 기간을 바꾸면 다시 분석해야 하며 AI를 자동 요청하지 않습니다."</string>
+    <string name="analytics_ui_analysis_consent">"아래 버튼을 누를 때만 현재 기간의 차트, 이전 기간 및 7/30일 비교, 프로필 지표, 연관 통계, 입력한 사용 목적과 작성자·주제·모듈 기능 순위를 선택한 모델 %1$s에 보냅니다. 평상시 수집은 로컬에만 저장되며 AI를 자동 요청하지 않습니다. 결과는 현재 페이지에만 유지됩니다.\nAI 판단은 참고용이며 차트 통계는 실제 시청 시간이 아닙니다."</string>
+    <string name="analytics_ui_export_explanation">"긴 PNG 이미지 또는 PDF를 내보낸 후 공유 대상을 선택합니다. 전체 보고서, 순위, 최근 기록, 기존 AI 결과가 포함되며 AI를 다시 요청하지 않습니다. %1$s 표시된 작성자, 주제 및 자기 설명을 확인하세요. 이미지가 너무 길면 PDF를 선택하세요."</string>
+    <string name="analytics_ui_model_profile_preview">"모델 설정 · %1$s"</string>
+    <string name="analytics_ui_secondary_prompt_preview">"보조 프롬프트 · %1$s"</string>
+    <string name="analytics_ui_chart_analysis_at">"%1$s 요청 당시 차트 통계 기반"</string>
+    <string name="analytics_ui_share_analysis_body">"TokAi · 프로필 및 차트 분석\n%1$s · %2$s\n\n%3$s"</string>
+    <string name="analytics_ui_report_generated_at">"%1$s · 보고서 생성 %2$s"</string>
+    <string name="analytics_ui_choose_export_location">"%1$s 저장 위치를 선택하세요."</string>
+    <string name="analytics_ui_pdf_generated">"전체 PDF(%1$s페이지)를 생성했습니다. 공유 대상을 선택하세요."</string>
+    <string name="analytics_ui_label_count_accessibility">"%1$s, %2$s회"</string>
+    <string name="analytics_ui_portrait_summary">"%1$s · 작성자 %2$s명 · 주제 %3$s개"</string>
+    <string name="analytics_ui_views_days_summary">"조회 %1$s회 · 기록된 날 %2$s일"</string>
+    <string name="analytics_ui_feature_summary">"기능 실행 %1$s회%2$s"</string>
+    <string name="analytics_ui_peak_summary">"최다 기록: %1$s · %2$s회"</string>
+    <string name="analytics_ui_segments_summary">"보이는 구간 %1$s개 · 종료 %2$s개"</string>
+    <string name="analytics_ui_latest_record">"최근: %1$s"</string>
+    <string name="analytics_ui_active_streak_summary">"활동 %1$s일 · 연속 %2$s일"</string>
+    <string name="analytics_ui_leading_rank">"%1$s%2$s · %3$s회"</string>
+    <string name="analytics_ui_portrait_reading_boundary">"%1$s\n\n콘텐츠를 접한 기록만으로 선호를 입증할 수 없습니다. 빈 기록은 미사용을 의미하지 않으며 자동 실행을 의도적 선택으로 볼 수 없습니다.\n심리 검사가 아니며 직업, 건강, 정치 또는 고정된 성격을 추론하지 않습니다."</string>
+    <string name="analytics_ui_calendar_boundary">"색상은 조회 수입니다. 빈 테두리 칸은 보관된 이벤트가 없으며 수집이 꺼졌거나 범위 밖일 수 있습니다. %1$s"</string>
+    <string name="analytics_ui_topics_boundary">"주제 %1$s개, 태그 등장 %2$s회가 식별되었습니다. 게시물에는 여러 주제가 있을 수 있습니다. 태그는 개별 게시물이나 사용자가 직접 밝힌 관심사가 아닙니다."</string>
+    <string name="analytics_ui_ranked_label_count">"%1$s  %2$s · %3$s회"</string>
+    <string name="analytics_ui_authors_boundary">"식별 가능한 작성자 %1$s명을 접했습니다. 다른 날 다시 접한 게시물 비율은 %2$s입니다. 반복 노출은 추천 때문일 수 있으며 의도적 팔로우나 재시청을 의미하지 않습니다."</string>
+    <string name="analytics_ui_rhythm_boundary">"이벤트 당시 현지 시간 기준입니다. 심야(0~5시)는 %1$s, 주말은 %2$s입니다. 기간 내 평일과 주말 일수는 다를 수 있으며 수면이나 생활 습관을 나타내지 않습니다."</string>
+    <string name="analytics_ui_comparison_dates">"현재 %1$s — %2$s\n이전 %3$s — %4$s"</string>
+    <string name="analytics_ui_missing_topic_period">"%1$s에 비교 가능한 주제 기록이 없어 변화를 판단하지 않습니다. 수집 공백이나 미식별 주제는 관심이 없음을 뜻하지 않습니다."</string>
+    <string name="analytics_ui_rank_description">"%1$s위 · %2$s회"</string>
+    <string name="analytics_ui_period_evidence_title">"%1$s 비교 근거"</string>
+    <string name="analytics_ui_period_evidence_body">"현재 %1$s — %2$s: 조회 %3$s회, 기능 실행 %4$s회.\n이전 %5$s — %6$s: 조회 %7$s회, 기능 실행 %8$s회.\n%9$s"</string>
+    <string name="analytics_ui_visible_segments_detail">"보이는 구간 %1$s개 중 %2$s개가 종료되었으며 확인된 표시 시간 합계는 %3$s입니다. 머문 시간이 완전 시청이나 선호를 뜻하지 않으며 자동 행동은 별도 표시됩니다."</string>
+    <string name="analytics_ui_joint_count">"%1$s  →  %2$s\n연관 %3$s회"</string>
+    <string name="analytics_ui_collapsed_label">"%1$s, 접힘"</string>
+    <string name="analytics_ui_duration_seconds">"%1$s초"</string>
+    <string name="analytics_ui_duration_minutes">"%1$s분"</string>
+    <string name="analytics_ui_calendar_day_hit">"%1$s · 조회 %2$s회 · 기능 %3$s회%4$s"</string>
+    <string name="analytics_ui_rhythm_hour_hit">"%1$s %2$s시 · 기록 %3$s회"</string>
+    <string name="analytics_ui_hour_label">"%1$s시"</string>
+    <string name="analytics_ui_type_band_hit">"%1$s · %2$s %3$s회 · %4$s"</string>
+    <string name="analytics_ui_topic_occurrences">"%1$s · 태그 등장 %2$s회"</string>
+    <string name="analytics_ui_author_cumulative_hit">"%1$s · %2$s회 · 누적 %3$s"</string>
+    <string name="analytics_ui_compare_values">"%1$s · 이전 %2$s / 현재 %3$s"</string>
+    <string name="analytics_ui_compare_hit">"%1$s · 이전 %2$s · 현재 %3$s%4$s"</string>
+    <string name="analytics_ui_advertisement_views">"광고 노출 %1$s회를 포함합니다."</string>
+    <string name="analytics_ui_paper_label_count">"%1$s  ·  %2$s회"</string>
+    <string name="analytics_ui_paper_active_streak">"활동 %1$s일  /  현재 연속 %2$s일"</string>
+    <string name="analytics_ui_first_retained_record">"최초 보관 기록: %1$s"</string>
+    <string name="analytics_ui_paper_report_metadata">"%1$s\n보고서 생성  %2$s"</string>
+    <string name="analytics_ui_paper_analysis_metadata">"%1$s  ·  %2$s\n분석 생성  %3$s\n아래 내용은 해당 요청 당시의 통계 스냅샷에만 해당하며 참고용입니다."</string>
+    <string name="analytics_ui_pdf_page_footer">"%1$s / %2$s페이지 · 전체 로컬 분석 보고서"</string>
+    <string name="analytics_ui_share_report_format">"전체 보고서 공유%1$s"</string>
+    <string name="analytics_ui_today" formatted="false">"오늘"</string>
+    <string name="analytics_ui_range_7_days" formatted="false">"7일"</string>
+    <string name="analytics_ui_range_30_days" formatted="false">"30일"</string>
+    <string name="analytics_ui_range_90_days" formatted="false">"90일"</string>
+    <string name="analytics_ui_range_all" formatted="false">"전체"</string>
+    <string name="analytics_ui_no_model" formatted="false">"모델 미설정"</string>
+    <string name="analytics_ui_enable_recording" formatted="false">"로컬 기록 사용"</string>
+    <string name="analytics_ui_enable_recording_description" formatted="false">"로컬 기록 사용, 기본값 꺼짐"</string>
+    <string name="analytics_ui_local_recording_note" formatted="false">"이 기기에만 기록 · 언제든 끄거나 지우기 가능"</string>
+    <string name="analytics_ui_recording_notes" formatted="false">"기록 안내 및 자기 설명"</string>
+    <string name="analytics_ui_optional_purpose_feedback" formatted="false">"선택: 사용 목적과 피드백 입력 및 기록 안내 보기"</string>
+    <string name="analytics_ui_recording_privacy" formatted="false">"기본값은 꺼짐입니다. 게시물, 작성자, 주제, 기능 사용을 기기에만 기록합니다. 기본적으로 설정 백업에서 제외되며 직접 포함할 수 있습니다. 집계는 365일, 연관 상세는 최대 30일 보관됩니다. 직접 AI를 요청할 때만 요약을 전송합니다. 수집을 꺼도 기록은 남으며 언제든 지울 수 있습니다."</string>
+    <string name="analytics_ui_purpose_optional" formatted="false">"내 사용 목적 · 선택"</string>
+    <string name="analytics_ui_feedback_unset" formatted="false">"최근 프로필 피드백 · 미입력"</string>
+    <string name="analytics_ui_statistics_range" formatted="false">"통계 기간"</string>
+    <string name="analytics_ui_loading_records" formatted="false">"로컬 기록 불러오는 중…"</string>
+    <string name="analytics_ui_refresh" formatted="false">"새로고침"</string>
+    <string name="analytics_ui_clear_records" formatted="false">"기록 지우기"</string>
+    <string name="analytics_ui_analytics_title" formatted="false">"로컬 데이터 분석"</string>
+    <string name="analytics_ui_close" formatted="false">"닫기"</string>
+    <string name="analytics_ui_clearing_records" formatted="false">"로컬 기록 지우는 중…"</string>
+    <string name="analytics_ui_purpose_provided" formatted="false">"내 사용 목적 · 입력됨"</string>
+    <string name="analytics_ui_not_provided" formatted="false">"미입력"</string>
+    <string name="analytics_ui_records_load_failed" formatted="false">"로컬 기록을 읽지 못했습니다. 새로고침하여 확인하세요. 기록 상태는 위 스위치를 기준으로 합니다."</string>
+    <string name="analytics_ui_recording_active" formatted="false">"로컬 기록 중"</string>
+    <string name="analytics_ui_recording_off" formatted="false">"기록 꺼짐"</string>
+    <string name="analytics_ui_all_retained_days" formatted="false">"전체 (최근 365일)"</string>
+    <string name="analytics_ui_clear_all_title" formatted="false">"모든 로컬 분석 기록을 지울까요?"</string>
+    <string name="analytics_ui_clear_all_warning" formatted="false">"모든 기간의 조회, 기능 사용 기록, 사용 목적 및 피드백을 삭제합니다. 취소할 수 없습니다. 기록 스위치는 현재 상태를 유지합니다."</string>
+    <string name="analytics_ui_cancel" formatted="false">"취소"</string>
+    <string name="analytics_ui_clear_all" formatted="false">"모두 지우기"</string>
+    <string name="analytics_ui_purpose_title" formatted="false">"내 사용 목적"</string>
+    <string name="analytics_ui_purpose_hint" formatted="false">"예: 휴식, 사진 공부, 요리 아이디어 찾기. 비워도 됩니다."</string>
+    <string name="analytics_ui_purpose_explanation" formatted="false">"행동과 동기를 구분하기 위한 자기 설명입니다. 우선 기기에 저장되며 직접 AI 분석을 요청할 때만 함께 전송됩니다."</string>
+    <string name="analytics_ui_save" formatted="false">"저장"</string>
+    <string name="analytics_ui_feedback_yes" formatted="false">"맞음"</string>
+    <string name="analytics_ui_feedback_partial" formatted="false">"일부 맞음"</string>
+    <string name="analytics_ui_feedback_no" formatted="false">"맞지 않음"</string>
+    <string name="analytics_ui_clear_feedback" formatted="false">"피드백 지우기"</string>
+    <string name="analytics_ui_feedback_question" formatted="false">"현재 프로필이 본인의 느낌과 맞나요?"</string>
+    <string name="analytics_ui_feedback_save_unconfirmed" formatted="false">"피드백 저장 미확인 · 탭하여 재시도"</string>
+    <string name="analytics_ui_browsing_overview" formatted="false">"조회 개요"</string>
+    <string name="analytics_ui_views" formatted="false">"조회 수"</string>
+    <string name="analytics_ui_unique_works" formatted="false">"서로 다른 게시물"</string>
+    <string name="analytics_ui_feature_uses" formatted="false">"모듈 기능 사용"</string>
+    <string name="analytics_ui_ad_posts" formatted="false">"광고 게시물 포함"</string>
+    <string name="analytics_ui_overview_boundary" formatted="false">"기록을 켠 뒤 실제 표시된 게시물만 집계합니다. 다시 접하면 조회 수가 늘고 서로 다른 게시물은 ID로 중복 제거합니다. 기능 횟수는 통계에 연결된 실제 실행이며 켜진 스위치 수가 아닙니다."</string>
+    <string name="analytics_ui_empty_recording_active" formatted="false">"이 기간에는 아직 기록이 없습니다. 게시물을 보거나 모듈 기능을 사용한 후 새로고침하세요."</string>
+    <string name="analytics_ui_empty_recording_off" formatted="false">"아직 기록이 없습니다. 위 스위치를 켜면 수집을 시작하며 이전 조회 기록은 추가하지 않습니다."</string>
+    <string name="analytics_ui_feature_top10" formatted="false">"모듈 기능 순위 Top 10"</string>
+    <string name="analytics_ui_no_feature_usage" formatted="false">"모듈 기능 사용 기록 없음"</string>
+    <string name="analytics_ui_browsing_trend" formatted="false">"조회 추이"</string>
+    <string name="analytics_ui_trend_selection_hint" formatted="false">"꺾은선의 지점을 탭해 횟수 확인"</string>
+    <string name="analytics_ui_no_trend_data" formatted="false">"추이 데이터 없음"</string>
+    <string name="analytics_ui_post_type_share" formatted="false">"게시물 유형 비율"</string>
+    <string name="analytics_ui_no_post_type_data" formatted="false">"게시물 유형 데이터 없음"</string>
+    <string name="analytics_ui_post_type_boundary" formatted="false">"Live는 모션 포토입니다. 모션 포토가 포함된 혼합 사진 게시물은 모션 포토 게시물 1회로 집계합니다. 긴 동영상은 5분 이상이며 미식별 콘텐츠는 알 수 없음/기타입니다. 라이브 카드는 별도로 집계하며 라이브 입장이나 시청 시간을 뜻하지 않습니다."</string>
+    <string name="analytics_ui_author_top10" formatted="false">"작성자 순위 Top 10"</string>
+    <string name="analytics_ui_no_author_records" formatted="false">"작성자 기록 없음"</string>
+    <string name="analytics_ui_topic_top10" formatted="false">"주제 순위 Top 10"</string>
+    <string name="analytics_ui_no_topic_rank_records" formatted="false">"주제 기록 없음. 주제가 없는 게시물은 순위에서 제외됩니다"</string>
+    <string name="analytics_ui_browsing_hours" formatted="false">"조회 시간대 분포"</string>
+    <string name="analytics_ui_no_hour_data" formatted="false">"조회 시간대 데이터 없음"</string>
+    <string name="analytics_ui_recent_records" formatted="false">"최근 기록"</string>
+    <string name="analytics_ui_no_recent_records" formatted="false">"최근 기록 없음"</string>
+    <string name="analytics_ui_module_feature" formatted="false">"모듈 기능"</string>
+    <string name="analytics_ui_browse_post" formatted="false">"게시물 조회"</string>
+    <string name="analytics_ui_usage_history" formatted="false">"사용 이력"</string>
+    <string name="analytics_ui_active_days" formatted="false">"활동 일수"</string>
+    <string name="analytics_ui_active_streak" formatted="false">"연속 활동 일수"</string>
+    <string name="analytics_ui_none" formatted="false">"없음"</string>
+    <string name="analytics_ui_activity_boundary" formatted="false">"활동 및 연속 일수는 선택 기간의 보관 기록 기준입니다. 빈 날짜는 수집 중지 또는 누락일 수 있습니다. 오늘 기록이 없어도 연속 활동이 유지될 수 있습니다. 최초 기록은 마지막 삭제 이후 기준이며 365일보다 오래될 수 있습니다."</string>
+    <string name="analytics_ui_ai_chart_analysis" formatted="false">"AI 차트 분석"</string>
+    <string name="analytics_ui_expand_ai_sections" formatted="false">"모든 구역의 AI 해석 펼치기"</string>
+    <string name="analytics_ui_share_analysis_text" formatted="false">"분석 텍스트 공유"</string>
+    <string name="analytics_ui_requesting_analysis" formatted="false">"AI 분석 요청 중…"</string>
+    <string name="analytics_ui_cancel_analysis" formatted="false">"분석 취소"</string>
+    <string name="analytics_ui_analysis_cancelled" formatted="false">"분석을 취소했습니다. 다시 요청할 수 있습니다."</string>
+    <string name="analytics_ui_choose_available_model" formatted="false">"사용 가능한 AI 모델을 선택하세요. 전역 모델을 따르려면 먼저 전역 모델을 활성화해야 합니다."</string>
+    <string name="analytics_ui_no_analysis_data" formatted="false">"현재 기간에 분석할 데이터가 없습니다. 기록이 생기면 분석할 수 있습니다."</string>
+    <string name="analytics_ui_request_analysis" formatted="false">"AI 분석 요청"</string>
+    <string name="analytics_ui_retry_analysis" formatted="false">"AI 분석 다시 요청"</string>
+    <string name="analytics_ui_export_default_locations" formatted="false">"이미지는 Pictures/TokAi, PDF는 Downloads/TokAi에 저장됩니다."</string>
+    <string name="analytics_ui_choose_report_location_sentence" formatted="false">"보고서 파일 저장 위치를 선택하세요."</string>
+    <string name="analytics_ui_export_share_report" formatted="false">"보고서 내보내기/공유"</string>
+    <string name="analytics_ui_customized" formatted="false">"사용자 지정됨"</string>
+    <string name="analytics_ui_default" formatted="false">"기본값"</string>
+    <string name="analytics_ui_restore_secondary_prompt" formatted="false">"기본 보조 프롬프트 복원"</string>
+    <string name="analytics_ui_analysis_settings_note" formatted="false">"선택한 모델과 보조 프롬프트는 로컬 분석에만 사용됩니다. 비우면 기본 프롬프트를 사용하며 보고서 구조와 집계 기준은 유지됩니다."</string>
+    <string name="analytics_ui_global_no_active_model" formatted="false">"전역 따름 (활성 모델 없음)"</string>
+    <string name="analytics_ui_selected_profile_unavailable" formatted="false">"선택한 설정을 사용할 수 없습니다. 다시 선택하세요"</string>
+    <string name="analytics_ui_streaming" formatted="false">"스트리밍"</string>
+    <string name="analytics_ui_non_streaming" formatted="false">"비스트리밍"</string>
+    <string name="analytics_ui_model_profiles_unreadable" formatted="false">"모델 설정을 읽을 수 없습니다. AI 모델 설정에서 확인하세요."</string>
+    <string name="analytics_ui_follow_global_model" formatted="false">"전역 모델 따름"</string>
+    <string name="analytics_ui_analysis_model_title" formatted="false">"로컬 분석에 사용할 모델"</string>
+    <string name="analytics_ui_analysis_prompt_title" formatted="false">"로컬 분석 보조 프롬프트"</string>
+    <string name="analytics_ui_ai_interpretation" formatted="false">"AI 해석"</string>
+    <string name="analytics_ui_analysis_incomplete_retry" formatted="false">"분석을 완료하지 못했습니다. 나중에 다시 시도하세요."</string>
+    <string name="analytics_ui_profile_chart_analysis" formatted="false">"TokAi · 프로필 및 차트 분석"</string>
+    <string name="analytics_ui_share_ai_analysis" formatted="false">"AI 차트 분석 공유"</string>
+    <string name="analytics_ui_share_text_unavailable" formatted="false">"시스템 공유 창을 열 수 없습니다. 분석 텍스트를 길게 눌러 복사하세요."</string>
+    <string name="analytics_ui_load_report_first" formatted="false">"먼저 로컬 보고서를 불러오세요"</string>
+    <string name="analytics_ui_long_png" formatted="false">"긴 PNG 이미지"</string>
+    <string name="analytics_ui_pdf_document" formatted="false">"PDF 문서"</string>
+    <string name="analytics_ui_laying_out_report" formatted="false">"전체 보고서 구성 중…"</string>
+    <string name="analytics_ui_export_cancelled_no_file" formatted="false">"취소했습니다. 보고서 파일을 만들지 않았습니다."</string>
+    <string name="analytics_ui_png_generated" formatted="false">"전체 긴 PNG 이미지를 생성했습니다. 공유 대상을 선택하세요."</string>
+    <string name="analytics_ui_share_report_unavailable" formatted="false">"공유 창을 열 수 없습니다. 보고서를 공유하지 않았습니다. 다시 시도하세요."</string>
+    <string name="analytics_ui_prefer_pdf_for_long_report" formatted="false">"내용이 깁니다. 전체 보고서를 내보내려면 PDF를 선택하세요."</string>
+    <string name="analytics_ui_report_export_failed" formatted="false">"보고서 생성 또는 저장에 실패했습니다. 이미지가 너무 길면 PDF를 선택하거나 저장 위치를 확인하거나 기간을 줄여 다시 시도하세요. 보고서 내용은 변경되지 않았습니다."</string>
+    <string name="analytics_ui_no_type_records" formatted="false">"게시물 유형 기록 없음"</string>
+    <string name="analytics_ui_most_encountered_prefix" formatted="false">"가장 많이 접함: "</string>
+    <string name="analytics_ui_leading_topic_prefix" formatted="false">"주요 주제: "</string>
+    <string name="analytics_ui_no_topic_records" formatted="false">"주제 기록 없음"</string>
+    <string name="analytics_ui_no_hour_records" formatted="false">"시간대 기록 없음"</string>
+    <string name="analytics_ui_no_previous_comparison" formatted="false">"이전 기간 비교 없음"</string>
+    <string name="analytics_ui_comparison_incomplete_summary" formatted="false">"기간 비교 · 기록 범위 불완전"</string>
+    <string name="analytics_ui_view_period_changes" formatted="false">"기간별 횟수 및 주제 변화 보기"</string>
+    <string name="analytics_ui_expand" formatted="false">"펼치기"</string>
+    <string name="analytics_ui_collapse" formatted="false">"접기"</string>
+    <string name="analytics_ui_trend_accessibility" formatted="false">"조회 추이. 차트를 탭해 날짜를 선택하며 접근성 클릭으로 순서대로 볼 수 있습니다."</string>
+    <string name="analytics_ui_type_share_accessibility" formatted="false">"게시물 유형 비율: "</string>
+    <string name="analytics_ui_hour_distribution_accessibility" formatted="false">"조회 시간대 분포: "</string>
+    <string name="analytics_ui_portrait_heading" formatted="false">"이 기간의 나"</string>
+    <string name="analytics_ui_portrait_subtitle" formatted="false">"로컬 행동 기록으로 만든 시기별 프로필"</string>
+    <string name="analytics_ui_portrait_insufficient" formatted="false">"아직 설명할 기록이 충분하지 않습니다. 사용이 쌓이면 콘텐츠, 활동 리듬, 도구 사용 패턴이 드러납니다."</string>
+    <string name="analytics_ui_view_evidence" formatted="false">"근거 및 한계 보기"</string>
+    <string name="analytics_ui_portrait_scope_title" formatted="false">"이 프로필이 아는 것과 모르는 것"</string>
+    <string name="analytics_ui_calendar_title" formatted="false">"조회 흔적 · 날짜 히트맵"</string>
+    <string name="analytics_ui_calendar_paper_hint" formatted="false">"날짜별 로컬 조회 기록"</string>
+    <string name="analytics_ui_calendar_select_hint" formatted="false">"날짜를 선택하여 조회 및 기능 횟수 확인"</string>
+    <string name="analytics_ui_calendar_last84" formatted="false">"선택 기간 중 최근 84일을 표시합니다."</string>
+    <string name="analytics_ui_type_bands_title" formatted="false">"콘텐츠 구성 · 시간에 따른 변화"</string>
+    <string name="analytics_ui_type_bands_paper_hint" formatted="false">"각 행을 100%로 정규화하며 색 띠는 해당 기간의 콘텐츠 구성입니다"</string>
+    <string name="analytics_ui_type_bands_select_hint" formatted="false">"각 행은 100%이며 색 띠를 탭해 원래 횟수를 확인합니다"</string>
+    <string name="analytics_ui_type_bands_boundary" formatted="false">"기록된 콘텐츠 구성을 비교하며 빈 행은 기록 부족입니다. Live는 모션 포토이며 5분 이상 동영상은 긴 동영상입니다."</string>
+    <string name="analytics_ui_topic_paper_title" formatted="false">"주제 순위 · 내 콘텐츠 지도"</string>
+    <string name="analytics_ui_topic_map_title" formatted="false">"내 콘텐츠 세계 · 주제 지도"</string>
+    <string name="analytics_ui_topics_unidentified" formatted="false">"식별 가능한 주제가 없습니다. 관심사의 폭을 판단할 수 없습니다."</string>
+    <string name="analytics_ui_topic_map_paper_hint" formatted="false">"면적은 주제 등장 횟수이며 전체 이름과 횟수는 아래에 표시됩니다"</string>
+    <string name="analytics_ui_topic_map_select_hint" formatted="false">"면적은 주제 등장 횟수이며 색 블록을 선택하면 전체 이름을 볼 수 있습니다"</string>
+    <string name="analytics_ui_author_paper_title" formatted="false">"작성자 순위 · 노출 출처 곡선"</string>
+    <string name="analytics_ui_author_curve_title" formatted="false">"노출 출처 · 작성자 집중 곡선"</string>
+    <string name="analytics_ui_authors_unidentified" formatted="false">"식별 가능한 작성자가 없어 노출 출처를 설명할 수 없습니다."</string>
+    <string name="analytics_ui_author_curve_hint" formatted="false">"등장 횟수순이며 곡선은 누적 비율입니다"</string>
+    <string name="analytics_ui_rhythm_title" formatted="false">"주간 리듬 · 요일 × 시간"</string>
+    <string name="analytics_ui_rhythm_paper_hint" formatted="false">"색 농도는 요일과 시간별 기록 횟수입니다"</string>
+    <string name="analytics_ui_rhythm_select_hint" formatted="false">"칸을 선택해 횟수를 보며 접근성 클릭으로 순서대로 확인합니다"</string>
+    <string name="analytics_ui_comparison_title" formatted="false">"최근 변화 · 나 자신과 비교"</string>
+    <string name="analytics_ui_no_comparable_period" formatted="false">"비교 가능한 이전 기간이 없습니다."</string>
+    <string name="analytics_ui_coverage_incomplete" formatted="false">"기록 범위가 불완전하여 증가나 감소를 판단하지 않습니다."</string>
+    <string name="analytics_ui_comparison_chart_hint" formatted="false">"회색은 이전, 파란색은 현재이며 항목별 눈금이 다릅니다"</string>
+    <string name="analytics_ui_last7days" formatted="false">"최근 7일"</string>
+    <string name="analytics_ui_last30days" formatted="false">"최근 30일"</string>
+    <string name="analytics_ui_topic_migration_title" formatted="false">"주제 이동 · 이전 → 현재"</string>
+    <string name="analytics_ui_both_periods" formatted="false">"두 기간"</string>
+    <string name="analytics_ui_current_period" formatted="false">"현재 기간"</string>
+    <string name="analytics_ui_previous_period" formatted="false">"이전 기간"</string>
+    <string name="analytics_ui_topic_migration_boundary" formatted="false">"두 기간의 주요 주제 순위와 횟수입니다. 요약에 없다고 0은 아닙니다. 오늘은 진행 중이며 횟수는 수집 범위에 좌우됩니다. 순위 변화가 관심 변화와 같지는 않습니다."</string>
+    <string name="analytics_ui_not_summarized" formatted="false">"요약에 없음"</string>
+    <string name="analytics_ui_associations_title" formatted="false">"노출에서 행동으로 · 연관 단서"</string>
+    <string name="analytics_ui_feature_sources" formatted="false">"기능 실행 출처"</string>
+    <string name="analytics_ui_no_associations" formatted="false">"아직 연관 기록이 없습니다. 별개의 심야, 주제, 저장 횟수를 같은 행동으로 합칠 수 없습니다."</string>
+    <string name="analytics_ui_topic_hour_associations" formatted="false">"같은 노출 내 주제와 시간대"</string>
+    <string name="analytics_ui_topic_hour_boundary" formatted="false">"시간대는 보이는 구간이 시작한 시각이며 한 구간에 여러 주제가 있을 수 있습니다. 머문 시간의 분포가 아닙니다."</string>
+    <string name="analytics_ui_type_action_associations" formatted="false">"같은 노출 내 콘텐츠와 행동"</string>
+    <string name="analytics_ui_weekday_mon_short" formatted="false">"월"</string>
+    <string name="analytics_ui_weekday_tue_short" formatted="false">"화"</string>
+    <string name="analytics_ui_weekday_wed_short" formatted="false">"수"</string>
+    <string name="analytics_ui_weekday_thu_short" formatted="false">"목"</string>
+    <string name="analytics_ui_weekday_fri_short" formatted="false">"금"</string>
+    <string name="analytics_ui_weekday_sat_short" formatted="false">"토"</string>
+    <string name="analytics_ui_weekday_sun_short" formatted="false">"일"</string>
+    <string name="analytics_ui_no_retained_events_fragment" formatted="false">" · 보관 이벤트 없음, 사용 여부 알 수 없음"</string>
+    <string name="analytics_ui_calendar_chart_description" formatted="false">"날짜 히트맵"</string>
+    <string name="analytics_ui_weekday_mon" formatted="false">"월요일"</string>
+    <string name="analytics_ui_weekday_tue" formatted="false">"화요일"</string>
+    <string name="analytics_ui_weekday_wed" formatted="false">"수요일"</string>
+    <string name="analytics_ui_weekday_thu" formatted="false">"목요일"</string>
+    <string name="analytics_ui_weekday_fri" formatted="false">"금요일"</string>
+    <string name="analytics_ui_weekday_sat" formatted="false">"토요일"</string>
+    <string name="analytics_ui_weekday_sun" formatted="false">"일요일"</string>
+    <string name="analytics_ui_rhythm_chart_description" formatted="false">"요일 및 시간 히트맵"</string>
+    <string name="analytics_ui_type_bands_description" formatted="false">"콘텐츠 구성 비율 색 띠"</string>
+    <string name="analytics_ui_topic_treemap_description" formatted="false">"주제 트리맵"</string>
+    <string name="analytics_ui_author_curve_description" formatted="false">"작성자 누적 비율, 기타 작성자는 합산됨"</string>
+    <string name="analytics_ui_view_count" formatted="false">"조회 횟수"</string>
+    <string name="analytics_ui_feature_triggers" formatted="false">"기능 실행"</string>
+    <string name="analytics_ui_incomplete_trend_fragment" formatted="false">" · 불완전한 범위, 추세 판단 불가"</string>
+    <string name="analytics_ui_comparison_chart_description" formatted="false">"기간 비교 점 차트, 행별 독립 눈금"</string>
+    <string name="analytics_ui_long_png_limit" formatted="false">"보고서가 긴 이미지 크기 제한을 초과합니다. 전체 내용은 PDF로 내보내세요."</string>
+    <string name="analytics_ui_unsupported_export_size" formatted="false">"지원하지 않는 보고서 내보내기 크기"</string>
+    <string name="analytics_ui_report_layout_too_large" formatted="false">"보고서 레이아웃이 너무 큽니다"</string>
+    <string name="analytics_ui_pdf_page_limit" formatted="false">"보고서가 PDF 페이지 제한을 초과합니다. 통계 기간을 줄이세요."</string>
+    <string name="analytics_ui_pagination_failed" formatted="false">"보고서 전체를 페이지로 나눌 수 없습니다. 통계 기간을 줄이세요."</string>
+    <string name="analytics_ui_text_too_large_for_page" formatted="false">"보고서 글자가 너무 커 전체 페이지 구성이 불가능합니다"</string>
+    <string name="analytics_ui_choose_report_format" formatted="false">"보고서 형식을 선택하세요"</string>
+    <string name="analytics_ui_complete_report_title" formatted="false">"TokAi · 전체 로컬 분석 보고서"</string>
+    <string name="analytics_ui_report_title" formatted="false">"TokAi · 로컬 분석 보고서"</string>
+    <string name="analytics_ui_pdf_file_too_large" formatted="false">"보고서 PDF 파일이 너무 큽니다"</string>
+    <string name="analytics_ui_storage_context_unavailable" formatted="false">"보고서 저장 컨텍스트를 사용할 수 없습니다"</string>
+    <string name="analytics_ui_choose_report_location" formatted="false">"보고서 파일 저장 위치를 선택하세요"</string>
+    <string name="analytics_ui_report_write_failed" formatted="false">"보고서 파일을 쓸 수 없습니다"</string>
+    <string name="analytics_ui_report_save_incomplete" formatted="false">"보고서 파일 저장을 완료할 수 없습니다"</string>
+    <string name="analytics_ui_long_image" formatted="false">"긴 이미지"</string>
+    <string name="analytics_ui_export_cancelled" formatted="false">"보고서 내보내기를 취소했습니다"</string>
+    <string name="analytics_ui_record_overview" formatted="false">"기록 개요"</string>
+    <string name="analytics_ui_local_recorded_events" formatted="false">"로컬 통계 · 기록된 이벤트"</string>
+    <string name="analytics_ui_paper_record_boundary" formatted="false">"조회 수는 통계에 연결된 콘텐츠 노출입니다. 게시물은 로컬 식별자로 중복 제거합니다. 기능 횟수는 실행이며 요청 성공과 다릅니다."</string>
+    <string name="analytics_ui_paper_no_records" formatted="false">"현재 기간에 보관 기록이 없습니다. 공백은 미사용을 뜻하지 않습니다."</string>
+    <string name="analytics_ui_local_charts_evidence" formatted="false">"로컬 통계 · 차트 및 근거"</string>
+    <string name="analytics_ui_local_daily_statistics" formatted="false">"로컬 통계 · 날짜별 집계"</string>
+    <string name="analytics_ui_paper_no_trend" formatted="false">"추이 기록이 없습니다."</string>
+    <string name="analytics_ui_post_types" formatted="false">"게시물 유형"</string>
+    <string name="analytics_ui_paper_no_types" formatted="false">"게시물 유형 기록이 없습니다."</string>
+    <string name="analytics_ui_paper_type_boundary" formatted="false">"Live는 모션 포토이며 모션 포토가 포함된 혼합 게시물은 모션 포토 게시물 1회입니다. 긴 동영상은 5분 이상입니다. 미식별 콘텐츠는 알 수 없음 또는 기타입니다. 라이브 카드는 입장이나 시청 시간을 뜻하지 않습니다."</string>
+    <string name="analytics_ui_daily_exposure_hours" formatted="false">"하루 중 노출 시간대"</string>
+    <string name="analytics_ui_local_time_statistics" formatted="false">"로컬 통계 · 현지 시간"</string>
+    <string name="analytics_ui_hours_boundary" formatted="false">"이벤트 당시 현지 시간 기준이며 수면, 실제 시청 시간 또는 생활 습관을 뜻하지 않습니다."</string>
+    <string name="analytics_ui_creator_ranking" formatted="false">"작성자 순위"</string>
+    <string name="analytics_ui_paper_no_creators" formatted="false">"식별 가능한 작성자가 없습니다."</string>
+    <string name="analytics_ui_topic_ranking" formatted="false">"주제 순위"</string>
+    <string name="analytics_ui_paper_no_topics" formatted="false">"식별 가능한 주제가 없습니다."</string>
+    <string name="analytics_ui_feature_ranking" formatted="false">"모듈 기능 순위"</string>
+    <string name="analytics_ui_paper_no_features" formatted="false">"모듈 기능 기록이 없습니다."</string>
+    <string name="analytics_ui_local_recent_summaries" formatted="false">"로컬 통계 · 개별 기록 요약"</string>
+    <string name="analytics_ui_paper_no_recent" formatted="false">"최근 기록이 없습니다."</string>
+    <string name="analytics_ui_local_retained_range" formatted="false">"로컬 통계 · 기록 보관 범위"</string>
+    <string name="analytics_ui_no_first_record_time" formatted="false">"최초 기록 시간이 없습니다."</string>
+    <string name="analytics_ui_source_reading_boundaries" formatted="false">"출처 및 해석의 한계"</string>
+    <string name="analytics_ui_about_report" formatted="false">"이 보고서 정보"</string>
+    <string name="analytics_ui_report_source_boundary" formatted="false">"로컬 통계는 이 기기에서 수집을 켜고 연결된 기록에서 나옵니다. 공백은 미사용, 조회는 실제 시청 시간, 기능 실행은 요청 성공을 뜻하지 않습니다."</string>
+    <string name="analytics_ui_report_ai_boundary" formatted="false">"차트는 로컬 통계이며 AI 해석은 보고서에 표시된 요청에서 나온 것으로 재분석이 아닙니다. 콘텐츠 노출, 자동 행동, 의도적 선호를 구분해야 합니다. 심리 검사가 아니며 직업, 건강, 정치 또는 고정된 성격을 추론하지 않습니다."</string>
+    <string name="analytics_ui_report_share_boundary" formatted="false">"공유 전에 작성자, 주제, 최근 기록, AI 텍스트를 확인하세요. AI가 입력한 사용 목적이나 자기 설명을 인용할 수 있습니다. 데이터베이스, API 설정, 키는 첨부하지 않습니다."</string>
+    <string name="analytics_ui_my_local_report" formatted="false">"내 로컬 사용 보고서"</string>
+    <string name="analytics_ui_report_subtitle" formatted="false">"기록을 살피고 모르는 부분은 남겨두기"</string>
+    <string name="analytics_ui_exposure_views" formatted="false">"조회 노출"</string>
+    <string name="analytics_ui_independent_works" formatted="false">"개별 게시물"</string>
+    <string name="analytics_ui_local_top10" formatted="false">"로컬 통계 · 상위 10개"</string>
+    <string name="analytics_ui_ai_source_label" formatted="false">"AI 생성 · 로컬 통계와 구분해 읽기"</string>
+    <string name="analytics_ui_no_ai_export" formatted="false">"AI 분석 결과가 없습니다. 내보내기에서 AI를 요청하지 않았습니다."</string>
+    <string name="analytics_ui_period_contrast" formatted="false">"전후 비교"</string>
+    <string name="analytics_ui_questions_to_check" formatted="false">"확인할 질문"</string>
+    <string name="analytics_ui_overall_observation" formatted="false">"전체 관찰"</string>
+    <string name="analytics_ui_content_mix" formatted="false">"콘텐츠 구성"</string>
+    <string name="analytics_ui_creator_exposure" formatted="false">"작성자 노출"</string>
+    <string name="analytics_ui_topic_exposure" formatted="false">"주제 노출"</string>
+    <string name="analytics_ui_feature_usage" formatted="false">"기능 사용"</string>
+    <string name="analytics_ui_time_rhythm" formatted="false">"시간대 리듬"</string>
+    <string name="analytics_ui_evidence_heading" formatted="false">"근거 및 한계"</string>
+    <string name="analytics_ui_type_short_video" formatted="false">"짧은 동영상"</string>
+    <string name="analytics_ui_type_long_video" formatted="false">"긴 동영상"</string>
+    <string name="analytics_ui_type_live_photo" formatted="false">"모션 포토 게시물"</string>
+    <string name="analytics_ui_type_image" formatted="false">"사진 게시물"</string>
+    <string name="analytics_ui_type_live" formatted="false">"라이브 카드"</string>
+    <string name="analytics_ui_type_unknown" formatted="false">"기타 게시물"</string>
+    <string name="analytics_ui_source_manual" formatted="false">"직접 조작"</string>
+    <string name="analytics_ui_source_automatic" formatted="false">"자동 실행"</string>
+    <string name="analytics_ui_source_system" formatted="false">"시스템 처리"</string>
+    <string name="analytics_ui_source_unknown" formatted="false">"알 수 없는 출처"</string>
+    <string name="analytics_ui_stage_entry" formatted="false">"진입"</string>
+    <string name="analytics_ui_stage_request" formatted="false">"요청"</string>
+    <string name="analytics_ui_stage_accepted" formatted="false">"접수됨"</string>
+    <string name="analytics_ui_stage_success" formatted="false">"성공"</string>
+    <string name="analytics_ui_stage_failure" formatted="false">"실패"</string>
+    <string name="analytics_ui_stage_confirmed" formatted="false">"확인됨"</string>
+    <string name="analytics_ui_stage_unknown" formatted="false">"알 수 없는 단계"</string>
+    <string name="analytics_ui_feature_auto_follow" formatted="false">"자동 팔로우"</string>
+    <string name="analytics_ui_feature_auto_like" formatted="false">"자동 좋아요"</string>
+    <string name="analytics_ui_feature_auto_comment_sent" formatted="false">"자동 댓글"</string>
+    <string name="analytics_ui_feature_auto_reply_sent" formatted="false">"자동 답장"</string>
+    <string name="analytics_ui_feature_auto_slide" formatted="false">"자동 스크롤"</string>
+    <string name="analytics_ui_feature_gesture_menu" formatted="false">"빠른 메뉴"</string>
+    <string name="analytics_ui_feature_view_finder" formatted="false">"뷰 찾기"</string>
+    <string name="analytics_ui_feature_copy_text" formatted="false">"텍스트 복사"</string>
+    <string name="analytics_ui_feature_save_media" formatted="false">"미디어 저장"</string>
+    <string name="analytics_ui_feature_open_comments" formatted="false">"댓글 열기"</string>
+    <string name="analytics_ui_feature_gesture_speed" formatted="false">"배속 전환"</string>
+    <string name="analytics_ui_feature_comment_tts" formatted="false">"댓글 음성"</string>
+    <string name="analytics_ui_feature_download_queued" formatted="false">"다운로드 작업"</string>
+    <string name="analytics_ui_feature_third_party_download" formatted="false">"타사 다운로드"</string>
+    <string name="analytics_ui_feature_feed_filter" formatted="false">"콘텐츠 필터링"</string>
+    <string name="analytics_ui_tail_group">"기타 (%1$s개 범주)"</string>
+    <string name="analytics_ui_evidence_none" formatted="false">"조회 표본 없음"</string>
+    <string name="analytics_ui_evidence_small" formatted="false">"적은 표본, 기록 설명만 제공"</string>
+    <string name="analytics_ui_evidence_cross_day" formatted="false">"여러 날의 표본, 범위 제한 있음"</string>
+    <string name="analytics_ui_evidence_sufficient" formatted="false">"여러 날의 표본이 비교적 충분하나 기록된 행동만 나타냄"</string>
+    <string name="analytics_ui_fact_content_world_title" formatted="false">"내 콘텐츠 지형"</string>
+    <string name="analytics_ui_fact_content_world_body">"작성자 %1$s명과 주제 %2$s개가 기록되었습니다. %3$s"</string>
+    <string name="analytics_ui_fact_content_world_evidence">"전체 작성자 분포 균등도 %1$s, 전체 주제 분포 균등도 %2$s, 주제 등장 %3$s회."</string>
+    <string name="analytics_ui_fact_content_world_limit" formatted="false">"추천 피드의 노출 구조입니다. 게시물에는 여러 주제가 있을 수 있으며 비율의 분모는 전체 주제 등장 횟수입니다. 선호를 입증하지 않습니다."</string>
+    <string name="analytics_ui_fact_world_insufficient" formatted="false">"출처와 주제 분포를 비교하려면 다양한 작성자와 주제의 기록이 더 필요합니다."</string>
+    <string name="analytics_ui_fact_world_authors_even" formatted="false">"작성자 분포가 주제보다 균등하여 출처는 넓고 주제는 비교적 집중되어 있습니다."</string>
+    <string name="analytics_ui_fact_world_topics_even" formatted="false">"주제 분포가 작성자만큼 또는 더 균등하며 주제와 노출 출처의 분산 정도가 다릅니다."</string>
+    <string name="analytics_ui_fact_content_shape_title" formatted="false">"접한 콘텐츠 형태"</string>
+    <string name="analytics_ui_fact_content_shape_body">"%1$s이 현재 기록의 %2$s이며 콘텐츠 형태 %3$s종이 관찰되었습니다."</string>
+    <string name="analytics_ui_fact_content_shape_evidence">"조회 기록 %1$s회, 중복 제거 게시물 %2$s개, 주요 유형 %3$s."</string>
+    <string name="analytics_ui_fact_content_shape_limit" formatted="false">"모션 포토와 라이브 카드는 따로 집계합니다. 콘텐츠 길이는 시청 시간이 아니며 유형으로 몰입을 추론할 수 없습니다."</string>
+    <string name="analytics_ui_fact_daily_rhythm_title" formatted="false">"내 조회 리듬"</string>
+    <string name="analytics_ui_fact_daily_rhythm_body">"조회가 기록된 날은 %1$s일이며 심야는 %2$s, 주말은 %3$s입니다."</string>
+    <string name="analytics_ui_fact_daily_rhythm_evidence">"심야는 00:00–05:59, 주말은 토요일과 일요일입니다. 분모는 모두 현재 조회 기록 %1$s회입니다."</string>
+    <string name="analytics_ui_fact_daily_rhythm_limit" formatted="false">"시간대와 주제의 개별 비율로 심야의 특정 주제 선호를 합성할 수 없습니다. 주말 비율은 평일/주말 일수로 정규화하지 않았습니다."</string>
+    <string name="analytics_ui_fact_familiarity_title" formatted="false">"재회와 새로운 만남"</string>
+    <string name="analytics_ui_fact_familiarity_body">"서로 다른 날 다시 나타난 게시물은 %1$s개이며 중복 제거 게시물의 %2$s입니다."</string>
+    <string name="analytics_ui_fact_familiarity_evidence">"다른 날 반복 게시물 %1$s / 현재 중복 제거 게시물 %2$s, 총 조회 %3$s회."</string>
+    <string name="analytics_ui_fact_familiarity_limit" formatted="false">"반복 노출은 추천, 직접 재방문, 다른 진입 경로 때문일 수 있습니다. 의도적 재시청률이 아니며 저장 의도를 복원할 수 없습니다."</string>
+    <string name="analytics_ui_fact_tool_style_title" formatted="false">"도구가 관여하는 방식"</string>
+    <string name="analytics_ui_fact_tool_style_body">"모듈 기능 총 %1$s회 중 직접 진입 %2$s회, 자동 실행 %3$s회입니다."</string>
+    <string name="analytics_ui_fact_tool_style_evidence">"출처 불명 %1$s회이며 기능 횟수와 조회 횟수는 별도 집계합니다."</string>
+    <string name="analytics_ui_fact_tool_style_limit" formatted="false">"진입, 요청, 접수, 성공은 다른 단계이며 횟수를 작업 수로 볼 수 없습니다. 자동 조작은 의도적 동의를 뜻하지 않습니다."</string>
+    <string name="analytics_ui_fact_change_title" formatted="false">"이 기간의 변화"</string>
+    <string name="analytics_ui_fact_change_body">"현재 조회 %1$s회, 기능 %2$s회이며 같은 길이의 이전 기간은 각각 %3$s회, %4$s회입니다. %5$s"</string>
+    <string name="analytics_ui_fact_change_previous_incomplete" formatted="false">"이전 기록 범위가 부족하여 증가나 감소를 판단하지 않습니다."</string>
+    <string name="analytics_ui_fact_change_today_incomplete" formatted="false">"현재 기간은 아직 끝나지 않은 오늘을 포함하여 계속 변할 수 있습니다."</string>
+    <string name="analytics_ui_fact_change_evidence">"%1$s부터 %2$s까지와 %3$s부터 %4$s까지 비교."</string>
+    <string name="analytics_ui_fact_topic_change_title" formatted="false">"주요 주제의 이동"</string>
+    <string name="analytics_ui_fact_topic_count">"%1$s (%2$s회 등장)"</string>
+    <string name="analytics_ui_fact_topic_change_body">"현재 최다 주제는 %1$s이며 같은 길이의 이전 기간은 %2$s입니다. %3$s"</string>
+    <string name="analytics_ui_fact_topic_change_incomplete" formatted="false">"이전 범위가 불완전하여 기록된 내용을 나란히 표시할 뿐 선호 변화를 판단하지 않습니다."</string>
+    <string name="analytics_ui_fact_topic_change_complete" formatted="false">"1위 변화는 노출 구조를 나타내며 관심 변화와 같지 않습니다."</string>
+    <string name="analytics_ui_fact_topic_change_evidence">"%1$s부터 %2$s까지 → %3$s부터 %4$s까지. 전체 주제 통계 기준이며 게시물에 여러 주제가 있을 수 있습니다."</string>
+    <string name="analytics_ui_fact_topic_change_limit">"%1$s 현재 기간에는 끝나지 않은 오늘이 포함됩니다. 하위 항목은 기타로 합산하며 순위에 없다고 접한 적이 없다는 뜻은 아닙니다."</string>
+    <string name="analytics_ui_fact_observed_attention_title" formatted="false">"기록된 머무름 구간"</string>
+    <string name="analytics_ui_fact_observed_attention_body">"최근 보관 범위에서 표시 구간 %1$s개를 포착했으며 확인된 표시 시간은 총 %2$s초입니다."</string>
+    <string name="analytics_ui_fact_observed_attention_evidence" formatted="false">"포그라운드에서 페이지가 보이고 같은 게시물인 제한된 표본만 누적합니다. 구간은 개별 게시물이 아닙니다."</string>
+    <string name="analytics_ui_fact_observed_attention_limit" formatted="false">"표시는 주시나 선호와 다릅니다. 이전 데이터는 보완하지 않으며 백그라운드, 가림, 하트비트 공백은 제외합니다. 구간당 최대 30분입니다."</string>
+    <string name="analytics_ui_coverage_window">"통계 기간 %1$s부터 %2$s까지이며 오늘은 진행 중입니다. 반복 노출도 조회에 포함됩니다. 빈 날은 미사용, 수집 중지 또는 누락일 수 있습니다."</string>
+    <string name="analytics_ui_coverage_retention" formatted="false">"일별 집계는 최대 365일 보관합니다. 연관 표시 구간은 30일, 최대 20,000개 구간과 30,000개 행동입니다. 이전 집계에서 연관을 만들지 않습니다."</string>
+    <string name="analytics_ui_coverage_visibility" formatted="false">"머무름은 초점이 있는 포그라운드 표시 표본이며 같은 창의 가림이나 실제 주시를 보장하지 않습니다. 완전 시청이나 선호도 아닙니다. 약 3초마다 저장하며 프로세스 종료 시 미저장 꼬리가 사라질 수 있습니다. 구간 상한은 30분입니다."</string>
+    <string name="analytics_ui_coverage_topics" formatted="false">"주제 비율의 분모는 전체 등장 횟수이며 게시물에 여러 주제가 있을 수 있습니다. 작성자와 주제 균등도는 Top 10만이 아닌 전체 분포 기준입니다."</string>
+    <string name="analytics_ui_coverage_authors">"식별된 작성자 기록 %1$s / 총 조회 %2$s입니다. 알 수 없는 작성자는 작성자 수, 균등도, 집중도에서 제외하며 작성자 비율의 분모는 식별된 기록입니다."</string>
+    <string name="analytics_ui_coverage_sources" formatted="false">"직접, 자동, 시스템, 불명 출처를 따로 집계합니다. 이전 기능 이벤트는 출처가 불명입니다. 행동 단계는 별도 집계하며 개별 작업 수가 아닙니다."</string>
+    <string name="analytics_ui_coverage_joint" formatted="false">"시간 연관은 표시 구간 시작 시각입니다. 같은 구간에 실제 기록된 상위 48개 그룹만 표시합니다. 연관 없는 행동은 기능 횟수에 포함되지만 게시물 연관 차트에서는 제외됩니다."</string>
+    <string name="analytics_ui_coverage_earliest">"추적 가능한 기록 시작: %1$s. 기록이 없는 이전 날짜를 사용 0으로 볼 수 없습니다."</string>
+    <string name="analytics_ui_coverage_dropped">"로컬 쓰기 큐가 마지막 삭제 이후 %1$s개 작업을 거부하여 표본 누락이 생길 수 있습니다. 모든 호스트 페이지를 수집하지는 않습니다."</string>
+    <string name="analytics_ui_comparison_limit_complete" formatted="false">"현지 날짜 기준 같은 길이의 기간을 비교하며 진행 중인 오늘을 포함합니다. 이전 날짜는 보관 범위에 있지만 미지원 페이지, 앱 종료, 수집 공백으로 누락될 수 있습니다. 횟수 변화를 관심 변화로 단정할 수 없습니다."</string>
+    <string name="analytics_ui_comparison_limit_incomplete" formatted="false">"현지 날짜 기준 같은 길이의 기간을 비교하며 진행 중인 오늘을 포함합니다. 이전 기간이 기록/보관 시작보다 빠르거나 수집 중지 시간을 포함하여 증가율을 계산하지 않습니다. 횟수 변화를 관심 변화로 단정할 수 없습니다."</string>
+    <string name="analytics_ui_unidentified" formatted="false">"미식별"</string>
+    <string name="analytics_ui_three_labels">"%1$s · %2$s · %3$s"</string>
+    <string name="analytics_ui_failure_http">"모델 서비스가 HTTP %1$d를 반환했습니다. 분석을 완료하지 못했으니 서비스를 확인하고 다시 시도하세요."</string>
+    <string name="analytics_ui_failure_timeout" formatted="false">"모델 분석 대기 시간이 초과되었습니다. 나중에 재시도하거나 모델 제한 시간을 조정하세요."</string>
+    <string name="analytics_ui_failure_empty" formatted="false">"모델 서비스가 응답했지만 분석 내용이 없습니다. 다시 시도하세요."</string>
+    <string name="analytics_ui_failure_overlong" formatted="false">"모델 답변을 받았지만 분석 내용이 길이 제한을 초과합니다. 다시 시도하세요."</string>
+    <string name="analytics_ui_failure_format" formatted="false">"답변을 받았지만 분석 형식이 불완전하거나 요구 사항에 맞지 않습니다. 다시 시도하세요."</string>
+    <string name="analytics_ui_failure_incomplete" formatted="false">"모델 분석이 완전히 반환되지 않았습니다. 나중에 다시 시도하세요."</string>
+    <string name="analytics_ui_failure_input_too_large" formatted="false">"압축한 통계 요약도 전송 제한을 초과합니다. 기간을 줄여 다시 시도하세요."</string>
+    <string name="analytics_ui_failure_prepare" formatted="false">"로컬 분석을 준비할 수 없습니다. 통계를 새로고침하고 모델 설정을 확인하세요."</string>
+    <string name="analytics_ui_failure_transport" formatted="false">"분석 연결을 완료하지 못했습니다. 나중에 다시 시도하세요."</string>
+    <string name="analytics_ui_share_contrasts" formatted="false">"차이와 변화"</string>
+    <string name="analytics_ui_share_questions" formatted="false">"나에게 남기는 질문"</string>
+    <string name="analytics_ui_range_selected">"%1$s, 선택됨"</string>
+    <string name="analytics_ui_range_view_statistics">"%1$s, 통계 보기"</string>
+    <string name="analytics_ui_expanded_label">"%1$s, 펼쳐짐"</string>
+    <string name="analytics_ui_expanded_collapse_label">"%1$s, 펼쳐짐, 탭하여 접기"</string>
+    <string name="analytics_ui_collapsed_expand_label">"%1$s, 접힘, 탭하여 펼치기"</string>
+    <string name="analytics_ui_label_value">"%1$s, %2$s"</string>
+    <string name="analytics_ui_chart_accessibility_summary">"%1$s. 탭하여 선택하고 접근성 클릭으로 순서대로 확인합니다. %2$s"</string>
+    <string name="analytics_ui_chart_count_entry">"%1$s %2$s회; "</string>
+    <string name="analytics_ui_chart_share_entry">"%1$s %2$s회, %3$s; "</string>
+    <string name="analytics_ui_chart_hour_entry">"%1$s시 %2$s회; "</string>
+    <string name="analytics_ui_summary_with_ai">"%1$s · AI 해석 포함"</string>
+    <string name="analytics_ui_contains_ai" formatted="false">"AI 해석 포함"</string>
+    <string name="analytics_ui_model_label">"%1$s · %2$s · %3$s"</string>
+    <string name="analytics_ui_follow_global_label">"전역 따름 · %1$s"</string>
+    <string name="analytics_ui_evidence_period">"%1$s · %2$s — %3$s"</string>
+    <string name="analytics_ui_report_eyebrow" formatted="false">"TOKAI / 로컬 인사이트"</string>
+    <string name="analytics_ui_report_footer">"TOKAI / 로컬 보고서 · %1$s"</string>
+    <string name="analytics_ui_report_clip_label" formatted="false">"TokAi 보고서"</string>
+</resources>

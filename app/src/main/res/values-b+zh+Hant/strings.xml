@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"TokAi"</string>
+    <string name="module_brand">"TokAi"</string>
+    <string name="module_version">"模組版本 %1$s"</string>
+    <string name="module_host_version">"TikTok 47.5.3"</string>
+    <string name="module_status">"模組狀態"</string>
+    <string name="module_framework_connected">"LSPosed 已連線"</string>
+    <string name="module_framework_disconnected">"LSPosed 未連線"</string>
+    <string name="module_framework_waiting">"等待 LSPosed 服務連線以讀取TikTok程序診斷。"</string>
+    <string name="module_restart_required">"請完全退出並重新開啟TikTok後生效。"</string>
+    <string name="module_settings_title">"功能設定"</string>
+    <string name="module_settings_location">"TikTok內功能設定獨立儲存在TikTok應用程式，本頁只顯示模組應用程式狀態。"</string>
+    <string name="module_open_host">"開啟TikTok"</string>
+    <string name="module_host_unavailable">"未安裝TikTok或無法開啟應用程式。"</string>
+    <string name="voice_quick_catalog_status">"已快取 %1$d 項 · 符合 %2$d 項%3$s"</string>
+    <string name="voice_quick_catalog_empty">"\n找不到符合的音色，可清空搜尋或到完整設定搜尋所有音色。"</string>
+    <string name="module_description">"本機 TikTok 增強模組"</string>
+    <string name="module_language_title">"介面語言"</string>
+    <string name="module_language_summary">"僅變更此入口的模組介面，不影響TikTok和地區偽裝。"</string>
+    <string name="module_language_system">"跟隨系統"</string>
+    <string name="module_language_save_failed">"介面語言儲存失敗，請重試。"</string>
+    <string name="module_language_reopen">"已儲存，重新開啟模組頁面後生效。"</string>
+    <string name="module_action_cancel">"取消"</string>
+    <string name="module_language_help">"在模組首頁或桌面應用程式的「介面語言」中選擇：跟隨系統（預設）、简体中文、繁體中文、한국어、日本語、English。兩個入口分別儲存所選語言。切換後模組頁面會重新開啟，僅變更模組本身的設定、對話框、說明和狀態文字。TikTok本身、地區偽裝、字幕辨識及AI/TTS的語言沿用各自設定。"</string>
+    <string name="module_caption_restart_help">"若未產生字幕，可完全退出並重新開啟TikTok後重試。模組只在能確認目前卡片已完整初始化且無遮擋時啟動辨識；狀態不明的卡片會略過。 目前適配推薦動態的字幕層；搜尋、直播與Tako的獨立字幕層不在此範圍內。"</string>
+</resources>

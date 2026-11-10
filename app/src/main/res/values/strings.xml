@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"TokAi"</string>
+    <string name="module_brand">"TokAi"</string>
+    <string name="module_version">"Module version %1$s"</string>
+    <string name="module_host_version">"TikTok 47.5.3"</string>
+    <string name="module_status">"Module status"</string>
+    <string name="module_framework_connected">"Connected to LSPosed"</string>
+    <string name="module_framework_disconnected">"Not connected to LSPosed"</string>
+    <string name="module_framework_waiting">"Waiting for the LSPosed service to read TikTok process diagnostics."</string>
+    <string name="module_restart_required">"Fully close and reopen TikTok to apply."</string>
+    <string name="module_settings_title">"Feature settings"</string>
+    <string name="module_settings_location">"Feature settings are stored separately inside TikTok. This page shows the module app status."</string>
+    <string name="module_open_host">"Open TikTok"</string>
+    <string name="module_host_unavailable">"TikTok is not installed or could not be opened."</string>
+    <string name="voice_quick_catalog_status">"Cached: %1$d · Matched: %2$d%3$s"</string>
+    <string name="voice_quick_catalog_empty">"\nNo matching voices. Clear the search or search all voices in full settings."</string>
+    <string name="module_description">"Local TikTok enhancement module"</string>
+    <string name="module_language_title">"Interface language"</string>
+    <string name="module_language_summary">"Changes this module interface only. TikTok and region spoofing settings stay independent."</string>
+    <string name="module_language_system">"Follow system"</string>
+    <string name="module_language_save_failed">"Could not save the interface language. Try again."</string>
+    <string name="module_language_reopen">"Saved. Reopen the module page to apply."</string>
+    <string name="module_action_cancel">"Cancel"</string>
+    <string name="module_language_help">"Open Interface language on the module home page or in the module app. Choose Follow system (default), 简体中文, 繁體中文, 한국어, 日本語 or English. Each entry saves its own choice. Changing the setting reopens the module page and changes its settings, dialogs, help and status text. TikTok, region spoofing, caption recognition, AI and TTS retain their own language settings."</string>
+    <string name="module_caption_restart_help">"If no caption is generated, fully close and reopen TikTok before trying again. Recognition starts only when the module can verify the current card was fully initialized and is unobstructed; cards with unknown state are skipped. This adaptation covers the recommendation feed caption layer. Search, live streams and Tako have separate caption layers that are not covered."</string>
+</resources>

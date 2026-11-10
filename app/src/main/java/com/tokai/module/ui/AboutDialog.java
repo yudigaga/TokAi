@@ -1,0 +1,106 @@
+package com.tokai.module.ui;
+
+import com.tokai.module.R;
+import com.tokai.module.i18n.UiText;
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.text.util.Linkify;
+import android.text.method.LinkMovementMethod;
+import android.widget.ScrollView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.view.View;
+import android.view.ViewGroup;
+import com.tokai.module.BuildConfig;
+import com.tokai.module.config.SettingsRepository;
+import com.tokai.module.config.SettingsStore;
+import com.tokai.module.ui.miuix.MiuixDialogBuilder;
+import com.tokai.module.ui.miuix.MiuixSettingsViews;
+import java.util.function.BiConsumer;
+import android.app.Dialog;
+
+public final class AboutDialog {
+    public static final String MIUIX_URL = "https://github.com/compose-miuix-ui/miuix";
+    public static final String DISCLAIMER_TEXT = "本项目仅用于学习与技术研究，按现状提供。"
+            + "用户的应用、配置、二次开发，以及使用本项目生成、下载、发送或发布内容的行为和结果，"
+            + "均由用户自行决定并承担责任，与本项目及作者无关，不代表本项目或作者的立场、授权或背书。\n\n"
+            + "用户应遵守适用法律法规、平台规则及相关服务协议，尊重他人的隐私、知识产权和其他合法权益，"
+            + "不得将本项目用于违法违规或侵权活动。\n\n"
+            + "本项目不保证功能、兼容性、服务可用性或使用结果。"
+            + "在适用法律允许的范围内，作者及贡献者不对使用或无法使用本项目造成的损失承担责任。"
+            + "本说明不排除法律规定不能排除的责任，也不授予任何第三方平台、内容或服务的使用权。";
+    private AboutDialog() { }
+    public static AlertDialog create(Context context, boolean miuix) {
+        return create(context, miuix, (dialog, cleanup) -> {
+            if (cleanup != null) dialog.setOnDismissListener(ignored -> cleanup.run());
+            dialog.show();
+        });
+    }
+    static AlertDialog create(Context baseContext, boolean miuix, BiConsumer<Dialog, Runnable> presenter) {
+        return create(baseContext, miuix, presenter, new SettingsRepository(baseContext));
+    }
+    static AlertDialog create(Context baseContext, boolean miuix, BiConsumer<Dialog, Runnable> presenter,
+                              SettingsStore settings) {
+        Context context = ModuleTheme.themedContext(baseContext);
+        TextView content = new TextView(context);
+        content.setTag("about.details");
+        content.setText(UiText.get(R.string.help_about_details,
+                BuildConfig.VERSION_NAME, BuildConfig.APPLICATION_ID, MIUIX_URL,
+                UiText.get(R.string.help_disclaimer)));
+        content.setTextSize(14);
+        int padding = Math.round(20 * context.getResources().getDisplayMetrics().density);
+        content.setPadding(padding, padding / 2, padding, padding / 2);
+        Linkify.addLinks(content, Linkify.WEB_URLS);
+        content.setMovementMethod(LinkMovementMethod.getInstance());
+        LinearLayout body = new LinearLayout(context);
+        body.setOrientation(LinearLayout.VERTICAL);
+        HelpDialog[] help = new HelpDialog[1];
+        DebugLogDialog[] logs = new DebugLogDialog[1];
+        Runnable openHelp = () -> {
+            if (help[0] != null && help[0].dialog().isShowing()) return;
+            help[0] = new HelpDialog(context, miuix);
+            presenter.accept(help[0].dialog(), null);
+        };
+        View helpRow = option(context, miuix, "帮助", UiText.get(R.string.help_title), openHelp, padding);
+        helpRow.setTag("about.help");
+        helpRow.setContentDescription(UiText.get(R.string.help_title));
+        body.addView(helpRow, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT));
+        View logsRow = option(context, miuix, "调试与日志", UiText.get(R.string.help_debug_logs), () -> {
+            if (logs[0] != null && logs[0].dialog().isShowing()) return;
+            logs[0] = new DebugLogDialog(baseContext, settings, miuix);
+            presenter.accept(logs[0].dialog(), logs[0]::close);
+        }, padding);
+        logsRow.setTag("about.debug");
+        logsRow.setContentDescription(UiText.get(R.string.help_debug_logs));
+        body.addView(logsRow, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT));
+        body.addView(content);
+        ScrollView scroll = new ScrollView(context);
+        scroll.setTag("about.page");
+        scroll.addView(body);
+        scroll.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() {
+            @Override public void onViewAttachedToWindow(View view) { }
+            @Override public void onViewDetachedFromWindow(View view) {
+                if (help[0] != null) help[0].dialog().dismiss();
+                if (logs[0] != null) { logs[0].close(); logs[0].dialog().dismiss(); }
+            }
+        });
+        return new MiuixDialogBuilder(context, miuix).setTitle(UiText.get(R.string.help_about_title))
+                .setView(scroll)
+                .setNegativeButton(UiText.get(R.string.help_back), null)
+                .create();
+    }
+    private static View option(Context context, boolean miuix, String stableTitle, String title, Runnable action, int padding) {
+        if (miuix) return new MiuixSettingsViews.Option(context, title, "", null, true, action, stableTitle).getView();
+        TextView label = new TextView(context);
+        label.setText(title);
+        label.setTextSize(16);
+        label.setPadding(padding, padding / 2, padding, padding / 2);
+        label.setMinimumHeight(Math.round(48 * context.getResources().getDisplayMetrics().density));
+        label.setFocusable(true);
+        label.setOnClickListener(ignored -> action.run());
+        return label;
+    }
+}
