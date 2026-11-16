@@ -1,4 +1,16 @@
+<p align="center">
+  <img src="docs/assets/readme-banner.svg" alt="TokAi · 更顺手的播放、更清楚的内容选择。" width="100%" />
+</p>
+
 # TokAi
+
+[下载正式版](https://github.com/yudigaga/TokAi/releases/latest) · [问题反馈](https://github.com/yudigaga/TokAi/issues)
+
+| 观看体验 | 媒体工具 | 个人配置 |
+| --- | --- | --- |
+| 界面、播放设置与内容筛选 | 下载、字幕与语音生成 | AI 回复与评论、备份和多语言界面 |
+
+---
 
 TikTok 增强模块：界面与播放设置、内容筛选、下载、AI 回复与评论、语音生成、配置备份和多语言界面。
 
